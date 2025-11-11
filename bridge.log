@@ -1,0 +1,862 @@
+[2025-11-10 22:49:08,474] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 22:49:08,475] INFO - 🔗 Conectando a socket server en 0.0.0.0:5000
+[2025-11-10 22:49:10,010] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.7:5001
+[2025-11-10 22:49:10,011] INFO - [33mPress CTRL+C to quit[0m
+[2025-11-10 22:49:10,021] INFO -  * Restarting with stat
+[2025-11-10 22:49:10,381] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 22:49:10,382] INFO - 🔗 Conectando a socket server en 0.0.0.0:5000
+[2025-11-10 22:49:10,405] WARNING -  * Debugger is active!
+[2025-11-10 22:49:10,415] INFO -  * Debugger PIN: 276-260-141
+[2025-11-10 22:50:00,464] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 22:50:00,464] INFO - 🔗 Conectando a socket server en 0.0.0.0:5000
+[2025-11-10 22:50:01,947] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.7:5001
+[2025-11-10 22:50:01,948] INFO - [33mPress CTRL+C to quit[0m
+[2025-11-10 22:50:01,949] INFO -  * Restarting with stat
+[2025-11-10 22:50:02,277] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 22:50:02,277] INFO - 🔗 Conectando a socket server en 0.0.0.0:5000
+[2025-11-10 22:50:02,299] WARNING -  * Debugger is active!
+[2025-11-10 22:50:02,308] INFO -  * Debugger PIN: 276-260-141
+[2025-11-10 22:51:35,100] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 22:51:35,100] INFO - 🔗 Conectando a socket server en 0.0.0.0:5000
+[2025-11-10 22:51:36,575] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.7:5001
+[2025-11-10 22:51:36,575] INFO - [33mPress CTRL+C to quit[0m
+[2025-11-10 22:51:36,577] INFO -  * Restarting with stat
+[2025-11-10 22:51:37,038] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 22:51:37,038] INFO - 🔗 Conectando a socket server en 0.0.0.0:5000
+[2025-11-10 22:51:37,059] WARNING -  * Debugger is active!
+[2025-11-10 22:51:37,068] INFO -  * Debugger PIN: 276-260-141
+[2025-11-10 22:53:02,733] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 22:53:02,733] INFO - 🔗 Conectando a socket server en 0.0.0.0:5000
+[2025-11-10 22:53:04,203] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.7:5001
+[2025-11-10 22:53:04,203] INFO - [33mPress CTRL+C to quit[0m
+[2025-11-10 22:53:04,205] INFO -  * Restarting with stat
+[2025-11-10 22:53:04,480] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 22:53:04,480] INFO - 🔗 Conectando a socket server en 0.0.0.0:5000
+[2025-11-10 22:53:04,498] WARNING -  * Debugger is active!
+[2025-11-10 22:53:04,505] INFO -  * Debugger PIN: 276-260-141
+[2025-11-10 23:00:35,041] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:00:35,041] INFO - 🔗 Conectando a socket server en 0.0.0.0:5000
+[2025-11-10 23:00:36,514] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.7:5001
+[2025-11-10 23:00:36,515] INFO - [33mPress CTRL+C to quit[0m
+[2025-11-10 23:00:36,517] INFO -  * Restarting with stat
+[2025-11-10 23:00:36,964] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:00:36,964] INFO - 🔗 Conectando a socket server en 0.0.0.0:5000
+[2025-11-10 23:00:36,998] WARNING -  * Debugger is active!
+[2025-11-10 23:00:37,015] INFO -  * Debugger PIN: 276-260-141
+[2025-11-10 23:03:09,130] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:03:09,131] INFO - 🔗 Conectando a socket server en 0.0.0.0:5000
+[2025-11-10 23:03:10,619] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.7:5001
+[2025-11-10 23:03:10,620] INFO - [33mPress CTRL+C to quit[0m
+[2025-11-10 23:03:10,622] INFO -  * Restarting with stat
+[2025-11-10 23:03:11,029] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:03:11,029] INFO - 🔗 Conectando a socket server en 0.0.0.0:5000
+[2025-11-10 23:03:11,053] WARNING -  * Debugger is active!
+[2025-11-10 23:03:11,061] INFO -  * Debugger PIN: 276-260-141
+[2025-11-10 23:04:48,628] INFO - 127.0.0.1 - - [10/Nov/2025 23:04:48] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:04:48,628] INFO - 127.0.0.1 - - [10/Nov/2025 23:04:48] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:04:48,891] INFO - 📥 Comando: CONSULTA 11111
+[2025-11-10 23:04:48,892] ERROR - ❌ Error comunicándose con socket: [WinError 10049] The requested address is not valid in its context
+[2025-11-10 23:04:48,893] INFO - 📤 Respuesta: ERROR|Error de conexión: [WinError 10049] The requested address is not valid in its context
+[2025-11-10 23:04:48,893] INFO - 127.0.0.1 - - [10/Nov/2025 23:04:48] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:04:48,937] INFO - 📥 Comando: CONSULTA 11111
+[2025-11-10 23:04:48,938] INFO - 127.0.0.1 - - [10/Nov/2025 23:04:48] "OPTIONS /api/historial/11111 HTTP/1.1" 200 -
+[2025-11-10 23:04:48,938] ERROR - ❌ Error comunicándose con socket: [WinError 10049] The requested address is not valid in its context
+[2025-11-10 23:04:48,939] INFO - 📤 Respuesta: ERROR|Error de conexión: [WinError 10049] The requested address is not valid in its context
+[2025-11-10 23:04:48,939] INFO - 127.0.0.1 - - [10/Nov/2025 23:04:48] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:04:49,215] INFO - 📥 Comando: HISTORIAL 11111
+[2025-11-10 23:04:49,216] ERROR - ❌ Error comunicándose con socket: [WinError 10049] The requested address is not valid in its context
+[2025-11-10 23:04:49,216] INFO - 📤 Respuesta: ERROR|Error de conexión: [WinError 10049] The requested address is not valid in its context
+[2025-11-10 23:04:49,216] INFO - 127.0.0.1 - - [10/Nov/2025 23:04:49] "GET /api/historial/11111 HTTP/1.1" 200 -
+[2025-11-10 23:04:49,248] INFO - 📥 Comando: HISTORIAL 11111
+[2025-11-10 23:04:49,249] ERROR - ❌ Error comunicándose con socket: [WinError 10049] The requested address is not valid in its context
+[2025-11-10 23:04:49,250] INFO - 📤 Respuesta: ERROR|Error de conexión: [WinError 10049] The requested address is not valid in its context
+[2025-11-10 23:04:49,252] INFO - 127.0.0.1 - - [10/Nov/2025 23:04:49] "GET /api/historial/11111 HTTP/1.1" 200 -
+[2025-11-10 23:04:56,604] INFO - 127.0.0.1 - - [10/Nov/2025 23:04:56] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:04:56,922] INFO - 📥 Comando: CONSULTA a
+[2025-11-10 23:04:56,922] ERROR - ❌ Error comunicándose con socket: [WinError 10049] The requested address is not valid in its context
+[2025-11-10 23:04:56,924] INFO - 📤 Respuesta: ERROR|Error de conexión: [WinError 10049] The requested address is not valid in its context
+[2025-11-10 23:04:56,925] INFO - 127.0.0.1 - - [10/Nov/2025 23:04:56] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:04:58,144] INFO - 📥 Comando: CONSULTA a
+[2025-11-10 23:04:58,145] ERROR - ❌ Error comunicándose con socket: [WinError 10049] The requested address is not valid in its context
+[2025-11-10 23:04:58,146] INFO - 📤 Respuesta: ERROR|Error de conexión: [WinError 10049] The requested address is not valid in its context
+[2025-11-10 23:04:58,146] INFO - 127.0.0.1 - - [10/Nov/2025 23:04:58] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:05:00,696] INFO - 📥 Comando: CONSULTA 1
+[2025-11-10 23:05:00,697] ERROR - ❌ Error comunicándose con socket: [WinError 10049] The requested address is not valid in its context
+[2025-11-10 23:05:00,698] INFO - 📤 Respuesta: ERROR|Error de conexión: [WinError 10049] The requested address is not valid in its context
+[2025-11-10 23:05:00,698] INFO - 127.0.0.1 - - [10/Nov/2025 23:05:00] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:05:01,708] INFO - 127.0.0.1 - - [10/Nov/2025 23:05:01] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:05:02,011] INFO - 📥 Comando: CONSULTA 1
+[2025-11-10 23:05:02,013] ERROR - ❌ Error comunicándose con socket: [WinError 10049] The requested address is not valid in its context
+[2025-11-10 23:05:02,014] INFO - 📤 Respuesta: ERROR|Error de conexión: [WinError 10049] The requested address is not valid in its context
+[2025-11-10 23:05:02,014] INFO - 127.0.0.1 - - [10/Nov/2025 23:05:02] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:05:45,782] INFO - 127.0.0.1 - - [10/Nov/2025 23:05:45] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:05:46,099] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:05:46,100] ERROR - ❌ Error comunicándose con socket: [WinError 10049] The requested address is not valid in its context
+[2025-11-10 23:05:46,100] INFO - 📤 Respuesta: ERROR|Error de conexión: [WinError 10049] The requested address is not valid in its context
+[2025-11-10 23:05:46,101] INFO - 127.0.0.1 - - [10/Nov/2025 23:05:46] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:06:40,479] INFO -  * Detected change in 'C:\\Users\\StefanoIG\\PycharmProjects\\ExamenDistribuidos\\socket_bridge.py', reloading
+[2025-11-10 23:06:40,526] INFO -  * Restarting with stat
+[2025-11-10 23:06:40,926] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:06:40,926] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:06:40,948] WARNING -  * Debugger is active!
+[2025-11-10 23:06:40,958] INFO -  * Debugger PIN: 276-260-141
+[2025-11-10 23:07:11,164] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:07:11,164] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:07:12,660] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.7:5001
+[2025-11-10 23:07:12,660] INFO - [33mPress CTRL+C to quit[0m
+[2025-11-10 23:07:12,661] INFO -  * Restarting with stat
+[2025-11-10 23:07:13,089] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:07:13,090] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:07:13,123] WARNING -  * Debugger is active!
+[2025-11-10 23:07:13,137] INFO -  * Debugger PIN: 276-260-141
+[2025-11-10 23:07:40,096] INFO - 127.0.0.1 - - [10/Nov/2025 23:07:40] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:07:40,360] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:07:40,369] INFO - 📤 Respuesta: OK|Juan|Pérez García|1500.00
+[2025-11-10 23:07:40,369] INFO - 127.0.0.1 - - [10/Nov/2025 23:07:40] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:07:40,407] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:07:40,411] INFO - 📤 Respuesta: OK|Juan|Pérez García|1500.00
+[2025-11-10 23:07:40,411] INFO - 127.0.0.1 - - [10/Nov/2025 23:07:40] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:07:40,702] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:07:40,704] INFO - 127.0.0.1 - - [10/Nov/2025 23:07:40] "OPTIONS /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:07:40,708] INFO - 📤 Respuesta: OK|Juan|Pérez García|1500.00
+[2025-11-10 23:07:40,709] INFO - 127.0.0.1 - - [10/Nov/2025 23:07:40] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:07:40,718] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:07:40,723] INFO - 📤 Respuesta: OK|DEPOSITO|500.00|1500.00|2025-11-10 23:07:07|RETIRO|200.00|1300.00|2025-11-10 23:07:07|DEPOSITO|200.00|1500.00|2025-11-10 23:07:07|DEPOSITO|500.00|1500.00|2025-11-10 23:03:05|RETIRO|200.00|1300.00|2025-11-10 23:03:05|DEPOSITO|200.00|1500.00|2025-11-10 23:03:05
+[2025-11-10 23:07:40,724] INFO - 127.0.0.1 - - [10/Nov/2025 23:07:40] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:07:41,012] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:07:41,018] INFO - 📤 Respuesta: OK|DEPOSITO|500.00|1500.00|2025-11-10 23:07:07|RETIRO|200.00|1300.00|2025-11-10 23:07:07|DEPOSITO|200.00|1500.00|2025-11-10 23:07:07|DEPOSITO|500.00|1500.00|2025-11-10 23:03:05|RETIRO|200.00|1300.00|2025-11-10 23:03:05|DEPOSITO|200.00|1500.00|2025-11-10 23:03:05
+[2025-11-10 23:07:41,018] INFO - 127.0.0.1 - - [10/Nov/2025 23:07:41] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:07:54,539] INFO - 127.0.0.1 - - [10/Nov/2025 23:07:54] "OPTIONS /api/retiro HTTP/1.1" 200 -
+[2025-11-10 23:07:54,846] INFO - 127.0.0.1 - - [10/Nov/2025 23:07:54] "[31m[1mPOST /api/retiro HTTP/1.1[0m" 400 -
+[2025-11-10 23:09:40,169] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:09:40,170] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:09:41,635] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.7:5001
+[2025-11-10 23:09:41,635] INFO - [33mPress CTRL+C to quit[0m
+[2025-11-10 23:09:41,637] INFO -  * Restarting with stat
+[2025-11-10 23:09:42,040] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:09:42,040] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:09:42,062] WARNING -  * Debugger is active!
+[2025-11-10 23:09:42,072] INFO -  * Debugger PIN: 276-260-141
+[2025-11-10 23:10:00,493] INFO - 127.0.0.1 - - [10/Nov/2025 23:10:00] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:10:00,759] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:10:00,767] INFO - 📤 Respuesta: OK|Juan|Pérez García|1500.00
+[2025-11-10 23:10:00,767] INFO - 127.0.0.1 - - [10/Nov/2025 23:10:00] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:10:00,806] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:10:00,810] INFO - 📤 Respuesta: OK|Juan|Pérez García|1500.00
+[2025-11-10 23:10:00,811] INFO - 127.0.0.1 - - [10/Nov/2025 23:10:00] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:10:01,103] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:10:01,103] INFO - 127.0.0.1 - - [10/Nov/2025 23:10:01] "OPTIONS /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:10:01,107] INFO - 📤 Respuesta: OK|Juan|Pérez García|1500.00
+[2025-11-10 23:10:01,107] INFO - 127.0.0.1 - - [10/Nov/2025 23:10:01] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:10:01,117] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:10:01,122] INFO - 📤 Respuesta: OK|DEPOSITO|500.00|1500.00|2025-11-10 23:09:36|RETIRO|200.00|1300.00|2025-11-10 23:09:36|DEPOSITO|200.00|1500.00|2025-11-10 23:09:36|DEPOSITO|500.00|1500.00|2025-11-10 23:07:07|RETIRO|200.00|1300.00|2025-11-10 23:07:07|DEPOSITO|200.00|1500.00|2025-11-10 23:07:07|DEPOSITO|500.00|1500.00|2025-11-10 23:03:05|RETIRO|200.00|1300.00|2025-11-10 23:03:05|DEPOSITO|200.00|1500.00|2025-11-10 23:03:05
+[2025-11-10 23:10:01,123] INFO - 127.0.0.1 - - [10/Nov/2025 23:10:01] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:10:01,414] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:10:01,418] INFO - 📤 Respuesta: OK|DEPOSITO|500.00|1500.00|2025-11-10 23:09:36|RETIRO|200.00|1300.00|2025-11-10 23:09:36|DEPOSITO|200.00|1500.00|2025-11-10 23:09:36|DEPOSITO|500.00|1500.00|2025-11-10 23:07:07|RETIRO|200.00|1300.00|2025-11-10 23:07:07|DEPOSITO|200.00|1500.00|2025-11-10 23:07:07|DEPOSITO|500.00|1500.00|2025-11-10 23:03:05|RETIRO|200.00|1300.00|2025-11-10 23:03:05|DEPOSITO|200.00|1500.00|2025-11-10 23:03:05
+[2025-11-10 23:10:01,419] INFO - 127.0.0.1 - - [10/Nov/2025 23:10:01] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:10:05,201] INFO - 127.0.0.1 - - [10/Nov/2025 23:10:05] "OPTIONS /api/retiro HTTP/1.1" 200 -
+[2025-11-10 23:10:05,511] INFO - 📥 Comando: DISMINUIR 1315151515 2
+[2025-11-10 23:10:05,518] INFO - 📤 Respuesta: ERROR|unsupported operand type(s) for -: 'decimal.Decimal' and 'float'
+[2025-11-10 23:10:05,518] INFO - 127.0.0.1 - - [10/Nov/2025 23:10:05] "POST /api/retiro HTTP/1.1" 200 -
+[2025-11-10 23:10:13,068] INFO - 127.0.0.1 - - [10/Nov/2025 23:10:13] "OPTIONS /api/retiro HTTP/1.1" 200 -
+[2025-11-10 23:10:13,373] INFO - 📥 Comando: DISMINUIR 1315151515 2
+[2025-11-10 23:10:13,378] INFO - 📤 Respuesta: ERROR|unsupported operand type(s) for -: 'decimal.Decimal' and 'float'
+[2025-11-10 23:10:13,378] INFO - 127.0.0.1 - - [10/Nov/2025 23:10:13] "POST /api/retiro HTTP/1.1" 200 -
+[2025-11-10 23:10:15,144] INFO - 📥 Comando: DISMINUIR 1315151515 2
+[2025-11-10 23:10:15,149] INFO - 📤 Respuesta: ERROR|unsupported operand type(s) for -: 'decimal.Decimal' and 'float'
+[2025-11-10 23:10:15,150] INFO - 127.0.0.1 - - [10/Nov/2025 23:10:15] "POST /api/retiro HTTP/1.1" 200 -
+[2025-11-10 23:10:22,379] INFO - 127.0.0.1 - - [10/Nov/2025 23:10:22] "OPTIONS /api/retiro HTTP/1.1" 200 -
+[2025-11-10 23:10:22,641] INFO - 📥 Comando: DISMINUIR 1315151515 22
+[2025-11-10 23:10:22,645] INFO - 📤 Respuesta: ERROR|unsupported operand type(s) for -: 'decimal.Decimal' and 'float'
+[2025-11-10 23:10:22,645] INFO - 127.0.0.1 - - [10/Nov/2025 23:10:22] "POST /api/retiro HTTP/1.1" 200 -
+[2025-11-10 23:11:33,301] INFO -  * Detected change in 'C:\\Users\\StefanoIG\\PycharmProjects\\ExamenDistribuidos\\socket_server.py', reloading
+[2025-11-10 23:11:33,331] INFO -  * Restarting with stat
+[2025-11-10 23:11:33,656] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:11:33,657] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:11:33,677] WARNING -  * Debugger is active!
+[2025-11-10 23:11:33,684] INFO -  * Debugger PIN: 276-260-141
+[2025-11-10 23:11:41,874] INFO -  * Detected change in 'C:\\Users\\StefanoIG\\PycharmProjects\\ExamenDistribuidos\\socket_server.py', reloading
+[2025-11-10 23:11:41,917] INFO -  * Restarting with stat
+[2025-11-10 23:11:42,256] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:11:42,256] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:11:42,276] WARNING -  * Debugger is active!
+[2025-11-10 23:11:42,285] INFO -  * Debugger PIN: 276-260-141
+[2025-11-10 23:11:52,546] INFO -  * Detected change in 'C:\\Users\\StefanoIG\\PycharmProjects\\ExamenDistribuidos\\socket_server.py', reloading
+[2025-11-10 23:11:52,588] INFO -  * Restarting with stat
+[2025-11-10 23:11:52,944] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:11:52,944] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:11:52,982] WARNING -  * Debugger is active!
+[2025-11-10 23:11:52,998] INFO -  * Debugger PIN: 276-260-141
+[2025-11-10 23:12:02,218] INFO -  * Detected change in 'C:\\Users\\StefanoIG\\PycharmProjects\\ExamenDistribuidos\\socket_server.py', reloading
+[2025-11-10 23:12:02,300] INFO -  * Restarting with stat
+[2025-11-10 23:12:02,719] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:12:02,719] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:12:02,743] WARNING -  * Debugger is active!
+[2025-11-10 23:12:02,754] INFO -  * Debugger PIN: 276-260-141
+[2025-11-10 23:12:10,961] INFO -  * Detected change in 'C:\\Users\\StefanoIG\\PycharmProjects\\ExamenDistribuidos\\socket_server.py', reloading
+[2025-11-10 23:12:10,989] INFO -  * Restarting with stat
+[2025-11-10 23:12:11,316] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:12:11,316] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:12:11,339] WARNING -  * Debugger is active!
+[2025-11-10 23:12:11,348] INFO -  * Debugger PIN: 276-260-141
+[2025-11-10 23:12:56,305] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:12:56,305] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:12:57,798] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.7:5001
+[2025-11-10 23:12:57,798] INFO - [33mPress CTRL+C to quit[0m
+[2025-11-10 23:12:57,800] INFO -  * Restarting with stat
+[2025-11-10 23:12:58,229] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:12:58,229] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:12:58,260] WARNING -  * Debugger is active!
+[2025-11-10 23:12:58,272] INFO -  * Debugger PIN: 276-260-141
+[2025-11-10 23:13:17,105] INFO - 127.0.0.1 - - [10/Nov/2025 23:13:17] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:13:17,355] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:13:17,363] INFO - 📤 Respuesta: OK|Juan|Pérez García|1500.00
+[2025-11-10 23:13:17,363] INFO - 127.0.0.1 - - [10/Nov/2025 23:13:17] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:13:17,416] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:13:17,420] INFO - 📤 Respuesta: OK|Juan|Pérez García|1500.00
+[2025-11-10 23:13:17,421] INFO - 127.0.0.1 - - [10/Nov/2025 23:13:17] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:13:17,693] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:13:17,694] INFO - 127.0.0.1 - - [10/Nov/2025 23:13:17] "OPTIONS /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:13:17,699] INFO - 📤 Respuesta: OK|Juan|Pérez García|1500.00
+[2025-11-10 23:13:17,700] INFO - 127.0.0.1 - - [10/Nov/2025 23:13:17] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:13:17,739] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:13:17,743] INFO - 📤 Respuesta: OK|DEPOSITO|500.00|1500.00|2025-11-10 23:12:52|RETIRO|200.00|1300.00|2025-11-10 23:12:52|DEPOSITO|200.00|1500.00|2025-11-10 23:12:52|DEPOSITO|500.00|1500.00|2025-11-10 23:09:36|RETIRO|200.00|1300.00|2025-11-10 23:09:36|DEPOSITO|200.00|1500.00|2025-11-10 23:09:36|DEPOSITO|500.00|1500.00|2025-11-10 23:07:07|RETIRO|200.00|1300.00|2025-11-10 23:07:07|DEPOSITO|200.00|1500.00|2025-11-10 23:07:07|DEPOSITO|500.00|1500.00|2025-11-10 23:03:05
+[2025-11-10 23:13:17,744] INFO - 127.0.0.1 - - [10/Nov/2025 23:13:17] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:13:18,005] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:13:18,012] INFO - 📤 Respuesta: OK|DEPOSITO|500.00|1500.00|2025-11-10 23:12:52|RETIRO|200.00|1300.00|2025-11-10 23:12:52|DEPOSITO|200.00|1500.00|2025-11-10 23:12:52|DEPOSITO|500.00|1500.00|2025-11-10 23:09:36|RETIRO|200.00|1300.00|2025-11-10 23:09:36|DEPOSITO|200.00|1500.00|2025-11-10 23:09:36|DEPOSITO|500.00|1500.00|2025-11-10 23:07:07|RETIRO|200.00|1300.00|2025-11-10 23:07:07|DEPOSITO|200.00|1500.00|2025-11-10 23:07:07|DEPOSITO|500.00|1500.00|2025-11-10 23:03:05
+[2025-11-10 23:13:18,013] INFO - 127.0.0.1 - - [10/Nov/2025 23:13:18] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:13:21,189] INFO - 127.0.0.1 - - [10/Nov/2025 23:13:21] "OPTIONS /api/retiro HTTP/1.1" 200 -
+[2025-11-10 23:13:21,501] INFO - 📥 Comando: DISMINUIR 1315151515 1
+[2025-11-10 23:13:21,512] INFO - 📤 Respuesta: OK|Retiro exitoso|1499.00
+[2025-11-10 23:13:21,513] INFO - 127.0.0.1 - - [10/Nov/2025 23:13:21] "POST /api/retiro HTTP/1.1" 200 -
+[2025-11-10 23:13:41,741] INFO - 127.0.0.1 - - [10/Nov/2025 23:13:41] "OPTIONS /api/retiro HTTP/1.1" 200 -
+[2025-11-10 23:13:42,072] INFO - 📥 Comando: DISMINUIR 1315151515 2
+[2025-11-10 23:13:42,084] INFO - 📤 Respuesta: OK|Retiro exitoso|1497.00
+[2025-11-10 23:13:42,085] INFO - 127.0.0.1 - - [10/Nov/2025 23:13:42] "POST /api/retiro HTTP/1.1" 200 -
+[2025-11-10 23:14:00,411] INFO - 127.0.0.1 - - [10/Nov/2025 23:14:00] "OPTIONS /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:14:00,725] INFO - 127.0.0.1 - - [10/Nov/2025 23:14:00] "OPTIONS /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:14:00,727] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:14:00,732] INFO - 📤 Respuesta: OK|RETIRO|2.00|1497.00|2025-11-10 23:13:42|RETIRO|1.00|1499.00|2025-11-10 23:13:21|DEPOSITO|500.00|1500.00|2025-11-10 23:12:52|RETIRO|200.00|1300.00|2025-11-10 23:12:52|DEPOSITO|200.00|1500.00|2025-11-10 23:12:52|DEPOSITO|500.00|1500.00|2025-11-10 23:09:36|RETIRO|200.00|1300.00|2025-11-10 23:09:36|DEPOSITO|200.00|1500.00|2025-11-10 23:09:36|DEPOSITO|500.00|1500.00|2025-11-10 23:07:07|RETIRO|200.00|1300.00|2025-11-10 23:07:07
+[2025-11-10 23:14:00,733] INFO - 127.0.0.1 - - [10/Nov/2025 23:14:00] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:14:01,040] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:14:01,046] INFO - 📤 Respuesta: OK|RETIRO|2.00|1497.00|2025-11-10 23:13:42|RETIRO|1.00|1499.00|2025-11-10 23:13:21|DEPOSITO|500.00|1500.00|2025-11-10 23:12:52|RETIRO|200.00|1300.00|2025-11-10 23:12:52|DEPOSITO|200.00|1500.00|2025-11-10 23:12:52|DEPOSITO|500.00|1500.00|2025-11-10 23:09:36|RETIRO|200.00|1300.00|2025-11-10 23:09:36|DEPOSITO|200.00|1500.00|2025-11-10 23:09:36|DEPOSITO|500.00|1500.00|2025-11-10 23:07:07|RETIRO|200.00|1300.00|2025-11-10 23:07:07
+[2025-11-10 23:14:01,048] INFO - 127.0.0.1 - - [10/Nov/2025 23:14:01] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:16:09,906] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:16:09,906] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:16:11,375] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.7:5001
+[2025-11-10 23:16:11,375] INFO - [33mPress CTRL+C to quit[0m
+[2025-11-10 23:16:11,377] INFO -  * Restarting with stat
+[2025-11-10 23:16:11,790] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:16:11,792] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:16:11,834] WARNING -  * Debugger is active!
+[2025-11-10 23:16:11,846] INFO -  * Debugger PIN: 276-260-141
+[2025-11-10 23:16:53,026] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:16:53,026] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:16:54,504] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.7:5001
+[2025-11-10 23:16:54,504] INFO - [33mPress CTRL+C to quit[0m
+[2025-11-10 23:16:54,505] INFO -  * Restarting with stat
+[2025-11-10 23:16:54,895] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:16:54,895] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:16:54,919] WARNING -  * Debugger is active!
+[2025-11-10 23:16:54,927] INFO -  * Debugger PIN: 276-260-141
+[2025-11-10 23:17:13,691] INFO - 127.0.0.1 - - [10/Nov/2025 23:17:13] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:17:13,955] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:17:13,962] INFO - 📤 Respuesta: OK|Juan|Pérez García|1497.00
+[2025-11-10 23:17:13,964] INFO - 127.0.0.1 - - [10/Nov/2025 23:17:13] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:17:14,002] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:17:14,006] INFO - 📤 Respuesta: OK|Juan|Pérez García|1497.00
+[2025-11-10 23:17:14,007] INFO - 127.0.0.1 - - [10/Nov/2025 23:17:14] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:17:14,297] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:17:14,299] INFO - 127.0.0.1 - - [10/Nov/2025 23:17:14] "OPTIONS /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:17:14,302] INFO - 📤 Respuesta: OK|Juan|Pérez García|1497.00
+[2025-11-10 23:17:14,304] INFO - 127.0.0.1 - - [10/Nov/2025 23:17:14] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:17:14,313] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:17:14,317] INFO - 📤 Respuesta: OK|DEPOSITO|500.00|1500.00|2025-11-10 23:16:49|RETIRO|200.00|1300.00|2025-11-10 23:16:49|DEPOSITO|200.00|1500.00|2025-11-10 23:16:49|DEPOSITO|500.00|1500.00|2025-11-10 23:16:05|RETIRO|200.00|1300.00|2025-11-10 23:16:05|DEPOSITO|200.00|1500.00|2025-11-10 23:16:05|RETIRO|2.00|1497.00|2025-11-10 23:13:42|RETIRO|1.00|1499.00|2025-11-10 23:13:21|DEPOSITO|500.00|1500.00|2025-11-10 23:12:52|RETIRO|200.00|1300.00|2025-11-10 23:12:52
+[2025-11-10 23:17:14,318] INFO - 127.0.0.1 - - [10/Nov/2025 23:17:14] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:17:14,608] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:17:14,612] INFO - 📤 Respuesta: OK|DEPOSITO|500.00|1500.00|2025-11-10 23:16:49|RETIRO|200.00|1300.00|2025-11-10 23:16:49|DEPOSITO|200.00|1500.00|2025-11-10 23:16:49|DEPOSITO|500.00|1500.00|2025-11-10 23:16:05|RETIRO|200.00|1300.00|2025-11-10 23:16:05|DEPOSITO|200.00|1500.00|2025-11-10 23:16:05|RETIRO|2.00|1497.00|2025-11-10 23:13:42|RETIRO|1.00|1499.00|2025-11-10 23:13:21|DEPOSITO|500.00|1500.00|2025-11-10 23:12:52|RETIRO|200.00|1300.00|2025-11-10 23:12:52
+[2025-11-10 23:17:14,613] INFO - 127.0.0.1 - - [10/Nov/2025 23:17:14] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:17:23,451] INFO - 127.0.0.1 - - [10/Nov/2025 23:17:23] "OPTIONS /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:17:23,759] INFO - 127.0.0.1 - - [10/Nov/2025 23:17:23] "OPTIONS /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:17:23,760] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:17:23,765] INFO - 📤 Respuesta: OK|DEPOSITO|500.00|1500.00|2025-11-10 23:16:49|RETIRO|200.00|1300.00|2025-11-10 23:16:49|DEPOSITO|200.00|1500.00|2025-11-10 23:16:49|DEPOSITO|500.00|1500.00|2025-11-10 23:16:05|RETIRO|200.00|1300.00|2025-11-10 23:16:05|DEPOSITO|200.00|1500.00|2025-11-10 23:16:05|RETIRO|2.00|1497.00|2025-11-10 23:13:42|RETIRO|1.00|1499.00|2025-11-10 23:13:21|DEPOSITO|500.00|1500.00|2025-11-10 23:12:52|RETIRO|200.00|1300.00|2025-11-10 23:12:52
+[2025-11-10 23:17:23,766] INFO - 127.0.0.1 - - [10/Nov/2025 23:17:23] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:17:24,070] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:17:24,074] INFO - 📤 Respuesta: OK|DEPOSITO|500.00|1500.00|2025-11-10 23:16:49|RETIRO|200.00|1300.00|2025-11-10 23:16:49|DEPOSITO|200.00|1500.00|2025-11-10 23:16:49|DEPOSITO|500.00|1500.00|2025-11-10 23:16:05|RETIRO|200.00|1300.00|2025-11-10 23:16:05|DEPOSITO|200.00|1500.00|2025-11-10 23:16:05|RETIRO|2.00|1497.00|2025-11-10 23:13:42|RETIRO|1.00|1499.00|2025-11-10 23:13:21|DEPOSITO|500.00|1500.00|2025-11-10 23:12:52|RETIRO|200.00|1300.00|2025-11-10 23:12:52
+[2025-11-10 23:17:24,075] INFO - 127.0.0.1 - - [10/Nov/2025 23:17:24] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:17:46,014] INFO - 127.0.0.1 - - [10/Nov/2025 23:17:46] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:17:46,318] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:17:46,322] INFO - 📤 Respuesta: OK|Juan|Pérez García|1497.00
+[2025-11-10 23:17:46,322] INFO - 127.0.0.1 - - [10/Nov/2025 23:17:46] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:17:46,583] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:17:46,587] INFO - 📤 Respuesta: OK|Juan|Pérez García|1497.00
+[2025-11-10 23:17:46,587] INFO - 127.0.0.1 - - [10/Nov/2025 23:17:46] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:17:46,646] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:17:46,647] INFO - 127.0.0.1 - - [10/Nov/2025 23:17:46] "OPTIONS /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:17:46,650] INFO - 📤 Respuesta: OK|Juan|Pérez García|1497.00
+[2025-11-10 23:17:46,651] INFO - 127.0.0.1 - - [10/Nov/2025 23:17:46] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:17:46,910] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:17:46,913] INFO - 📤 Respuesta: OK|DEPOSITO|500.00|1500.00|2025-11-10 23:16:49|RETIRO|200.00|1300.00|2025-11-10 23:16:49|DEPOSITO|200.00|1500.00|2025-11-10 23:16:49|DEPOSITO|500.00|1500.00|2025-11-10 23:16:05|RETIRO|200.00|1300.00|2025-11-10 23:16:05|DEPOSITO|200.00|1500.00|2025-11-10 23:16:05|RETIRO|2.00|1497.00|2025-11-10 23:13:42|RETIRO|1.00|1499.00|2025-11-10 23:13:21|DEPOSITO|500.00|1500.00|2025-11-10 23:12:52|RETIRO|200.00|1300.00|2025-11-10 23:12:52
+[2025-11-10 23:17:46,914] INFO - 127.0.0.1 - - [10/Nov/2025 23:17:46] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:17:46,958] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:17:46,962] INFO - 📤 Respuesta: OK|DEPOSITO|500.00|1500.00|2025-11-10 23:16:49|RETIRO|200.00|1300.00|2025-11-10 23:16:49|DEPOSITO|200.00|1500.00|2025-11-10 23:16:49|DEPOSITO|500.00|1500.00|2025-11-10 23:16:05|RETIRO|200.00|1300.00|2025-11-10 23:16:05|DEPOSITO|200.00|1500.00|2025-11-10 23:16:05|RETIRO|2.00|1497.00|2025-11-10 23:13:42|RETIRO|1.00|1499.00|2025-11-10 23:13:21|DEPOSITO|500.00|1500.00|2025-11-10 23:12:52|RETIRO|200.00|1300.00|2025-11-10 23:12:52
+[2025-11-10 23:17:46,962] INFO - 127.0.0.1 - - [10/Nov/2025 23:17:46] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:17:54,139] INFO - 127.0.0.1 - - [10/Nov/2025 23:17:54] "OPTIONS /api/retiro HTTP/1.1" 200 -
+[2025-11-10 23:17:54,443] INFO - 📥 Comando: DISMINUIR 1315151515 22
+[2025-11-10 23:17:54,454] INFO - 📤 Respuesta: OK|Retiro exitoso|1475.00
+[2025-11-10 23:17:54,454] INFO - 127.0.0.1 - - [10/Nov/2025 23:17:54] "POST /api/retiro HTTP/1.1" 200 -
+[2025-11-10 23:17:54,708] INFO - 127.0.0.1 - - [10/Nov/2025 23:17:54] "OPTIONS /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:17:54,805] INFO - 127.0.0.1 - - [10/Nov/2025 23:17:54] "OPTIONS /api/deposito HTTP/1.1" 200 -
+[2025-11-10 23:17:55,023] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:17:55,023] INFO - 📥 Comando: AUMENTAR 1315151515 23
+[2025-11-10 23:17:55,028] INFO - 📤 Respuesta: OK|RETIRO|22.00|1475.00|2025-11-10 23:17:54|DEPOSITO|500.00|1500.00|2025-11-10 23:16:49|RETIRO|200.00|1300.00|2025-11-10 23:16:49|DEPOSITO|200.00|1500.00|2025-11-10 23:16:49|DEPOSITO|500.00|1500.00|2025-11-10 23:16:05|RETIRO|200.00|1300.00|2025-11-10 23:16:05|DEPOSITO|200.00|1500.00|2025-11-10 23:16:05|RETIRO|2.00|1497.00|2025-11-10 23:13:42|RETIRO|1.00|1499.00|2025-11-10 23:13:21|DEPOSITO|500.00|1500.00|2025-11-10 23:12:52
+[2025-11-10 23:17:55,029] INFO - 127.0.0.1 - - [10/Nov/2025 23:17:55] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:17:55,035] INFO - 📤 Respuesta: OK|Depósito exitoso|1498.00
+[2025-11-10 23:17:55,036] INFO - 127.0.0.1 - - [10/Nov/2025 23:17:55] "POST /api/deposito HTTP/1.1" 200 -
+[2025-11-10 23:17:55,117] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:17:55,122] INFO - 📤 Respuesta: OK|DEPOSITO|23.00|1498.00|2025-11-10 23:17:55|RETIRO|22.00|1475.00|2025-11-10 23:17:54|DEPOSITO|500.00|1500.00|2025-11-10 23:16:49|RETIRO|200.00|1300.00|2025-11-10 23:16:49|DEPOSITO|200.00|1500.00|2025-11-10 23:16:49|DEPOSITO|500.00|1500.00|2025-11-10 23:16:05|RETIRO|200.00|1300.00|2025-11-10 23:16:05|DEPOSITO|200.00|1500.00|2025-11-10 23:16:05|RETIRO|2.00|1497.00|2025-11-10 23:13:42|RETIRO|1.00|1499.00|2025-11-10 23:13:21
+[2025-11-10 23:17:55,122] INFO - 127.0.0.1 - - [10/Nov/2025 23:17:55] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:18:05,267] INFO - 127.0.0.1 - - [10/Nov/2025 23:18:05] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:18:05,582] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:18:05,585] INFO - 📤 Respuesta: OK|Juan|Pérez García|1498.00
+[2025-11-10 23:18:05,585] INFO - 127.0.0.1 - - [10/Nov/2025 23:18:05] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:18:05,847] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:18:05,850] INFO - 📤 Respuesta: OK|Juan|Pérez García|1498.00
+[2025-11-10 23:18:05,851] INFO - 127.0.0.1 - - [10/Nov/2025 23:18:05] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:18:05,909] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:18:05,909] INFO - 127.0.0.1 - - [10/Nov/2025 23:18:05] "OPTIONS /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:18:05,914] INFO - 📤 Respuesta: OK|Juan|Pérez García|1498.00
+[2025-11-10 23:18:05,915] INFO - 127.0.0.1 - - [10/Nov/2025 23:18:05] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:18:06,156] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:18:06,161] INFO - 📤 Respuesta: OK|DEPOSITO|23.00|1498.00|2025-11-10 23:17:55|RETIRO|22.00|1475.00|2025-11-10 23:17:54|DEPOSITO|500.00|1500.00|2025-11-10 23:16:49|RETIRO|200.00|1300.00|2025-11-10 23:16:49|DEPOSITO|200.00|1500.00|2025-11-10 23:16:49|DEPOSITO|500.00|1500.00|2025-11-10 23:16:05|RETIRO|200.00|1300.00|2025-11-10 23:16:05|DEPOSITO|200.00|1500.00|2025-11-10 23:16:05|RETIRO|2.00|1497.00|2025-11-10 23:13:42|RETIRO|1.00|1499.00|2025-11-10 23:13:21
+[2025-11-10 23:18:06,162] INFO - 127.0.0.1 - - [10/Nov/2025 23:18:06] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:18:06,218] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:18:06,223] INFO - 📤 Respuesta: OK|DEPOSITO|23.00|1498.00|2025-11-10 23:17:55|RETIRO|22.00|1475.00|2025-11-10 23:17:54|DEPOSITO|500.00|1500.00|2025-11-10 23:16:49|RETIRO|200.00|1300.00|2025-11-10 23:16:49|DEPOSITO|200.00|1500.00|2025-11-10 23:16:49|DEPOSITO|500.00|1500.00|2025-11-10 23:16:05|RETIRO|200.00|1300.00|2025-11-10 23:16:05|DEPOSITO|200.00|1500.00|2025-11-10 23:16:05|RETIRO|2.00|1497.00|2025-11-10 23:13:42|RETIRO|1.00|1499.00|2025-11-10 23:13:21
+[2025-11-10 23:18:06,225] INFO - 127.0.0.1 - - [10/Nov/2025 23:18:06] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:18:16,470] INFO - 127.0.0.1 - - [10/Nov/2025 23:18:16] "OPTIONS /api/deposito HTTP/1.1" 200 -
+[2025-11-10 23:18:16,773] INFO - 📥 Comando: AUMENTAR 1315151515 22
+[2025-11-10 23:18:16,786] INFO - 📤 Respuesta: OK|Depósito exitoso|1520.00
+[2025-11-10 23:18:16,786] INFO - 127.0.0.1 - - [10/Nov/2025 23:18:16] "POST /api/deposito HTTP/1.1" 200 -
+[2025-11-10 23:18:17,036] INFO - 127.0.0.1 - - [10/Nov/2025 23:18:17] "OPTIONS /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:18:17,129] INFO - 127.0.0.1 - - [10/Nov/2025 23:18:17] "OPTIONS /api/retiro HTTP/1.1" 200 -
+[2025-11-10 23:18:17,254] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:18:17,258] INFO - 📤 Respuesta: OK|DEPOSITO|22.00|1520.00|2025-11-10 23:18:16|DEPOSITO|23.00|1498.00|2025-11-10 23:17:55|RETIRO|22.00|1475.00|2025-11-10 23:17:54|DEPOSITO|500.00|1500.00|2025-11-10 23:16:49|RETIRO|200.00|1300.00|2025-11-10 23:16:49|DEPOSITO|200.00|1500.00|2025-11-10 23:16:49|DEPOSITO|500.00|1500.00|2025-11-10 23:16:05|RETIRO|200.00|1300.00|2025-11-10 23:16:05|DEPOSITO|200.00|1500.00|2025-11-10 23:16:05|RETIRO|2.00|1497.00|2025-11-10 23:13:42
+[2025-11-10 23:18:17,259] INFO - 127.0.0.1 - - [10/Nov/2025 23:18:17] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:18:17,349] INFO - 📥 Comando: DISMINUIR 1315151515 22
+[2025-11-10 23:18:17,359] INFO - 📤 Respuesta: OK|Retiro exitoso|1498.00
+[2025-11-10 23:18:17,360] INFO - 127.0.0.1 - - [10/Nov/2025 23:18:17] "POST /api/retiro HTTP/1.1" 200 -
+[2025-11-10 23:18:17,440] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:18:17,444] INFO - 📤 Respuesta: OK|RETIRO|22.00|1498.00|2025-11-10 23:18:17|DEPOSITO|22.00|1520.00|2025-11-10 23:18:16|DEPOSITO|23.00|1498.00|2025-11-10 23:17:55|RETIRO|22.00|1475.00|2025-11-10 23:17:54|DEPOSITO|500.00|1500.00|2025-11-10 23:16:49|RETIRO|200.00|1300.00|2025-11-10 23:16:49|DEPOSITO|200.00|1500.00|2025-11-10 23:16:49|DEPOSITO|500.00|1500.00|2025-11-10 23:16:05|RETIRO|200.00|1300.00|2025-11-10 23:16:05|DEPOSITO|200.00|1500.00|2025-11-10 23:16:05
+[2025-11-10 23:18:17,445] INFO - 127.0.0.1 - - [10/Nov/2025 23:18:17] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:18:21,708] INFO - 127.0.0.1 - - [10/Nov/2025 23:18:21] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:18:22,025] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:18:22,029] INFO - 📤 Respuesta: OK|Juan|Pérez García|1498.00
+[2025-11-10 23:18:22,029] INFO - 127.0.0.1 - - [10/Nov/2025 23:18:22] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:18:22,271] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:18:22,274] INFO - 📤 Respuesta: OK|Juan|Pérez García|1498.00
+[2025-11-10 23:18:22,275] INFO - 127.0.0.1 - - [10/Nov/2025 23:18:22] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:18:22,348] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:18:22,349] INFO - 127.0.0.1 - - [10/Nov/2025 23:18:22] "OPTIONS /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:18:22,353] INFO - 📤 Respuesta: OK|Juan|Pérez García|1498.00
+[2025-11-10 23:18:22,353] INFO - 127.0.0.1 - - [10/Nov/2025 23:18:22] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:18:22,581] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:18:22,585] INFO - 📤 Respuesta: OK|RETIRO|22.00|1498.00|2025-11-10 23:18:17|DEPOSITO|22.00|1520.00|2025-11-10 23:18:16|DEPOSITO|23.00|1498.00|2025-11-10 23:17:55|RETIRO|22.00|1475.00|2025-11-10 23:17:54|DEPOSITO|500.00|1500.00|2025-11-10 23:16:49|RETIRO|200.00|1300.00|2025-11-10 23:16:49|DEPOSITO|200.00|1500.00|2025-11-10 23:16:49|DEPOSITO|500.00|1500.00|2025-11-10 23:16:05|RETIRO|200.00|1300.00|2025-11-10 23:16:05|DEPOSITO|200.00|1500.00|2025-11-10 23:16:05
+[2025-11-10 23:18:22,586] INFO - 127.0.0.1 - - [10/Nov/2025 23:18:22] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:18:22,659] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:18:22,663] INFO - 📤 Respuesta: OK|RETIRO|22.00|1498.00|2025-11-10 23:18:17|DEPOSITO|22.00|1520.00|2025-11-10 23:18:16|DEPOSITO|23.00|1498.00|2025-11-10 23:17:55|RETIRO|22.00|1475.00|2025-11-10 23:17:54|DEPOSITO|500.00|1500.00|2025-11-10 23:16:49|RETIRO|200.00|1300.00|2025-11-10 23:16:49|DEPOSITO|200.00|1500.00|2025-11-10 23:16:49|DEPOSITO|500.00|1500.00|2025-11-10 23:16:05|RETIRO|200.00|1300.00|2025-11-10 23:16:05|DEPOSITO|200.00|1500.00|2025-11-10 23:16:05
+[2025-11-10 23:18:22,664] INFO - 127.0.0.1 - - [10/Nov/2025 23:18:22] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:20:40,437] INFO - 127.0.0.1 - - [10/Nov/2025 23:20:40] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:20:40,437] INFO - 127.0.0.1 - - [10/Nov/2025 23:20:40] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:20:40,701] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:20:40,706] INFO - 📤 Respuesta: OK|Juan|Pérez García|1498.00
+[2025-11-10 23:20:40,707] INFO - 127.0.0.1 - - [10/Nov/2025 23:20:40] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:20:40,750] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:20:40,751] INFO - 127.0.0.1 - - [10/Nov/2025 23:20:40] "OPTIONS /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:20:40,757] INFO - 📤 Respuesta: OK|Juan|Pérez García|1498.00
+[2025-11-10 23:20:40,758] INFO - 127.0.0.1 - - [10/Nov/2025 23:20:40] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:20:41,015] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:20:41,021] INFO - 📤 Respuesta: OK|RETIRO|22.00|1498.00|2025-11-10 23:18:17|DEPOSITO|22.00|1520.00|2025-11-10 23:18:16|DEPOSITO|23.00|1498.00|2025-11-10 23:17:55|RETIRO|22.00|1475.00|2025-11-10 23:17:54|DEPOSITO|500.00|1500.00|2025-11-10 23:16:49|RETIRO|200.00|1300.00|2025-11-10 23:16:49|DEPOSITO|200.00|1500.00|2025-11-10 23:16:49|DEPOSITO|500.00|1500.00|2025-11-10 23:16:05|RETIRO|200.00|1300.00|2025-11-10 23:16:05|DEPOSITO|200.00|1500.00|2025-11-10 23:16:05
+[2025-11-10 23:20:41,022] INFO - 127.0.0.1 - - [10/Nov/2025 23:20:41] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:20:41,061] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:20:41,067] INFO - 📤 Respuesta: OK|RETIRO|22.00|1498.00|2025-11-10 23:18:17|DEPOSITO|22.00|1520.00|2025-11-10 23:18:16|DEPOSITO|23.00|1498.00|2025-11-10 23:17:55|RETIRO|22.00|1475.00|2025-11-10 23:17:54|DEPOSITO|500.00|1500.00|2025-11-10 23:16:49|RETIRO|200.00|1300.00|2025-11-10 23:16:49|DEPOSITO|200.00|1500.00|2025-11-10 23:16:49|DEPOSITO|500.00|1500.00|2025-11-10 23:16:05|RETIRO|200.00|1300.00|2025-11-10 23:16:05|DEPOSITO|200.00|1500.00|2025-11-10 23:16:05
+[2025-11-10 23:20:41,068] INFO - 127.0.0.1 - - [10/Nov/2025 23:20:41] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:21:01,135] INFO -  * Detected change in 'C:\\Users\\StefanoIG\\PycharmProjects\\ExamenDistribuidos\\db_setup.py', reloading
+[2025-11-10 23:21:01,172] INFO -  * Restarting with stat
+[2025-11-10 23:21:01,563] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:21:01,563] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:21:01,594] WARNING -  * Debugger is active!
+[2025-11-10 23:21:01,603] INFO -  * Debugger PIN: 276-260-141
+[2025-11-10 23:30:33,379] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:30:33,380] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:30:34,865] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.7:5001
+[2025-11-10 23:30:34,866] INFO - [33mPress CTRL+C to quit[0m
+[2025-11-10 23:30:34,868] INFO -  * Restarting with stat
+[2025-11-10 23:30:35,341] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:30:35,341] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:30:35,370] WARNING -  * Debugger is active!
+[2025-11-10 23:30:35,379] INFO -  * Debugger PIN: 276-260-141
+[2025-11-10 23:30:50,737] INFO - 127.0.0.1 - - [10/Nov/2025 23:30:50] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:30:51,001] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-10 23:30:51,009] INFO - 📤 Respuesta: OK|Stefano|Aguilar|5000.00
+[2025-11-10 23:30:51,009] INFO - 127.0.0.1 - - [10/Nov/2025 23:30:51] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:30:51,048] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-10 23:30:51,052] INFO - 📤 Respuesta: OK|Stefano|Aguilar|5000.00
+[2025-11-10 23:30:51,052] INFO - 127.0.0.1 - - [10/Nov/2025 23:30:51] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:30:51,344] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-10 23:30:51,345] INFO - 127.0.0.1 - - [10/Nov/2025 23:30:51] "OPTIONS /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:30:51,349] INFO - 📤 Respuesta: OK|Stefano|Aguilar|5000.00
+[2025-11-10 23:30:51,350] INFO - 127.0.0.1 - - [10/Nov/2025 23:30:51] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:30:51,360] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-10 23:30:51,364] INFO - 📤 Respuesta: OK|Sin transacciones
+[2025-11-10 23:30:51,364] INFO - 127.0.0.1 - - [10/Nov/2025 23:30:51] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:30:51,654] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-10 23:30:51,658] INFO - 📤 Respuesta: OK|Sin transacciones
+[2025-11-10 23:30:51,659] INFO - 127.0.0.1 - - [10/Nov/2025 23:30:51] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:31:08,612] INFO - 127.0.0.1 - - [10/Nov/2025 23:31:08] "OPTIONS /api/deposito HTTP/1.1" 200 -
+[2025-11-10 23:31:08,921] INFO - 📥 Comando: AUMENTAR 1350509525 22
+[2025-11-10 23:31:08,933] INFO - 📤 Respuesta: OK|Depósito exitoso|5022.00
+[2025-11-10 23:31:08,933] INFO - 127.0.0.1 - - [10/Nov/2025 23:31:08] "POST /api/deposito HTTP/1.1" 200 -
+[2025-11-10 23:31:09,189] INFO - 127.0.0.1 - - [10/Nov/2025 23:31:09] "OPTIONS /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:31:09,266] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-10 23:31:09,270] INFO - 📤 Respuesta: OK|DEPOSITO|22.00|5022.00|2025-11-10 23:31:08
+[2025-11-10 23:31:09,270] INFO - 127.0.0.1 - - [10/Nov/2025 23:31:09] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:31:11,266] INFO - 127.0.0.1 - - [10/Nov/2025 23:31:11] "OPTIONS /api/retiro HTTP/1.1" 200 -
+[2025-11-10 23:31:11,576] INFO - 📥 Comando: DISMINUIR 1350509525 21
+[2025-11-10 23:31:11,585] INFO - 📤 Respuesta: OK|Retiro exitoso|5001.00
+[2025-11-10 23:31:11,586] INFO - 127.0.0.1 - - [10/Nov/2025 23:31:11] "POST /api/retiro HTTP/1.1" 200 -
+[2025-11-10 23:31:11,841] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-10 23:31:11,846] INFO - 📤 Respuesta: OK|RETIRO|21.00|5001.00|2025-11-10 23:31:11|DEPOSITO|22.00|5022.00|2025-11-10 23:31:08
+[2025-11-10 23:31:11,846] INFO - 127.0.0.1 - - [10/Nov/2025 23:31:11] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:31:23,132] INFO - 127.0.0.1 - - [10/Nov/2025 23:31:23] "OPTIONS /api/retiro HTTP/1.1" 200 -
+[2025-11-10 23:31:23,442] INFO - 📥 Comando: DISMINUIR 1350509525 222
+[2025-11-10 23:31:23,452] INFO - 📤 Respuesta: OK|Retiro exitoso|4779.00
+[2025-11-10 23:31:23,452] INFO - 127.0.0.1 - - [10/Nov/2025 23:31:23] "POST /api/retiro HTTP/1.1" 200 -
+[2025-11-10 23:31:23,707] INFO - 127.0.0.1 - - [10/Nov/2025 23:31:23] "OPTIONS /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:31:23,785] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-10 23:31:23,790] INFO - 📤 Respuesta: OK|RETIRO|222.00|4779.00|2025-11-10 23:31:23|RETIRO|21.00|5001.00|2025-11-10 23:31:11|DEPOSITO|22.00|5022.00|2025-11-10 23:31:08
+[2025-11-10 23:31:23,790] INFO - 127.0.0.1 - - [10/Nov/2025 23:31:23] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:31:26,961] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-10 23:31:26,965] INFO - 📤 Respuesta: OK|RETIRO|222.00|4779.00|2025-11-10 23:31:23|RETIRO|21.00|5001.00|2025-11-10 23:31:11|DEPOSITO|22.00|5022.00|2025-11-10 23:31:08
+[2025-11-10 23:31:26,965] INFO - 127.0.0.1 - - [10/Nov/2025 23:31:26] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:31:27,278] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-10 23:31:27,282] INFO - 📤 Respuesta: OK|RETIRO|222.00|4779.00|2025-11-10 23:31:23|RETIRO|21.00|5001.00|2025-11-10 23:31:11|DEPOSITO|22.00|5022.00|2025-11-10 23:31:08
+[2025-11-10 23:31:27,283] INFO - 127.0.0.1 - - [10/Nov/2025 23:31:27] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:31:36,203] INFO - 127.0.0.1 - - [10/Nov/2025 23:31:36] "OPTIONS /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:31:36,510] INFO - 127.0.0.1 - - [10/Nov/2025 23:31:36] "OPTIONS /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:31:36,511] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-10 23:31:36,515] INFO - 📤 Respuesta: OK|RETIRO|222.00|4779.00|2025-11-10 23:31:23|RETIRO|21.00|5001.00|2025-11-10 23:31:11|DEPOSITO|22.00|5022.00|2025-11-10 23:31:08
+[2025-11-10 23:31:36,516] INFO - 127.0.0.1 - - [10/Nov/2025 23:31:36] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:31:36,832] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-10 23:31:36,836] INFO - 📤 Respuesta: OK|RETIRO|222.00|4779.00|2025-11-10 23:31:23|RETIRO|21.00|5001.00|2025-11-10 23:31:11|DEPOSITO|22.00|5022.00|2025-11-10 23:31:08
+[2025-11-10 23:31:36,836] INFO - 127.0.0.1 - - [10/Nov/2025 23:31:36] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:32:07,793] INFO - 127.0.0.1 - - [10/Nov/2025 23:32:07] "OPTIONS /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:32:08,095] INFO - 127.0.0.1 - - [10/Nov/2025 23:32:08] "OPTIONS /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:32:08,100] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-10 23:32:08,108] INFO - 📤 Respuesta: OK|RETIRO|222.00|4779.00|2025-11-10 23:31:23|RETIRO|21.00|5001.00|2025-11-10 23:31:11|DEPOSITO|22.00|5022.00|2025-11-10 23:31:08
+[2025-11-10 23:32:08,108] INFO - 127.0.0.1 - - [10/Nov/2025 23:32:08] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:32:08,431] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-10 23:32:08,438] INFO - 📤 Respuesta: OK|RETIRO|222.00|4779.00|2025-11-10 23:31:23|RETIRO|21.00|5001.00|2025-11-10 23:31:11|DEPOSITO|22.00|5022.00|2025-11-10 23:31:08
+[2025-11-10 23:32:08,440] INFO - 127.0.0.1 - - [10/Nov/2025 23:32:08] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:36:56,034] INFO -  * Detected change in 'C:\\Users\\StefanoIG\\PycharmProjects\\ExamenDistribuidos\\socket_bridge.py', reloading
+[2025-11-10 23:36:56,092] INFO -  * Restarting with stat
+[2025-11-10 23:36:56,455] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:36:56,455] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:36:56,474] WARNING -  * Debugger is active!
+[2025-11-10 23:36:56,482] INFO -  * Debugger PIN: 276-260-141
+[2025-11-10 23:37:08,708] INFO -  * Detected change in 'C:\\Users\\StefanoIG\\PycharmProjects\\ExamenDistribuidos\\socket_bridge.py', reloading
+[2025-11-10 23:37:08,754] INFO -  * Restarting with stat
+[2025-11-10 23:37:09,109] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:37:09,109] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:37:09,128] WARNING -  * Debugger is active!
+[2025-11-10 23:37:09,137] INFO -  * Debugger PIN: 276-260-141
+[2025-11-10 23:37:39,022] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:37:39,023] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:37:40,498] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.7:5001
+[2025-11-10 23:37:40,498] INFO - [33mPress CTRL+C to quit[0m
+[2025-11-10 23:37:40,500] INFO -  * Restarting with stat
+[2025-11-10 23:37:40,928] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:37:40,928] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:37:40,953] WARNING -  * Debugger is active!
+[2025-11-10 23:37:40,964] INFO -  * Debugger PIN: 276-260-141
+[2025-11-10 23:37:57,719] INFO - 127.0.0.1 - - [10/Nov/2025 23:37:57] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:37:57,970] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-10 23:37:57,976] INFO - 📤 Respuesta: OK|Stefano|Aguilar|4779.00
+[2025-11-10 23:37:57,976] INFO - 127.0.0.1 - - [10/Nov/2025 23:37:57] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:37:58,032] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-10 23:37:58,036] INFO - 📤 Respuesta: OK|Stefano|Aguilar|4779.00
+[2025-11-10 23:37:58,036] INFO - 127.0.0.1 - - [10/Nov/2025 23:37:58] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:37:58,300] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-10 23:37:58,301] INFO - 127.0.0.1 - - [10/Nov/2025 23:37:58] "OPTIONS /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:37:58,306] INFO - 📤 Respuesta: OK|Stefano|Aguilar|4779.00
+[2025-11-10 23:37:58,306] INFO - 127.0.0.1 - - [10/Nov/2025 23:37:58] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:37:58,347] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-10 23:37:58,352] INFO - 📤 Respuesta: OK|RETIRO|222.00|4779.00|2025-11-10 23:31:23|RETIRO|21.00|5001.00|2025-11-10 23:31:11|DEPOSITO|22.00|5022.00|2025-11-10 23:31:08
+[2025-11-10 23:37:58,352] INFO - 127.0.0.1 - - [10/Nov/2025 23:37:58] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:37:58,616] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-10 23:37:58,620] INFO - 📤 Respuesta: OK|RETIRO|222.00|4779.00|2025-11-10 23:31:23|RETIRO|21.00|5001.00|2025-11-10 23:31:11|DEPOSITO|22.00|5022.00|2025-11-10 23:31:08
+[2025-11-10 23:37:58,622] INFO - 127.0.0.1 - - [10/Nov/2025 23:37:58] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:38:06,958] INFO - 127.0.0.1 - - [10/Nov/2025 23:38:06] "OPTIONS /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:38:07,264] INFO - 127.0.0.1 - - [10/Nov/2025 23:38:07] "OPTIONS /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:38:07,264] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-10 23:38:07,268] INFO - 📤 Respuesta: OK|RETIRO|222.00|4779.00|2025-11-10 23:31:23|RETIRO|21.00|5001.00|2025-11-10 23:31:11|DEPOSITO|22.00|5022.00|2025-11-10 23:31:08
+[2025-11-10 23:38:07,270] INFO - 127.0.0.1 - - [10/Nov/2025 23:38:07] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:38:07,576] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-10 23:38:07,581] INFO - 📤 Respuesta: OK|RETIRO|222.00|4779.00|2025-11-10 23:31:23|RETIRO|21.00|5001.00|2025-11-10 23:31:11|DEPOSITO|22.00|5022.00|2025-11-10 23:31:08
+[2025-11-10 23:38:07,581] INFO - 127.0.0.1 - - [10/Nov/2025 23:38:07] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:38:51,759] INFO - 🎯 Ejecutando simulación de múltiples usuarios...
+[2025-11-10 23:38:51,759] ERROR - ❌ Error al ejecutar simulación: [WinError 87] The parameter is incorrect
+[2025-11-10 23:38:51,760] INFO - 127.0.0.1 - - [10/Nov/2025 23:38:51] "[35m[1mPOST /api/simulate HTTP/1.1[0m" 500 -
+[2025-11-10 23:39:38,286] INFO - 127.0.0.1 - - [10/Nov/2025 23:39:38] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:39:38,549] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:39:38,553] INFO - 📤 Respuesta: OK|Juan|Pérez García|1498.00
+[2025-11-10 23:39:38,554] INFO - 127.0.0.1 - - [10/Nov/2025 23:39:38] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:39:38,595] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:39:38,599] INFO - 📤 Respuesta: OK|Juan|Pérez García|1498.00
+[2025-11-10 23:39:38,599] INFO - 127.0.0.1 - - [10/Nov/2025 23:39:38] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:39:38,875] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:39:38,876] INFO - 127.0.0.1 - - [10/Nov/2025 23:39:38] "OPTIONS /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:39:38,880] INFO - 📤 Respuesta: OK|Juan|Pérez García|1498.00
+[2025-11-10 23:39:38,880] INFO - 127.0.0.1 - - [10/Nov/2025 23:39:38] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:39:38,920] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:39:38,924] INFO - 📤 Respuesta: OK|RETIRO|200.00|1300.00|2025-11-10 23:37:34|DEPOSITO|500.00|1500.00|2025-11-10 23:37:34|DEPOSITO|200.00|1500.00|2025-11-10 23:37:34|DEPOSITO|500.00|1500.00|2025-11-10 23:30:29|DEPOSITO|200.00|1500.00|2025-11-10 23:30:29|RETIRO|200.00|1300.00|2025-11-10 23:30:29|DEPOSITO|500.00|1500.00|2025-11-10 23:30:07|DEPOSITO|200.00|1500.00|2025-11-10 23:30:07|RETIRO|200.00|1300.00|2025-11-10 23:30:07|RETIRO|22.00|1498.00|2025-11-10 23:18:17
+[2025-11-10 23:39:38,924] INFO - 127.0.0.1 - - [10/Nov/2025 23:39:38] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:39:39,185] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:39:39,191] INFO - 📤 Respuesta: OK|RETIRO|200.00|1300.00|2025-11-10 23:37:34|DEPOSITO|500.00|1500.00|2025-11-10 23:37:34|DEPOSITO|200.00|1500.00|2025-11-10 23:37:34|DEPOSITO|500.00|1500.00|2025-11-10 23:30:29|DEPOSITO|200.00|1500.00|2025-11-10 23:30:29|RETIRO|200.00|1300.00|2025-11-10 23:30:29|DEPOSITO|500.00|1500.00|2025-11-10 23:30:07|DEPOSITO|200.00|1500.00|2025-11-10 23:30:07|RETIRO|200.00|1300.00|2025-11-10 23:30:07|RETIRO|22.00|1498.00|2025-11-10 23:18:17
+[2025-11-10 23:39:39,192] INFO - 127.0.0.1 - - [10/Nov/2025 23:39:39] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:41:10,521] INFO -  * Detected change in 'C:\\Users\\StefanoIG\\PycharmProjects\\ExamenDistribuidos\\socket_bridge.py', reloading
+[2025-11-10 23:41:10,575] INFO -  * Restarting with stat
+[2025-11-10 23:41:10,924] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:41:10,924] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:41:10,941] WARNING -  * Debugger is active!
+[2025-11-10 23:41:10,949] INFO -  * Debugger PIN: 276-260-141
+[2025-11-10 23:41:13,175] INFO - 127.0.0.1 - - [10/Nov/2025 23:41:13] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:41:13,425] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-10 23:41:13,432] INFO - 📤 Respuesta: OK|Stefano|Aguilar|4779.00
+[2025-11-10 23:41:13,432] INFO - 127.0.0.1 - - [10/Nov/2025 23:41:13] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:41:13,488] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-10 23:41:13,491] INFO - 📤 Respuesta: OK|Stefano|Aguilar|4779.00
+[2025-11-10 23:41:13,493] INFO - 127.0.0.1 - - [10/Nov/2025 23:41:13] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:41:13,754] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-10 23:41:13,756] INFO - 127.0.0.1 - - [10/Nov/2025 23:41:13] "OPTIONS /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:41:13,759] INFO - 📤 Respuesta: OK|Stefano|Aguilar|4779.00
+[2025-11-10 23:41:13,761] INFO - 127.0.0.1 - - [10/Nov/2025 23:41:13] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:41:13,802] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-10 23:41:13,807] INFO - 📤 Respuesta: OK|RETIRO|222.00|4779.00|2025-11-10 23:31:23|RETIRO|21.00|5001.00|2025-11-10 23:31:11|DEPOSITO|22.00|5022.00|2025-11-10 23:31:08
+[2025-11-10 23:41:13,807] INFO - 127.0.0.1 - - [10/Nov/2025 23:41:13] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:41:14,073] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-10 23:41:14,078] INFO - 📤 Respuesta: OK|RETIRO|222.00|4779.00|2025-11-10 23:31:23|RETIRO|21.00|5001.00|2025-11-10 23:31:11|DEPOSITO|22.00|5022.00|2025-11-10 23:31:08
+[2025-11-10 23:41:14,078] INFO - 127.0.0.1 - - [10/Nov/2025 23:41:14] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:41:41,082] INFO - 🎯 Ejecutando simulación de múltiples usuarios...
+[2025-11-10 23:41:41,101] INFO - ✅ Simulación iniciada correctamente
+[2025-11-10 23:41:41,102] INFO - 127.0.0.1 - - [10/Nov/2025 23:41:41] "POST /api/simulate HTTP/1.1" 200 -
+[2025-11-10 23:43:02,375] INFO - 127.0.0.1 - - [10/Nov/2025 23:43:02] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:43:02,636] INFO - 📥 Comando: CONSULTA 1045454545
+[2025-11-10 23:43:02,640] INFO - 📤 Respuesta: ERROR|Cliente no encontrado
+[2025-11-10 23:43:02,641] INFO - 127.0.0.1 - - [10/Nov/2025 23:43:02] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:43:07,277] INFO - 📥 Comando: CONSULTA 1012121212
+[2025-11-10 23:43:07,281] INFO - 📤 Respuesta: ERROR|Cliente no encontrado
+[2025-11-10 23:43:07,282] INFO - 127.0.0.1 - - [10/Nov/2025 23:43:07] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:43:08,329] INFO - 127.0.0.1 - - [10/Nov/2025 23:43:08] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:43:08,576] INFO - 📥 Comando: CONSULTA 1012121212
+[2025-11-10 23:43:08,580] INFO - 📤 Respuesta: ERROR|Cliente no encontrado
+[2025-11-10 23:43:08,581] INFO - 127.0.0.1 - - [10/Nov/2025 23:43:08] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:43:09,140] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:43:09,145] INFO - 📤 Respuesta: OK|Juan|Pérez García|1498.00
+[2025-11-10 23:43:09,145] INFO - 127.0.0.1 - - [10/Nov/2025 23:43:09] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:43:09,461] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:43:09,462] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:43:09,466] INFO - 📤 Respuesta: OK|Juan|Pérez García|1498.00
+[2025-11-10 23:43:09,467] INFO - 127.0.0.1 - - [10/Nov/2025 23:43:09] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:43:09,467] INFO - 📤 Respuesta: OK|Juan|Pérez García|1498.00
+[2025-11-10 23:43:09,468] INFO - 127.0.0.1 - - [10/Nov/2025 23:43:09] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:43:09,724] INFO - 127.0.0.1 - - [10/Nov/2025 23:43:09] "OPTIONS /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:43:09,786] INFO - 127.0.0.1 - - [10/Nov/2025 23:43:09] "OPTIONS /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:43:09,787] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:43:09,791] INFO - 📤 Respuesta: OK|RETIRO|200.00|1300.00|2025-11-10 23:37:34|DEPOSITO|500.00|1500.00|2025-11-10 23:37:34|DEPOSITO|200.00|1500.00|2025-11-10 23:37:34|DEPOSITO|500.00|1500.00|2025-11-10 23:30:29|DEPOSITO|200.00|1500.00|2025-11-10 23:30:29|RETIRO|200.00|1300.00|2025-11-10 23:30:29|DEPOSITO|500.00|1500.00|2025-11-10 23:30:07|DEPOSITO|200.00|1500.00|2025-11-10 23:30:07|RETIRO|200.00|1300.00|2025-11-10 23:30:07|RETIRO|22.00|1498.00|2025-11-10 23:18:17
+[2025-11-10 23:43:09,792] INFO - 127.0.0.1 - - [10/Nov/2025 23:43:09] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:43:10,033] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:43:10,037] INFO - 📤 Respuesta: OK|RETIRO|200.00|1300.00|2025-11-10 23:37:34|DEPOSITO|500.00|1500.00|2025-11-10 23:37:34|DEPOSITO|200.00|1500.00|2025-11-10 23:37:34|DEPOSITO|500.00|1500.00|2025-11-10 23:30:29|DEPOSITO|200.00|1500.00|2025-11-10 23:30:29|RETIRO|200.00|1300.00|2025-11-10 23:30:29|DEPOSITO|500.00|1500.00|2025-11-10 23:30:07|DEPOSITO|200.00|1500.00|2025-11-10 23:30:07|RETIRO|200.00|1300.00|2025-11-10 23:30:07|RETIRO|22.00|1498.00|2025-11-10 23:18:17
+[2025-11-10 23:43:10,038] INFO - 127.0.0.1 - - [10/Nov/2025 23:43:10] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:43:28,789] INFO - 127.0.0.1 - - [10/Nov/2025 23:43:28] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:43:29,096] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-10 23:43:29,100] INFO - 📤 Respuesta: OK|Stefano|Aguilar|4779.00
+[2025-11-10 23:43:29,100] INFO - 127.0.0.1 - - [10/Nov/2025 23:43:29] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:43:29,361] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-10 23:43:29,365] INFO - 📤 Respuesta: OK|Stefano|Aguilar|4779.00
+[2025-11-10 23:43:29,366] INFO - 127.0.0.1 - - [10/Nov/2025 23:43:29] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:43:29,422] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-10 23:43:29,423] INFO - 127.0.0.1 - - [10/Nov/2025 23:43:29] "OPTIONS /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:43:29,427] INFO - 📤 Respuesta: OK|Stefano|Aguilar|4779.00
+[2025-11-10 23:43:29,428] INFO - 127.0.0.1 - - [10/Nov/2025 23:43:29] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:43:29,685] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-10 23:43:29,689] INFO - 📤 Respuesta: OK|RETIRO|222.00|4779.00|2025-11-10 23:31:23|RETIRO|21.00|5001.00|2025-11-10 23:31:11|DEPOSITO|22.00|5022.00|2025-11-10 23:31:08
+[2025-11-10 23:43:29,689] INFO - 127.0.0.1 - - [10/Nov/2025 23:43:29] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:43:29,732] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-10 23:43:29,736] INFO - 📤 Respuesta: OK|RETIRO|222.00|4779.00|2025-11-10 23:31:23|RETIRO|21.00|5001.00|2025-11-10 23:31:11|DEPOSITO|22.00|5022.00|2025-11-10 23:31:08
+[2025-11-10 23:43:29,737] INFO - 127.0.0.1 - - [10/Nov/2025 23:43:29] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:46:37,657] INFO -  * Detected change in 'C:\\Users\\StefanoIG\\PycharmProjects\\ExamenDistribuidos\\socket_bridge.py', reloading
+[2025-11-10 23:46:37,685] INFO -  * Restarting with stat
+[2025-11-10 23:46:38,006] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:46:38,006] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:46:38,026] WARNING -  * Debugger is active!
+[2025-11-10 23:46:38,035] INFO -  * Debugger PIN: 276-260-141
+[2025-11-10 23:47:01,891] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:01] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:47:02,161] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-10 23:47:02,169] INFO - 📤 Respuesta: OK|Stefano|Aguilar|4779.00
+[2025-11-10 23:47:02,169] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:02] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:47:02,207] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-10 23:47:02,211] INFO - 📤 Respuesta: OK|Stefano|Aguilar|4779.00
+[2025-11-10 23:47:02,212] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:02] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:47:02,497] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-10 23:47:02,498] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:02] "OPTIONS /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:47:02,502] INFO - 📤 Respuesta: OK|Stefano|Aguilar|4779.00
+[2025-11-10 23:47:02,503] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:02] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:47:02,528] INFO - 📥 Comando: STATS
+[2025-11-10 23:47:02,530] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:47:02,531] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:02] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:47:02,533] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-10 23:47:02,538] INFO - 📤 Respuesta: OK|RETIRO|222.00|4779.00|2025-11-10 23:31:23|RETIRO|21.00|5001.00|2025-11-10 23:31:11|DEPOSITO|22.00|5022.00|2025-11-10 23:31:08
+[2025-11-10 23:47:02,538] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:02] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:47:02,812] INFO - 📥 Comando: STATS
+[2025-11-10 23:47:02,814] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:47:02,815] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:02] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:47:02,844] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-10 23:47:02,848] INFO - 📤 Respuesta: OK|RETIRO|222.00|4779.00|2025-11-10 23:31:23|RETIRO|21.00|5001.00|2025-11-10 23:31:11|DEPOSITO|22.00|5022.00|2025-11-10 23:31:08
+[2025-11-10 23:47:02,850] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:02] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:47:07,234] INFO - 📥 Comando: STATS
+[2025-11-10 23:47:07,236] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:47:07,237] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:07] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:47:12,541] INFO - 📥 Comando: STATS
+[2025-11-10 23:47:12,544] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:47:12,544] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:12] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:47:17,235] INFO - 📥 Comando: STATS
+[2025-11-10 23:47:17,238] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:47:17,238] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:17] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:47:21,276] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:21] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:47:21,541] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-10 23:47:21,545] INFO - 📤 Respuesta: OK|Stefano|Aguilar|4779.00
+[2025-11-10 23:47:21,546] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:21] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:47:21,588] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-10 23:47:21,592] INFO - 📤 Respuesta: OK|Stefano|Aguilar|4779.00
+[2025-11-10 23:47:21,593] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:21] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:47:21,867] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-10 23:47:21,867] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:21] "OPTIONS /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:47:21,872] INFO - 📤 Respuesta: OK|Stefano|Aguilar|4779.00
+[2025-11-10 23:47:21,873] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:21] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:47:21,913] INFO - 📥 Comando: STATS
+[2025-11-10 23:47:21,914] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-10 23:47:21,917] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:47:21,918] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:21] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:47:21,918] INFO - 📤 Respuesta: OK|RETIRO|222.00|4779.00|2025-11-10 23:31:23|RETIRO|21.00|5001.00|2025-11-10 23:31:11|DEPOSITO|22.00|5022.00|2025-11-10 23:31:08
+[2025-11-10 23:47:21,919] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:21] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:47:22,176] INFO - 📥 Comando: STATS
+[2025-11-10 23:47:22,179] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:47:22,179] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:22] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:47:22,224] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-10 23:47:22,228] INFO - 📤 Respuesta: OK|RETIRO|222.00|4779.00|2025-11-10 23:31:23|RETIRO|21.00|5001.00|2025-11-10 23:31:11|DEPOSITO|22.00|5022.00|2025-11-10 23:31:08
+[2025-11-10 23:47:22,229] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:22] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:47:26,625] INFO - 📥 Comando: STATS
+[2025-11-10 23:47:26,630] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:47:26,631] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:26] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:47:32,577] INFO - 📥 Comando: STATS
+[2025-11-10 23:47:32,580] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:47:32,580] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:32] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:47:36,933] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:36] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:47:37,245] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:47:37,250] INFO - 📤 Respuesta: OK|Juan|Pérez García|1498.00
+[2025-11-10 23:47:37,250] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:37] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:47:37,510] INFO - 📥 Comando: STATS
+[2025-11-10 23:47:37,513] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:47:37,513] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:37] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:47:37,573] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:47:37,573] INFO - 📥 Comando: CONSULTA 1315151515
+[2025-11-10 23:47:37,579] INFO - 📤 Respuesta: OK|Juan|Pérez García|1498.00
+[2025-11-10 23:47:37,579] INFO - 📤 Respuesta: OK|Juan|Pérez García|1498.00
+[2025-11-10 23:47:37,580] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:37] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:47:37,580] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:37] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:47:37,586] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:37] "OPTIONS /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:47:37,900] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:37] "OPTIONS /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:47:37,900] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:47:37,906] INFO - 📤 Respuesta: OK|RETIRO|200.00|1300.00|2025-11-10 23:37:34|DEPOSITO|500.00|1500.00|2025-11-10 23:37:34|DEPOSITO|200.00|1500.00|2025-11-10 23:37:34|DEPOSITO|500.00|1500.00|2025-11-10 23:30:29|DEPOSITO|200.00|1500.00|2025-11-10 23:30:29|RETIRO|200.00|1300.00|2025-11-10 23:30:29|DEPOSITO|500.00|1500.00|2025-11-10 23:30:07|DEPOSITO|200.00|1500.00|2025-11-10 23:30:07|RETIRO|200.00|1300.00|2025-11-10 23:30:07|RETIRO|22.00|1498.00|2025-11-10 23:18:17
+[2025-11-10 23:47:37,907] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:37] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:47:38,221] INFO - 📥 Comando: HISTORIAL 1315151515
+[2025-11-10 23:47:38,226] INFO - 📤 Respuesta: OK|RETIRO|200.00|1300.00|2025-11-10 23:37:34|DEPOSITO|500.00|1500.00|2025-11-10 23:37:34|DEPOSITO|200.00|1500.00|2025-11-10 23:37:34|DEPOSITO|500.00|1500.00|2025-11-10 23:30:29|DEPOSITO|200.00|1500.00|2025-11-10 23:30:29|RETIRO|200.00|1300.00|2025-11-10 23:30:29|DEPOSITO|500.00|1500.00|2025-11-10 23:30:07|DEPOSITO|200.00|1500.00|2025-11-10 23:30:07|RETIRO|200.00|1300.00|2025-11-10 23:30:07|RETIRO|22.00|1498.00|2025-11-10 23:18:17
+[2025-11-10 23:47:38,227] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:38] "GET /api/historial/1315151515 HTTP/1.1" 200 -
+[2025-11-10 23:47:41,614] INFO - 📥 Comando: STATS
+[2025-11-10 23:47:41,624] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:47:41,626] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:41] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:47:44,466] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:44] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:47:44,721] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-10 23:47:44,725] INFO - 📤 Respuesta: OK|Stefano|Aguilar|4779.00
+[2025-11-10 23:47:44,726] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:44] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:47:44,771] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-10 23:47:44,775] INFO - 📤 Respuesta: OK|Stefano|Aguilar|4779.00
+[2025-11-10 23:47:44,777] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:44] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:47:45,057] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-10 23:47:45,057] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:45] "OPTIONS /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:47:45,061] INFO - 📤 Respuesta: OK|Stefano|Aguilar|4779.00
+[2025-11-10 23:47:45,061] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:45] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-10 23:47:45,088] INFO - 📥 Comando: STATS
+[2025-11-10 23:47:45,092] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:47:45,092] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:45] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:47:45,121] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-10 23:47:45,126] INFO - 📤 Respuesta: OK|RETIRO|222.00|4779.00|2025-11-10 23:31:23|RETIRO|21.00|5001.00|2025-11-10 23:31:11|DEPOSITO|22.00|5022.00|2025-11-10 23:31:08
+[2025-11-10 23:47:45,126] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:45] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:47:45,371] INFO - 📥 Comando: STATS
+[2025-11-10 23:47:45,373] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:47:45,374] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:45] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:47:45,403] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-10 23:47:45,408] INFO - 📤 Respuesta: OK|RETIRO|222.00|4779.00|2025-11-10 23:31:23|RETIRO|21.00|5001.00|2025-11-10 23:31:11|DEPOSITO|22.00|5022.00|2025-11-10 23:31:08
+[2025-11-10 23:47:45,409] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:45] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-10 23:47:50,263] INFO - 📥 Comando: STATS
+[2025-11-10 23:47:50,267] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:47:50,270] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:50] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:47:54,498] INFO - 🎯 Ejecutando pruebas de concurrencia...
+[2025-11-10 23:47:54,510] INFO - ✅ Pruebas de concurrencia iniciadas correctamente
+[2025-11-10 23:47:54,510] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:54] "POST /api/simulate HTTP/1.1" 200 -
+[2025-11-10 23:47:55,662] INFO - 📥 Comando: STATS
+[2025-11-10 23:47:55,667] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:47:55,667] INFO - 127.0.0.1 - - [10/Nov/2025 23:47:55] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:48:00,122] INFO - 📥 Comando: STATS
+[2025-11-10 23:48:00,124] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:48:00,125] INFO - 127.0.0.1 - - [10/Nov/2025 23:48:00] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:48:04,805] INFO - 📥 Comando: STATS
+[2025-11-10 23:48:04,808] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:48:04,809] INFO - 127.0.0.1 - - [10/Nov/2025 23:48:04] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:48:10,122] INFO - 📥 Comando: STATS
+[2025-11-10 23:48:10,124] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:48:10,125] INFO - 127.0.0.1 - - [10/Nov/2025 23:48:10] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:48:14,807] INFO - 📥 Comando: STATS
+[2025-11-10 23:48:14,809] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:48:14,809] INFO - 127.0.0.1 - - [10/Nov/2025 23:48:14] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:48:20,117] INFO - 📥 Comando: STATS
+[2025-11-10 23:48:20,120] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:48:20,120] INFO - 127.0.0.1 - - [10/Nov/2025 23:48:20] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:48:24,806] INFO - 📥 Comando: STATS
+[2025-11-10 23:48:24,809] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:48:24,809] INFO - 127.0.0.1 - - [10/Nov/2025 23:48:24] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:48:30,111] INFO - 📥 Comando: STATS
+[2025-11-10 23:48:30,113] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:48:30,114] INFO - 127.0.0.1 - - [10/Nov/2025 23:48:30] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:48:34,808] INFO - 📥 Comando: STATS
+[2025-11-10 23:48:34,812] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:48:34,813] INFO - 127.0.0.1 - - [10/Nov/2025 23:48:34] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:48:40,116] INFO - 📥 Comando: STATS
+[2025-11-10 23:48:40,118] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:48:40,118] INFO - 127.0.0.1 - - [10/Nov/2025 23:48:40] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:48:44,806] INFO - 📥 Comando: STATS
+[2025-11-10 23:48:44,808] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:48:44,808] INFO - 127.0.0.1 - - [10/Nov/2025 23:48:44] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:48:50,116] INFO - 📥 Comando: STATS
+[2025-11-10 23:48:50,118] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:48:50,119] INFO - 127.0.0.1 - - [10/Nov/2025 23:48:50] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:48:54,805] INFO - 📥 Comando: STATS
+[2025-11-10 23:48:54,808] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:48:54,808] INFO - 127.0.0.1 - - [10/Nov/2025 23:48:54] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:49:00,111] INFO - 📥 Comando: STATS
+[2025-11-10 23:49:00,114] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:49:00,114] INFO - 127.0.0.1 - - [10/Nov/2025 23:49:00] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:49:04,805] INFO - 📥 Comando: STATS
+[2025-11-10 23:49:04,807] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:49:04,809] INFO - 127.0.0.1 - - [10/Nov/2025 23:49:04] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:49:10,117] INFO - 📥 Comando: STATS
+[2025-11-10 23:49:10,120] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:49:10,120] INFO - 127.0.0.1 - - [10/Nov/2025 23:49:10] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:49:14,806] INFO - 📥 Comando: STATS
+[2025-11-10 23:49:14,808] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:49:14,808] INFO - 127.0.0.1 - - [10/Nov/2025 23:49:14] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:49:20,111] INFO - 📥 Comando: STATS
+[2025-11-10 23:49:20,114] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:49:20,115] INFO - 127.0.0.1 - - [10/Nov/2025 23:49:20] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:49:24,806] INFO - 📥 Comando: STATS
+[2025-11-10 23:49:24,808] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:49:24,808] INFO - 127.0.0.1 - - [10/Nov/2025 23:49:24] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:49:30,109] INFO - 📥 Comando: STATS
+[2025-11-10 23:49:30,111] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:49:30,112] INFO - 127.0.0.1 - - [10/Nov/2025 23:49:30] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:49:34,805] INFO - 📥 Comando: STATS
+[2025-11-10 23:49:34,808] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:49:34,808] INFO - 127.0.0.1 - - [10/Nov/2025 23:49:34] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:49:40,114] INFO - 📥 Comando: STATS
+[2025-11-10 23:49:40,115] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:49:40,117] INFO - 127.0.0.1 - - [10/Nov/2025 23:49:40] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:49:44,802] INFO - 📥 Comando: STATS
+[2025-11-10 23:49:44,805] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:49:44,805] INFO - 127.0.0.1 - - [10/Nov/2025 23:49:44] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:49:50,120] INFO - 📥 Comando: STATS
+[2025-11-10 23:49:50,123] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:49:50,124] INFO - 127.0.0.1 - - [10/Nov/2025 23:49:50] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:49:52,463] INFO -  * Detected change in 'C:\\Users\\StefanoIG\\PycharmProjects\\ExamenDistribuidos\\test_concurrency.py', reloading
+[2025-11-10 23:49:52,500] INFO -  * Restarting with stat
+[2025-11-10 23:49:52,875] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:49:52,875] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:49:52,906] WARNING -  * Debugger is active!
+[2025-11-10 23:49:52,918] INFO -  * Debugger PIN: 276-260-141
+[2025-11-10 23:49:55,115] INFO - 📥 Comando: STATS
+[2025-11-10 23:49:55,123] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:49:55,124] INFO - 127.0.0.1 - - [10/Nov/2025 23:49:55] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:49:59,820] INFO - 📥 Comando: STATS
+[2025-11-10 23:49:59,821] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:49:59,823] INFO - 127.0.0.1 - - [10/Nov/2025 23:49:59] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:50:04,147] INFO -  * Detected change in 'C:\\Users\\StefanoIG\\PycharmProjects\\ExamenDistribuidos\\test_concurrency.py', reloading
+[2025-11-10 23:50:04,174] INFO -  * Restarting with stat
+[2025-11-10 23:50:04,519] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-10 23:50:04,519] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-10 23:50:04,542] WARNING -  * Debugger is active!
+[2025-11-10 23:50:04,555] INFO -  * Debugger PIN: 276-260-141
+[2025-11-10 23:50:05,578] INFO - 📥 Comando: STATS
+[2025-11-10 23:50:05,593] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:50:05,594] INFO - 127.0.0.1 - - [10/Nov/2025 23:50:05] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:50:10,264] INFO - 📥 Comando: STATS
+[2025-11-10 23:50:10,267] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:50:10,267] INFO - 127.0.0.1 - - [10/Nov/2025 23:50:10] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:50:15,568] INFO - 📥 Comando: STATS
+[2025-11-10 23:50:15,570] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:50:15,571] INFO - 127.0.0.1 - - [10/Nov/2025 23:50:15] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:50:20,255] INFO - 📥 Comando: STATS
+[2025-11-10 23:50:20,257] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:50:20,258] INFO - 127.0.0.1 - - [10/Nov/2025 23:50:20] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:50:25,574] INFO - 📥 Comando: STATS
+[2025-11-10 23:50:25,578] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-10 23:50:25,578] INFO - 127.0.0.1 - - [10/Nov/2025 23:50:25] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-10 23:50:25,978] INFO -  * Detected change in 'C:\\Users\\StefanoIG\\PycharmProjects\\ExamenDistribuidos\\socket_bridge.py', reloading
+[2025-11-10 23:50:26,011] INFO -  * Restarting with stat
