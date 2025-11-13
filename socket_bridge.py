@@ -10,12 +10,13 @@ from flask_socketio import SocketIO, emit
 import socket
 import logging
 import os
-import subprocess
-import sys
 import threading
 import time
 from dotenv import load_dotenv
 from datetime import datetime
+from typing import List, Dict, Any
+
+from test_concurrency import run_concurrency_demo
 
 load_dotenv()
 
@@ -297,33 +298,70 @@ def stats():
 
 @app.route('/api/simulate', methods=['POST'])
 def simulate():
-    """Ejecuta test_concurrency.py para demostrar concurrencia"""
+    """Ejecuta las pruebas de concurrencia y devuelve los resultados en la respuesta."""
     try:
-        logging.info(f"🎯 Ejecutando pruebas de concurrencia...")
-        
-        # Get the directory of the current file
-        current_dir = os.path.dirname(os.path.abspath(__file__))
-        test_script = os.path.join(current_dir, 'test_concurrency.py')
-        
-        # Execute test_concurrency.py
-        if sys.platform == 'win32':
-            # Windows: Use start command to open in new console
-            subprocess.Popen(
-                f'start "Prueba de Concurrencia" cmd /k python "{test_script}"',
-                shell=True,
-                cwd=current_dir
-            )
-        else:
-            # Unix/Linux: Use terminal emulator
-            subprocess.Popen(
-                [sys.executable, test_script],
-                cwd=current_dir
-            )
-        
-        logging.info(f"✅ Pruebas de concurrencia iniciadas correctamente")
+        logging.info("🎯 Ejecutando pruebas de concurrencia (modo API)...")
+
+        resultado = run_concurrency_demo()
+        if not resultado.get('success'):
+            mensaje_error = resultado.get('error', 'Error desconocido ejecutando las pruebas')
+            logging.error(f"❌ Error en pruebas de concurrencia: {mensaje_error}")
+            return jsonify({'success': False, 'error': mensaje_error}), 500
+
+        raw_operations = resultado.get('operations', [])
+        operaciones: List[Dict[str, Any]] = []
+        if isinstance(raw_operations, list):
+            for op in raw_operations:
+                if isinstance(op, dict):
+                    operaciones.append(op)
+
+        operaciones_procesadas = []
+        balances_actualizados = []
+
+        for operacion in operaciones:
+            respuesta_socket = operacion.get('respuesta')
+            parsed = SocketBridge.parsear_respuesta(respuesta_socket) if respuesta_socket else {}
+
+            nuevo_saldo = None
+            mensaje = None
+            if isinstance(parsed, dict) and parsed.get('success'):
+                data = parsed.get('data', {})
+                nuevo_saldo = data.get('nuevo_saldo')
+                mensaje = data.get('mensaje')
+                if nuevo_saldo is not None:
+                    cedula = operacion.get('cedula')
+                    if cedula:
+                        broadcast_balance_update(cedula, nuevo_saldo)
+                        balances_actualizados.append({'cedula': cedula, 'balance': nuevo_saldo})
+            else:
+                mensaje = parsed.get('error') if isinstance(parsed, dict) else None
+
+            operaciones_procesadas.append({
+                'thread': operacion.get('thread'),
+                'cedula': operacion.get('cedula'),
+                'operacion': operacion.get('operacion'),
+                'monto': operacion.get('monto'),
+                'duracion_ms': operacion.get('duracion_ms'),
+                'timestamp': operacion.get('timestamp'),
+                'estado': 'success' if isinstance(parsed, dict) and parsed.get('success') else 'error',
+                'mensaje': mensaje,
+                'nuevo_saldo': nuevo_saldo,
+            })
+
+        # Obtener estadísticas frescas después de la prueba
+        stats_response = SocketBridge.send_command("STATS")
+        stats_data = SocketBridge.parsear_respuesta(stats_response)
+        if isinstance(stats_data, dict) and stats_data.get('success'):
+            socketio.emit('stats_updated', stats_data, broadcast=True)
+
+        logging.info("✅ Pruebas de concurrencia completadas correctamente")
         return jsonify({
             'success': True,
-            'message': 'Pruebas de concurrencia iniciadas. Se ha abierto una nueva consola con los tests.'
+            'message': 'Pruebas de concurrencia completadas',
+            'summary': resultado.get('summary', {}),
+            'operations': operaciones_procesadas,
+            'balances_actualizados': balances_actualizados,
+            'estadisticas': stats_data.get('data') if isinstance(stats_data, dict) else None
         })
 
     except Exception as e:
