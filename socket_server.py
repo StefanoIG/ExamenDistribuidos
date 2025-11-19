@@ -412,7 +412,7 @@ class SocketServer:
                 f"Nombre: {nombre_completo}, Saldo: ${saldo_inicial:.2f}"
             )
 
-            return f"OK|Cliente creado exitosamente|{nombres}|{apellidos}|{saldo_inicial:.2f}"
+            return f"OK|Cliente creado exitosamente|{nombres}|{apellidos}|0.00"
 
         except Exception as e:
             logging.error(f"❌ Error en CREAR: {e}")

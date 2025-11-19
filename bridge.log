@@ -7585,3 +7585,265 @@
 [2025-11-19 00:58:56,695] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
 [2025-11-19 00:58:58,782] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
 [2025-11-19 00:58:59,698] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:05:59,654] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-19 01:05:59,654] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-19 01:05:59,654] INFO - 🔌 WebSocket habilitado para actualizaciones en tiempo real
+[2025-11-19 01:06:01,107] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.7:5001
+[2025-11-19 01:06:01,108] INFO - [33mPress CTRL+C to quit[0m
+[2025-11-19 01:06:01,108] INFO -  * Restarting with stat
+[2025-11-19 01:06:01,745] INFO - 🚀 Iniciando bridge en port 5001
+[2025-11-19 01:06:01,745] INFO - 🔗 Conectando a socket server en localhost:5000
+[2025-11-19 01:06:01,745] INFO - 🔌 WebSocket habilitado para actualizaciones en tiempo real
+[2025-11-19 01:06:01,752] WARNING -  * Debugger is active!
+[2025-11-19 01:06:01,758] INFO -  * Debugger PIN: 128-653-146
+[2025-11-19 01:06:02,656] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:04,752] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:05,660] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:07,756] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:08,662] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:10,759] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:11,666] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:13,762] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:14,668] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:16,803] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:17,671] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:19,814] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:20,675] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:21,031] INFO - 🔌 Cliente WebSocket conectado: a7Jfnoi-UDJ_L1zzAAAB
+[2025-11-19 01:06:21,249] INFO - 🔌 Cliente WebSocket conectado: CFr3rRHhHoXNRAekAAAD
+[2025-11-19 01:06:22,615] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:22] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-19 01:06:22,817] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:22,876] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-19 01:06:22,881] INFO - 📤 Respuesta: OK|Stefano|Aguilar|5045.45
+[2025-11-19 01:06:22,881] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:22] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-19 01:06:22,903] INFO - 📡 Cliente a7Jfnoi-UDJ_L1zzAAAB suscrito a cédula 1350509525
+[2025-11-19 01:06:22,905] INFO - 📡 Cliente a7Jfnoi-UDJ_L1zzAAAB suscrito a cédula 1350509525
+[2025-11-19 01:06:22,920] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-19 01:06:22,923] INFO - 📤 Respuesta: OK|Stefano|Aguilar|5045.45
+[2025-11-19 01:06:22,924] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:22] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-19 01:06:23,217] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-19 01:06:23,219] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:23] "OPTIONS /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-19 01:06:23,223] INFO - 📤 Respuesta: OK|Stefano|Aguilar|5045.45
+[2025-11-19 01:06:23,224] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:23] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-19 01:06:23,385] INFO - 📥 Comando: STATS
+[2025-11-19 01:06:23,388] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:23,389] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:23] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-19 01:06:23,416] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-19 01:06:23,421] INFO - 📤 Respuesta: OK|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26|RETIRO|30.00|5279.45|2025-11-18 20:41:13
+[2025-11-19 01:06:23,422] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:23] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-19 01:06:23,525] INFO - 📥 Comando: STATS
+[2025-11-19 01:06:23,527] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:23,528] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:23] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-19 01:06:23,678] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:23,694] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-19 01:06:23,699] INFO - 📤 Respuesta: OK|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26|RETIRO|30.00|5279.45|2025-11-18 20:41:13
+[2025-11-19 01:06:23,700] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:23] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-19 01:06:24,959] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:24] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-19 01:06:25,221] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-19 01:06:25,225] INFO - 📤 Respuesta: OK|Stefano|Aguilar|5045.45
+[2025-11-19 01:06:25,226] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:25] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-19 01:06:25,248] INFO - 📡 Cliente CFr3rRHhHoXNRAekAAAD suscrito a cédula 1350509525
+[2025-11-19 01:06:25,251] INFO - 📡 Cliente CFr3rRHhHoXNRAekAAAD suscrito a cédula 1350509525
+[2025-11-19 01:06:25,267] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-19 01:06:25,272] INFO - 📤 Respuesta: OK|Stefano|Aguilar|5045.45
+[2025-11-19 01:06:25,273] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:25] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-19 01:06:25,558] INFO - 📥 Comando: CONSULTA 1350509525
+[2025-11-19 01:06:25,561] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:25] "OPTIONS /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-19 01:06:25,565] INFO - 📤 Respuesta: OK|Stefano|Aguilar|5045.45
+[2025-11-19 01:06:25,566] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:25] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-19 01:06:25,727] INFO - 📥 Comando: STATS
+[2025-11-19 01:06:25,730] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:25,730] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:25] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-19 01:06:25,774] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-19 01:06:25,779] INFO - 📤 Respuesta: OK|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26|RETIRO|30.00|5279.45|2025-11-18 20:41:13
+[2025-11-19 01:06:25,779] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:25] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-19 01:06:25,820] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:25,866] INFO - 📥 Comando: STATS
+[2025-11-19 01:06:25,869] ERROR - ❌ Error en /api/stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:25,870] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:25] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+[2025-11-19 01:06:26,039] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-19 01:06:26,043] INFO - 📤 Respuesta: OK|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26|RETIRO|30.00|5279.45|2025-11-18 20:41:13
+[2025-11-19 01:06:26,044] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:26] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-19 01:06:26,682] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:28,822] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:29,684] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:31,826] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:32,687] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:33,475] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:33] "OPTIONS /api/transferir HTTP/1.1" 200 -
+[2025-11-19 01:06:33,790] INFO - 📥 Comando: TRANSFERIR 1350509525 1234567890 1
+[2025-11-19 01:06:33,795] INFO - 📤 Respuesta: ERROR|Cuenta destino no existe
+[2025-11-19 01:06:33,796] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:33] "POST /api/transferir HTTP/1.1" 200 -
+[2025-11-19 01:06:34,829] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:35,690] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:37,722] INFO - 📥 Comando: TRANSFERIR 1350509525 1234567890 1
+[2025-11-19 01:06:37,726] INFO - 📤 Respuesta: ERROR|Cuenta destino no existe
+[2025-11-19 01:06:37,728] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:37] "POST /api/transferir HTTP/1.1" 200 -
+[2025-11-19 01:06:37,831] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:38,693] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:40,833] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:41,695] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:43,837] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:44,698] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:46,840] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:47,528] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:47] "OPTIONS /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-19 01:06:47,529] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:47] "OPTIONS /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-19 01:06:47,701] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:47,794] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-19 01:06:47,799] INFO - 📤 Respuesta: OK|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26|RETIRO|30.00|5279.45|2025-11-18 20:41:13
+[2025-11-19 01:06:47,799] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:47] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-19 01:06:47,839] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-19 01:06:47,844] INFO - 📤 Respuesta: OK|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26|RETIRO|30.00|5279.45|2025-11-18 20:41:13
+[2025-11-19 01:06:47,845] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:47] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-19 01:06:49,189] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:49] "OPTIONS /api/retiro HTTP/1.1" 200 -
+[2025-11-19 01:06:49,495] INFO - 📥 Comando: DISMINUIR 1350509525 22
+[2025-11-19 01:06:49,515] INFO - 📤 Respuesta: OK|Retiro exitoso|5023.45
+[2025-11-19 01:06:49,516] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:49] "POST /api/retiro HTTP/1.1" 200 -
+[2025-11-19 01:06:49,842] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:50,144] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:50] "OPTIONS /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-19 01:06:50,457] INFO - 📥 Comando: HISTORIAL 1350509525
+[2025-11-19 01:06:50,462] INFO - 📤 Respuesta: OK|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26
+[2025-11-19 01:06:50,463] INFO - 127.0.0.1 - - [19/Nov/2025 01:06:50] "GET /api/historial/1350509525 HTTP/1.1" 200 -
+[2025-11-19 01:06:50,725] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:52,846] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:53,730] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:55,850] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:56,733] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:58,854] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:06:59,736] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:01,856] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:02,739] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:04,859] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:05,741] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:07,861] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:08,744] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:10,865] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:11,747] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:13,877] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:14,750] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:16,881] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:17,752] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:19,666] INFO - 127.0.0.1 - - [19/Nov/2025 01:07:19] "OPTIONS /api/crear HTTP/1.1" 200 -
+[2025-11-19 01:07:19,886] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:19,979] INFO - 📥 Comando: CREAR 0123456789 Prueba perez
+[2025-11-19 01:07:19,987] INFO - 📤 Respuesta: OK|Cliente creado exitosamente|Prueba|perez|0.00
+[2025-11-19 01:07:19,987] INFO - 127.0.0.1 - - [19/Nov/2025 01:07:19] "POST /api/crear HTTP/1.1" 200 -
+[2025-11-19 01:07:20,754] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:22,890] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:23,758] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:25,893] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:26,760] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:28,895] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:29,763] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:31,898] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:32,766] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:34,901] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:35,769] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:37,903] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:38,772] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:40,906] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:41,774] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:43,908] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:44,411] INFO - 127.0.0.1 - - [19/Nov/2025 01:07:44] "OPTIONS /api/crear HTTP/1.1" 200 -
+[2025-11-19 01:07:44,729] INFO - 📥 Comando: CREAR 0123456789 Prueba perez
+[2025-11-19 01:07:44,733] INFO - 📤 Respuesta: ERROR|Cliente ya existe
+[2025-11-19 01:07:44,733] INFO - 127.0.0.1 - - [19/Nov/2025 01:07:44] "POST /api/crear HTTP/1.1" 200 -
+[2025-11-19 01:07:44,777] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:46,911] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:47,780] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:49,914] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:50,783] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:51,031] INFO - 127.0.0.1 - - [19/Nov/2025 01:07:51] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-19 01:07:51,352] INFO - 📥 Comando: CONSULTA 0123456789
+[2025-11-19 01:07:51,360] INFO - 📤 Respuesta: OK|Prueba|perez|0.00
+[2025-11-19 01:07:51,361] INFO - 127.0.0.1 - - [19/Nov/2025 01:07:51] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-19 01:07:51,560] INFO - 📡 Cliente a7Jfnoi-UDJ_L1zzAAAB suscrito a cédula 0123456789
+[2025-11-19 01:07:51,567] INFO - 📡 Cliente a7Jfnoi-UDJ_L1zzAAAB suscrito a cédula 0123456789
+[2025-11-19 01:07:51,600] INFO - 127.0.0.1 - - [19/Nov/2025 01:07:51] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-19 01:07:51,866] INFO - 127.0.0.1 - - [19/Nov/2025 01:07:51] "OPTIONS /api/consulta HTTP/1.1" 200 -
+[2025-11-19 01:07:51,879] INFO - 📥 Comando: CONSULTA 0123456789
+[2025-11-19 01:07:51,884] INFO - 📤 Respuesta: OK|Prueba|perez|0.00
+[2025-11-19 01:07:51,885] INFO - 127.0.0.1 - - [19/Nov/2025 01:07:51] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-19 01:07:51,926] INFO - 📥 Comando: CONSULTA 0123456789
+[2025-11-19 01:07:51,930] INFO - 📤 Respuesta: OK|Prueba|perez|0.00
+[2025-11-19 01:07:51,930] INFO - 127.0.0.1 - - [19/Nov/2025 01:07:51] "POST /api/consulta HTTP/1.1" 200 -
+[2025-11-19 01:07:52,174] INFO - 127.0.0.1 - - [19/Nov/2025 01:07:52] "OPTIONS /api/historial/0123456789 HTTP/1.1" 200 -
+[2025-11-19 01:07:52,377] INFO - 127.0.0.1 - - [19/Nov/2025 01:07:52] "OPTIONS /api/historial/0123456789 HTTP/1.1" 200 -
+[2025-11-19 01:07:52,423] INFO - 📥 Comando: HISTORIAL 0123456789
+[2025-11-19 01:07:52,428] INFO - 📤 Respuesta: OK|Sin transacciones
+[2025-11-19 01:07:52,429] INFO - 127.0.0.1 - - [19/Nov/2025 01:07:52] "GET /api/historial/0123456789 HTTP/1.1" 200 -
+[2025-11-19 01:07:52,485] INFO - 📥 Comando: HISTORIAL 0123456789
+[2025-11-19 01:07:52,490] INFO - 📤 Respuesta: OK|Sin transacciones
+[2025-11-19 01:07:52,491] INFO - 127.0.0.1 - - [19/Nov/2025 01:07:52] "GET /api/historial/0123456789 HTTP/1.1" 200 -
+[2025-11-19 01:07:52,917] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:53,786] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:55,920] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:56,788] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:58,923] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:07:59,791] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:01,926] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:02,478] INFO - 127.0.0.1 - - [19/Nov/2025 01:08:02] "OPTIONS /api/transferir HTTP/1.1" 200 -
+[2025-11-19 01:08:02,740] INFO - 📥 Comando: TRANSFERIR 1350509525 01234567890 1
+[2025-11-19 01:08:02,746] INFO - 📤 Respuesta: ERROR|Cuenta destino no existe
+[2025-11-19 01:08:02,747] INFO - 127.0.0.1 - - [19/Nov/2025 01:08:02] "POST /api/transferir HTTP/1.1" 200 -
+[2025-11-19 01:08:02,794] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:04,928] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:05,800] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:07,934] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:08,810] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:10,937] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:11,813] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:13,940] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:14,816] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:16,888] INFO - 127.0.0.1 - - [19/Nov/2025 01:08:16] "OPTIONS /api/transferir HTTP/1.1" 200 -
+[2025-11-19 01:08:16,942] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:17,216] INFO - 📥 Comando: TRANSFERIR 1350509525 0123456789 1
+[2025-11-19 01:08:17,231] INFO - 📤 Respuesta: ERROR|Object of type Decimal is not JSON serializable
+[2025-11-19 01:08:17,231] INFO - 127.0.0.1 - - [19/Nov/2025 01:08:17] "POST /api/transferir HTTP/1.1" 200 -
+[2025-11-19 01:08:17,821] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:19,944] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:20,824] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:22,948] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:23,827] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:25,951] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:26,830] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:28,954] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:29,833] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:30,994] INFO - 127.0.0.1 - - [19/Nov/2025 01:08:30] "OPTIONS /api/transferir HTTP/1.1" 200 -
+[2025-11-19 01:08:31,327] INFO - 📥 Comando: TRANSFERIR 1350509525 0123456789 1.22
+[2025-11-19 01:08:31,346] INFO - 📤 Respuesta: ERROR|Object of type Decimal is not JSON serializable
+[2025-11-19 01:08:31,347] INFO - 127.0.0.1 - - [19/Nov/2025 01:08:31] "POST /api/transferir HTTP/1.1" 200 -
+[2025-11-19 01:08:31,956] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:32,835] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:34,960] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:35,838] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:37,962] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:38,841] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:40,965] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:41,844] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:43,968] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:44,848] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:46,971] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:47,850] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:49,974] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:50,853] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:52,977] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:53,855] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:55,979] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:56,858] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:58,983] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:08:59,862] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:09:01,984] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:09:02,864] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:09:04,987] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:09:05,867] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:09:07,991] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:09:08,871] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:09:10,994] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:09:11,873] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:09:13,997] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:09:14,875] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:09:17,001] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'
+[2025-11-19 01:09:17,880] ERROR - Error broadcasting stats: could not convert string to float: 'IPs activas: 1'

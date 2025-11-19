@@ -68,6 +68,10 @@ fi
 echo -e "${GREEN}[7/8] Inicializando base de datos...${NC}"
 python db_setup.py
 
+# Actualizar esquema de base de datos (soporte transferencias)
+echo -e "${YELLOW}Actualizando esquema de base de datos...${NC}"
+python update_database.py || echo -e "${YELLOW}Tabla ya actualizada o no es necesario${NC}"
+
 # 8. Configurar Supervisor
 echo -e "${GREEN}[8/8] Configurando Supervisor...${NC}"
 

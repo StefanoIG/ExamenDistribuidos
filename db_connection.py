@@ -66,6 +66,10 @@ class DatabaseManager:
             result = cursor.fetchone()
             cursor.close()
 
+            # Convertir Decimal a float para JSON serialización
+            if result and 'saldo' in result:
+                result['saldo'] = float(result['saldo'])
+
             return result
 
     def actualizar_saldo(self, cedula, nuevo_saldo):
@@ -155,6 +159,13 @@ class DatabaseManager:
             cursor.execute(query, (cedula, limite))
             results = cursor.fetchall()
             cursor.close()
+
+            # Convertir Decimal a float para JSON serialización
+            for row in results:
+                if 'monto' in row:
+                    row['monto'] = float(row['monto'])
+                if 'saldo_final' in row:
+                    row['saldo_final'] = float(row['saldo_final'])
 
             return results
 

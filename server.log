@@ -33287,3 +33287,1345 @@
 [2025-11-19 00:58:59,698] INFO - 📤 Respuesta a 127.0.0.1:49311 -> OK|Clientes conectados: 206|Transacciones: 1|IPs activas: 1
 [2025-11-19 00:58:59,698] INFO - ⚠️ Cliente 127.0.0.1:49311 desconectado (sin datos)
 [2025-11-19 00:58:59,699] INFO - 🔴 Conexión cerrada con 127.0.0.1:49311
+[2025-11-19 01:05:57,139] INFO - ✅ Pool de conexiones a BD creado exitosamente
+[2025-11-19 01:05:57,139] INFO - ✅ Gestor de base de datos inicializado
+[2025-11-19 01:05:57,144] INFO - 🔗 Conectando a broker MQTT localhost:1883
+[2025-11-19 01:05:57,144] INFO - ✅ MQTT Publisher conectado
+[2025-11-19 01:05:57,144] INFO - 🚀 Servidor escuchando en 0.0.0.0:5000
+[2025-11-19 01:05:57,144] INFO - 📊 Esperando conexiones de clientes...
+[2025-11-19 01:05:57,149] INFO - ✅ Conectado a broker MQTT
+[2025-11-19 01:06:02,655] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58386)
+[2025-11-19 01:06:02,655] INFO - 🔵 [Thread-Thread-1 (handle_client)] Atendiendo cliente 127.0.0.1:58386
+[2025-11-19 01:06:02,656] INFO - 📥 Cliente 127.0.0.1:58386 -> STATS
+[2025-11-19 01:06:02,656] INFO - 📤 Respuesta a 127.0.0.1:58386 -> OK|Clientes conectados: 1|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:02,656] INFO - ⚠️ Cliente 127.0.0.1:58386 desconectado (sin datos)
+[2025-11-19 01:06:02,657] INFO - 🔴 Conexión cerrada con 127.0.0.1:58386
+[2025-11-19 01:06:04,750] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58389)
+[2025-11-19 01:06:04,751] INFO - 🔵 [Thread-Thread-2 (handle_client)] Atendiendo cliente 127.0.0.1:58389
+[2025-11-19 01:06:04,751] INFO - 📥 Cliente 127.0.0.1:58389 -> STATS
+[2025-11-19 01:06:04,752] INFO - 📤 Respuesta a 127.0.0.1:58389 -> OK|Clientes conectados: 2|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:04,752] INFO - ⚠️ Cliente 127.0.0.1:58389 desconectado (sin datos)
+[2025-11-19 01:06:04,752] INFO - 🔴 Conexión cerrada con 127.0.0.1:58389
+[2025-11-19 01:06:05,657] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58391)
+[2025-11-19 01:06:05,658] INFO - 🔵 [Thread-Thread-3 (handle_client)] Atendiendo cliente 127.0.0.1:58391
+[2025-11-19 01:06:05,658] INFO - 📥 Cliente 127.0.0.1:58391 -> STATS
+[2025-11-19 01:06:05,658] INFO - 📤 Respuesta a 127.0.0.1:58391 -> OK|Clientes conectados: 3|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:05,660] INFO - ⚠️ Cliente 127.0.0.1:58391 desconectado (sin datos)
+[2025-11-19 01:06:05,660] INFO - 🔴 Conexión cerrada con 127.0.0.1:58391
+[2025-11-19 01:06:07,754] INFO - ✅ Cliente conectado desde ('127.0.0.1', 61320)
+[2025-11-19 01:06:07,755] INFO - 🔵 [Thread-Thread-4 (handle_client)] Atendiendo cliente 127.0.0.1:61320
+[2025-11-19 01:06:07,756] INFO - 📥 Cliente 127.0.0.1:61320 -> STATS
+[2025-11-19 01:06:07,756] INFO - 📤 Respuesta a 127.0.0.1:61320 -> OK|Clientes conectados: 4|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:07,757] INFO - ⚠️ Cliente 127.0.0.1:61320 desconectado (sin datos)
+[2025-11-19 01:06:07,757] INFO - 🔴 Conexión cerrada con 127.0.0.1:61320
+[2025-11-19 01:06:08,661] INFO - ✅ Cliente conectado desde ('127.0.0.1', 61321)
+[2025-11-19 01:06:08,661] INFO - 🔵 [Thread-Thread-5 (handle_client)] Atendiendo cliente 127.0.0.1:61321
+[2025-11-19 01:06:08,662] INFO - 📥 Cliente 127.0.0.1:61321 -> STATS
+[2025-11-19 01:06:08,662] INFO - 📤 Respuesta a 127.0.0.1:61321 -> OK|Clientes conectados: 5|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:08,662] INFO - ⚠️ Cliente 127.0.0.1:61321 desconectado (sin datos)
+[2025-11-19 01:06:08,663] INFO - 🔴 Conexión cerrada con 127.0.0.1:61321
+[2025-11-19 01:06:10,757] INFO - ✅ Cliente conectado desde ('127.0.0.1', 61323)
+[2025-11-19 01:06:10,758] INFO - 🔵 [Thread-Thread-6 (handle_client)] Atendiendo cliente 127.0.0.1:61323
+[2025-11-19 01:06:10,758] INFO - 📥 Cliente 127.0.0.1:61323 -> STATS
+[2025-11-19 01:06:10,759] INFO - 📤 Respuesta a 127.0.0.1:61323 -> OK|Clientes conectados: 6|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:10,759] INFO - ⚠️ Cliente 127.0.0.1:61323 desconectado (sin datos)
+[2025-11-19 01:06:10,759] INFO - 🔴 Conexión cerrada con 127.0.0.1:61323
+[2025-11-19 01:06:11,664] INFO - ✅ Cliente conectado desde ('127.0.0.1', 61324)
+[2025-11-19 01:06:11,665] INFO - 🔵 [Thread-Thread-7 (handle_client)] Atendiendo cliente 127.0.0.1:61324
+[2025-11-19 01:06:11,665] INFO - 📥 Cliente 127.0.0.1:61324 -> STATS
+[2025-11-19 01:06:11,665] INFO - 📤 Respuesta a 127.0.0.1:61324 -> OK|Clientes conectados: 7|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:11,666] INFO - ⚠️ Cliente 127.0.0.1:61324 desconectado (sin datos)
+[2025-11-19 01:06:11,666] INFO - 🔴 Conexión cerrada con 127.0.0.1:61324
+[2025-11-19 01:06:13,761] INFO - ✅ Cliente conectado desde ('127.0.0.1', 61325)
+[2025-11-19 01:06:13,761] INFO - 🔵 [Thread-Thread-8 (handle_client)] Atendiendo cliente 127.0.0.1:61325
+[2025-11-19 01:06:13,762] INFO - 📥 Cliente 127.0.0.1:61325 -> STATS
+[2025-11-19 01:06:13,762] INFO - 📤 Respuesta a 127.0.0.1:61325 -> OK|Clientes conectados: 8|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:13,762] INFO - ⚠️ Cliente 127.0.0.1:61325 desconectado (sin datos)
+[2025-11-19 01:06:13,762] INFO - 🔴 Conexión cerrada con 127.0.0.1:61325
+[2025-11-19 01:06:14,666] INFO - ✅ Cliente conectado desde ('127.0.0.1', 61326)
+[2025-11-19 01:06:14,667] INFO - 🔵 [Thread-Thread-9 (handle_client)] Atendiendo cliente 127.0.0.1:61326
+[2025-11-19 01:06:14,667] INFO - 📥 Cliente 127.0.0.1:61326 -> STATS
+[2025-11-19 01:06:14,668] INFO - 📤 Respuesta a 127.0.0.1:61326 -> OK|Clientes conectados: 9|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:14,668] INFO - ⚠️ Cliente 127.0.0.1:61326 desconectado (sin datos)
+[2025-11-19 01:06:14,668] INFO - 🔴 Conexión cerrada con 127.0.0.1:61326
+[2025-11-19 01:06:16,764] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58582)
+[2025-11-19 01:06:16,794] INFO - 🔵 [Thread-Thread-10 (handle_client)] Atendiendo cliente 127.0.0.1:58582
+[2025-11-19 01:06:16,801] INFO - 📥 Cliente 127.0.0.1:58582 -> STATS
+[2025-11-19 01:06:16,803] INFO - 📤 Respuesta a 127.0.0.1:58582 -> OK|Clientes conectados: 10|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:16,807] INFO - ⚠️ Cliente 127.0.0.1:58582 desconectado (sin datos)
+[2025-11-19 01:06:16,810] INFO - 🔴 Conexión cerrada con 127.0.0.1:58582
+[2025-11-19 01:06:17,670] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58587)
+[2025-11-19 01:06:17,670] INFO - 🔵 [Thread-Thread-11 (handle_client)] Atendiendo cliente 127.0.0.1:58587
+[2025-11-19 01:06:17,671] INFO - 📥 Cliente 127.0.0.1:58587 -> STATS
+[2025-11-19 01:06:17,671] INFO - 📤 Respuesta a 127.0.0.1:58587 -> OK|Clientes conectados: 11|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:17,671] INFO - ⚠️ Cliente 127.0.0.1:58587 desconectado (sin datos)
+[2025-11-19 01:06:17,671] INFO - 🔴 Conexión cerrada con 127.0.0.1:58587
+[2025-11-19 01:06:19,812] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58594)
+[2025-11-19 01:06:19,813] INFO - 🔵 [Thread-Thread-12 (handle_client)] Atendiendo cliente 127.0.0.1:58594
+[2025-11-19 01:06:19,813] INFO - 📥 Cliente 127.0.0.1:58594 -> STATS
+[2025-11-19 01:06:19,814] INFO - 📤 Respuesta a 127.0.0.1:58594 -> OK|Clientes conectados: 12|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:19,814] INFO - ⚠️ Cliente 127.0.0.1:58594 desconectado (sin datos)
+[2025-11-19 01:06:19,814] INFO - 🔴 Conexión cerrada con 127.0.0.1:58594
+[2025-11-19 01:06:20,673] INFO - ✅ Cliente conectado desde ('127.0.0.1', 64865)
+[2025-11-19 01:06:20,674] INFO - 🔵 [Thread-Thread-13 (handle_client)] Atendiendo cliente 127.0.0.1:64865
+[2025-11-19 01:06:20,674] INFO - 📥 Cliente 127.0.0.1:64865 -> STATS
+[2025-11-19 01:06:20,675] INFO - 📤 Respuesta a 127.0.0.1:64865 -> OK|Clientes conectados: 13|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:20,676] INFO - ⚠️ Cliente 127.0.0.1:64865 desconectado (sin datos)
+[2025-11-19 01:06:20,676] INFO - 🔴 Conexión cerrada con 127.0.0.1:64865
+[2025-11-19 01:06:22,815] INFO - ✅ Cliente conectado desde ('127.0.0.1', 51550)
+[2025-11-19 01:06:22,816] INFO - 🔵 [Thread-Thread-14 (handle_client)] Atendiendo cliente 127.0.0.1:51550
+[2025-11-19 01:06:22,816] INFO - 📥 Cliente 127.0.0.1:51550 -> STATS
+[2025-11-19 01:06:22,817] INFO - 📤 Respuesta a 127.0.0.1:51550 -> OK|Clientes conectados: 14|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:22,817] INFO - ⚠️ Cliente 127.0.0.1:51550 desconectado (sin datos)
+[2025-11-19 01:06:22,817] INFO - 🔴 Conexión cerrada con 127.0.0.1:51550
+[2025-11-19 01:06:22,877] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58531)
+[2025-11-19 01:06:22,878] INFO - 🔵 [Thread-Thread-15 (handle_client)] Atendiendo cliente 127.0.0.1:58531
+[2025-11-19 01:06:22,878] INFO - 📥 Cliente 127.0.0.1:58531 -> CONSULTA 1350509525
+[2025-11-19 01:06:22,881] INFO - 📤 Respuesta a 127.0.0.1:58531 -> OK|Stefano|Aguilar|5045.45
+[2025-11-19 01:06:22,881] INFO - ⚠️ Cliente 127.0.0.1:58531 desconectado (sin datos)
+[2025-11-19 01:06:22,881] INFO - 🔴 Conexión cerrada con 127.0.0.1:58531
+[2025-11-19 01:06:22,904] INFO - ✅ Cliente conectado desde ('127.0.0.1', 50536)
+[2025-11-19 01:06:22,905] INFO - 🔵 [Thread-Thread-16 (handle_client)] Atendiendo cliente 127.0.0.1:50536
+[2025-11-19 01:06:22,905] INFO - 📥 Cliente 127.0.0.1:50536 -> HISTORIAL 1350509525
+[2025-11-19 01:06:22,906] INFO - ✅ Cliente conectado desde ('127.0.0.1', 54401)
+[2025-11-19 01:06:22,907] INFO - 🔵 [Thread-Thread-17 (handle_client)] Atendiendo cliente 127.0.0.1:54401
+[2025-11-19 01:06:22,907] INFO - 📥 Cliente 127.0.0.1:54401 -> HISTORIAL 1350509525
+[2025-11-19 01:06:22,910] INFO - 📤 Respuesta a 127.0.0.1:50536 -> OK|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26|RETIRO|30.00|5279.45|2025-11-18 20:41:13
+[2025-11-19 01:06:22,911] INFO - ⚠️ Cliente 127.0.0.1:50536 desconectado (sin datos)
+[2025-11-19 01:06:22,912] INFO - 🔴 Conexión cerrada con 127.0.0.1:50536
+[2025-11-19 01:06:22,912] INFO - 📤 Respuesta a 127.0.0.1:54401 -> OK|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26|RETIRO|30.00|5279.45|2025-11-18 20:41:13
+[2025-11-19 01:06:22,912] INFO - ⚠️ Cliente 127.0.0.1:54401 desconectado (sin datos)
+[2025-11-19 01:06:22,913] INFO - 🔴 Conexión cerrada con 127.0.0.1:54401
+[2025-11-19 01:06:22,921] INFO - ✅ Cliente conectado desde ('127.0.0.1', 63248)
+[2025-11-19 01:06:22,921] INFO - 🔵 [Thread-Thread-18 (handle_client)] Atendiendo cliente 127.0.0.1:63248
+[2025-11-19 01:06:22,922] INFO - 📥 Cliente 127.0.0.1:63248 -> CONSULTA 1350509525
+[2025-11-19 01:06:22,923] INFO - 📤 Respuesta a 127.0.0.1:63248 -> OK|Stefano|Aguilar|5045.45
+[2025-11-19 01:06:22,923] INFO - ⚠️ Cliente 127.0.0.1:63248 desconectado (sin datos)
+[2025-11-19 01:06:22,924] INFO - 🔴 Conexión cerrada con 127.0.0.1:63248
+[2025-11-19 01:06:23,220] INFO - ✅ Cliente conectado desde ('127.0.0.1', 52976)
+[2025-11-19 01:06:23,221] INFO - 🔵 [Thread-Thread-19 (handle_client)] Atendiendo cliente 127.0.0.1:52976
+[2025-11-19 01:06:23,221] INFO - 📥 Cliente 127.0.0.1:52976 -> CONSULTA 1350509525
+[2025-11-19 01:06:23,223] INFO - 📤 Respuesta a 127.0.0.1:52976 -> OK|Stefano|Aguilar|5045.45
+[2025-11-19 01:06:23,223] INFO - ⚠️ Cliente 127.0.0.1:52976 desconectado (sin datos)
+[2025-11-19 01:06:23,224] INFO - 🔴 Conexión cerrada con 127.0.0.1:52976
+[2025-11-19 01:06:23,387] INFO - ✅ Cliente conectado desde ('127.0.0.1', 50532)
+[2025-11-19 01:06:23,387] INFO - 🔵 [Thread-Thread-20 (handle_client)] Atendiendo cliente 127.0.0.1:50532
+[2025-11-19 01:06:23,388] INFO - 📥 Cliente 127.0.0.1:50532 -> STATS
+[2025-11-19 01:06:23,388] INFO - 📤 Respuesta a 127.0.0.1:50532 -> OK|Clientes conectados: 20|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:23,388] INFO - ⚠️ Cliente 127.0.0.1:50532 desconectado (sin datos)
+[2025-11-19 01:06:23,388] INFO - 🔴 Conexión cerrada con 127.0.0.1:50532
+[2025-11-19 01:06:23,417] INFO - ✅ Cliente conectado desde ('127.0.0.1', 54861)
+[2025-11-19 01:06:23,418] INFO - 🔵 [Thread-Thread-21 (handle_client)] Atendiendo cliente 127.0.0.1:54861
+[2025-11-19 01:06:23,418] INFO - 📥 Cliente 127.0.0.1:54861 -> HISTORIAL 1350509525
+[2025-11-19 01:06:23,421] INFO - 📤 Respuesta a 127.0.0.1:54861 -> OK|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26|RETIRO|30.00|5279.45|2025-11-18 20:41:13
+[2025-11-19 01:06:23,421] INFO - ⚠️ Cliente 127.0.0.1:54861 desconectado (sin datos)
+[2025-11-19 01:06:23,421] INFO - 🔴 Conexión cerrada con 127.0.0.1:54861
+[2025-11-19 01:06:23,526] INFO - ✅ Cliente conectado desde ('127.0.0.1', 50890)
+[2025-11-19 01:06:23,526] INFO - 🔵 [Thread-Thread-22 (handle_client)] Atendiendo cliente 127.0.0.1:50890
+[2025-11-19 01:06:23,527] INFO - 📥 Cliente 127.0.0.1:50890 -> STATS
+[2025-11-19 01:06:23,527] INFO - 📤 Respuesta a 127.0.0.1:50890 -> OK|Clientes conectados: 22|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:23,527] INFO - ⚠️ Cliente 127.0.0.1:50890 desconectado (sin datos)
+[2025-11-19 01:06:23,528] INFO - 🔴 Conexión cerrada con 127.0.0.1:50890
+[2025-11-19 01:06:23,676] INFO - ✅ Cliente conectado desde ('127.0.0.1', 50891)
+[2025-11-19 01:06:23,677] INFO - 🔵 [Thread-Thread-23 (handle_client)] Atendiendo cliente 127.0.0.1:50891
+[2025-11-19 01:06:23,678] INFO - 📥 Cliente 127.0.0.1:50891 -> STATS
+[2025-11-19 01:06:23,678] INFO - 📤 Respuesta a 127.0.0.1:50891 -> OK|Clientes conectados: 23|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:23,678] INFO - ⚠️ Cliente 127.0.0.1:50891 desconectado (sin datos)
+[2025-11-19 01:06:23,679] INFO - 🔴 Conexión cerrada con 127.0.0.1:50891
+[2025-11-19 01:06:23,695] INFO - ✅ Cliente conectado desde ('127.0.0.1', 61596)
+[2025-11-19 01:06:23,696] INFO - 🔵 [Thread-Thread-24 (handle_client)] Atendiendo cliente 127.0.0.1:61596
+[2025-11-19 01:06:23,696] INFO - 📥 Cliente 127.0.0.1:61596 -> HISTORIAL 1350509525
+[2025-11-19 01:06:23,699] INFO - 📤 Respuesta a 127.0.0.1:61596 -> OK|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26|RETIRO|30.00|5279.45|2025-11-18 20:41:13
+[2025-11-19 01:06:23,699] INFO - ⚠️ Cliente 127.0.0.1:61596 desconectado (sin datos)
+[2025-11-19 01:06:23,699] INFO - 🔴 Conexión cerrada con 127.0.0.1:61596
+[2025-11-19 01:06:25,222] INFO - ✅ Cliente conectado desde ('127.0.0.1', 59027)
+[2025-11-19 01:06:25,223] INFO - 🔵 [Thread-Thread-25 (handle_client)] Atendiendo cliente 127.0.0.1:59027
+[2025-11-19 01:06:25,223] INFO - 📥 Cliente 127.0.0.1:59027 -> CONSULTA 1350509525
+[2025-11-19 01:06:25,225] INFO - 📤 Respuesta a 127.0.0.1:59027 -> OK|Stefano|Aguilar|5045.45
+[2025-11-19 01:06:25,225] INFO - ⚠️ Cliente 127.0.0.1:59027 desconectado (sin datos)
+[2025-11-19 01:06:25,226] INFO - 🔴 Conexión cerrada con 127.0.0.1:59027
+[2025-11-19 01:06:25,250] INFO - ✅ Cliente conectado desde ('127.0.0.1', 59028)
+[2025-11-19 01:06:25,251] INFO - 🔵 [Thread-Thread-26 (handle_client)] Atendiendo cliente 127.0.0.1:59028
+[2025-11-19 01:06:25,251] INFO - 📥 Cliente 127.0.0.1:59028 -> HISTORIAL 1350509525
+[2025-11-19 01:06:25,252] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58595)
+[2025-11-19 01:06:25,253] INFO - 🔵 [Thread-Thread-27 (handle_client)] Atendiendo cliente 127.0.0.1:58595
+[2025-11-19 01:06:25,253] INFO - 📥 Cliente 127.0.0.1:58595 -> HISTORIAL 1350509525
+[2025-11-19 01:06:25,255] INFO - 📤 Respuesta a 127.0.0.1:59028 -> OK|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26|RETIRO|30.00|5279.45|2025-11-18 20:41:13
+[2025-11-19 01:06:25,256] INFO - ⚠️ Cliente 127.0.0.1:59028 desconectado (sin datos)
+[2025-11-19 01:06:25,256] INFO - 🔴 Conexión cerrada con 127.0.0.1:59028
+[2025-11-19 01:06:25,257] INFO - 📤 Respuesta a 127.0.0.1:58595 -> OK|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26|RETIRO|30.00|5279.45|2025-11-18 20:41:13
+[2025-11-19 01:06:25,257] INFO - ⚠️ Cliente 127.0.0.1:58595 desconectado (sin datos)
+[2025-11-19 01:06:25,258] INFO - 🔴 Conexión cerrada con 127.0.0.1:58595
+[2025-11-19 01:06:25,268] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62472)
+[2025-11-19 01:06:25,269] INFO - 🔵 [Thread-Thread-28 (handle_client)] Atendiendo cliente 127.0.0.1:62472
+[2025-11-19 01:06:25,269] INFO - 📥 Cliente 127.0.0.1:62472 -> CONSULTA 1350509525
+[2025-11-19 01:06:25,272] INFO - 📤 Respuesta a 127.0.0.1:62472 -> OK|Stefano|Aguilar|5045.45
+[2025-11-19 01:06:25,273] INFO - ⚠️ Cliente 127.0.0.1:62472 desconectado (sin datos)
+[2025-11-19 01:06:25,273] INFO - 🔴 Conexión cerrada con 127.0.0.1:62472
+[2025-11-19 01:06:25,562] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62545)
+[2025-11-19 01:06:25,562] INFO - 🔵 [Thread-Thread-29 (handle_client)] Atendiendo cliente 127.0.0.1:62545
+[2025-11-19 01:06:25,563] INFO - 📥 Cliente 127.0.0.1:62545 -> CONSULTA 1350509525
+[2025-11-19 01:06:25,565] INFO - 📤 Respuesta a 127.0.0.1:62545 -> OK|Stefano|Aguilar|5045.45
+[2025-11-19 01:06:25,565] INFO - ⚠️ Cliente 127.0.0.1:62545 desconectado (sin datos)
+[2025-11-19 01:06:25,566] INFO - 🔴 Conexión cerrada con 127.0.0.1:62545
+[2025-11-19 01:06:25,728] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58316)
+[2025-11-19 01:06:25,729] INFO - 🔵 [Thread-Thread-30 (handle_client)] Atendiendo cliente 127.0.0.1:58316
+[2025-11-19 01:06:25,729] INFO - 📥 Cliente 127.0.0.1:58316 -> STATS
+[2025-11-19 01:06:25,730] INFO - 📤 Respuesta a 127.0.0.1:58316 -> OK|Clientes conectados: 30|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:25,730] INFO - ⚠️ Cliente 127.0.0.1:58316 desconectado (sin datos)
+[2025-11-19 01:06:25,730] INFO - 🔴 Conexión cerrada con 127.0.0.1:58316
+[2025-11-19 01:06:25,776] INFO - ✅ Cliente conectado desde ('127.0.0.1', 49218)
+[2025-11-19 01:06:25,776] INFO - 🔵 [Thread-Thread-31 (handle_client)] Atendiendo cliente 127.0.0.1:49218
+[2025-11-19 01:06:25,777] INFO - 📥 Cliente 127.0.0.1:49218 -> HISTORIAL 1350509525
+[2025-11-19 01:06:25,779] INFO - 📤 Respuesta a 127.0.0.1:49218 -> OK|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26|RETIRO|30.00|5279.45|2025-11-18 20:41:13
+[2025-11-19 01:06:25,779] INFO - ⚠️ Cliente 127.0.0.1:49218 desconectado (sin datos)
+[2025-11-19 01:06:25,779] INFO - 🔴 Conexión cerrada con 127.0.0.1:49218
+[2025-11-19 01:06:25,819] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62947)
+[2025-11-19 01:06:25,819] INFO - 🔵 [Thread-Thread-32 (handle_client)] Atendiendo cliente 127.0.0.1:62947
+[2025-11-19 01:06:25,819] INFO - 📥 Cliente 127.0.0.1:62947 -> STATS
+[2025-11-19 01:06:25,820] INFO - 📤 Respuesta a 127.0.0.1:62947 -> OK|Clientes conectados: 32|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:25,820] INFO - ⚠️ Cliente 127.0.0.1:62947 desconectado (sin datos)
+[2025-11-19 01:06:25,820] INFO - 🔴 Conexión cerrada con 127.0.0.1:62947
+[2025-11-19 01:06:25,868] INFO - ✅ Cliente conectado desde ('127.0.0.1', 51826)
+[2025-11-19 01:06:25,869] INFO - 🔵 [Thread-Thread-33 (handle_client)] Atendiendo cliente 127.0.0.1:51826
+[2025-11-19 01:06:25,869] INFO - 📥 Cliente 127.0.0.1:51826 -> STATS
+[2025-11-19 01:06:25,869] INFO - 📤 Respuesta a 127.0.0.1:51826 -> OK|Clientes conectados: 33|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:25,870] INFO - ⚠️ Cliente 127.0.0.1:51826 desconectado (sin datos)
+[2025-11-19 01:06:25,870] INFO - 🔴 Conexión cerrada con 127.0.0.1:51826
+[2025-11-19 01:06:26,040] INFO - ✅ Cliente conectado desde ('127.0.0.1', 55798)
+[2025-11-19 01:06:26,040] INFO - 🔵 [Thread-Thread-34 (handle_client)] Atendiendo cliente 127.0.0.1:55798
+[2025-11-19 01:06:26,041] INFO - 📥 Cliente 127.0.0.1:55798 -> HISTORIAL 1350509525
+[2025-11-19 01:06:26,043] INFO - 📤 Respuesta a 127.0.0.1:55798 -> OK|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26|RETIRO|30.00|5279.45|2025-11-18 20:41:13
+[2025-11-19 01:06:26,044] INFO - ⚠️ Cliente 127.0.0.1:55798 desconectado (sin datos)
+[2025-11-19 01:06:26,044] INFO - 🔴 Conexión cerrada con 127.0.0.1:55798
+[2025-11-19 01:06:26,680] INFO - ✅ Cliente conectado desde ('127.0.0.1', 54941)
+[2025-11-19 01:06:26,681] INFO - 🔵 [Thread-Thread-35 (handle_client)] Atendiendo cliente 127.0.0.1:54941
+[2025-11-19 01:06:26,681] INFO - 📥 Cliente 127.0.0.1:54941 -> STATS
+[2025-11-19 01:06:26,682] INFO - 📤 Respuesta a 127.0.0.1:54941 -> OK|Clientes conectados: 35|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:26,682] INFO - ⚠️ Cliente 127.0.0.1:54941 desconectado (sin datos)
+[2025-11-19 01:06:26,682] INFO - 🔴 Conexión cerrada con 127.0.0.1:54941
+[2025-11-19 01:06:26,749] INFO - ✅ Cliente conectado desde ('127.0.0.1', 53533)
+[2025-11-19 01:06:26,750] INFO - 🔵 [Thread-Thread-36 (handle_client)] Atendiendo cliente 127.0.0.1:53533
+[2025-11-19 01:06:26,750] INFO - 📥 Cliente 127.0.0.1:53533 -> HISTORIAL 1350509525
+[2025-11-19 01:06:26,753] INFO - 📤 Respuesta a 127.0.0.1:53533 -> OK|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26|RETIRO|30.00|5279.45|2025-11-18 20:41:13
+[2025-11-19 01:06:26,753] INFO - ⚠️ Cliente 127.0.0.1:53533 desconectado (sin datos)
+[2025-11-19 01:06:26,753] INFO - 🔴 Conexión cerrada con 127.0.0.1:53533
+[2025-11-19 01:06:28,820] INFO - ✅ Cliente conectado desde ('127.0.0.1', 53541)
+[2025-11-19 01:06:28,821] INFO - 🔵 [Thread-Thread-37 (handle_client)] Atendiendo cliente 127.0.0.1:53541
+[2025-11-19 01:06:28,821] INFO - 📥 Cliente 127.0.0.1:53541 -> STATS
+[2025-11-19 01:06:28,822] INFO - 📤 Respuesta a 127.0.0.1:53541 -> OK|Clientes conectados: 37|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:28,822] INFO - ⚠️ Cliente 127.0.0.1:53541 desconectado (sin datos)
+[2025-11-19 01:06:28,822] INFO - 🔴 Conexión cerrada con 127.0.0.1:53541
+[2025-11-19 01:06:29,683] INFO - ✅ Cliente conectado desde ('127.0.0.1', 64141)
+[2025-11-19 01:06:29,683] INFO - 🔵 [Thread-Thread-38 (handle_client)] Atendiendo cliente 127.0.0.1:64141
+[2025-11-19 01:06:29,684] INFO - 📥 Cliente 127.0.0.1:64141 -> STATS
+[2025-11-19 01:06:29,684] INFO - 📤 Respuesta a 127.0.0.1:64141 -> OK|Clientes conectados: 38|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:29,684] INFO - ⚠️ Cliente 127.0.0.1:64141 desconectado (sin datos)
+[2025-11-19 01:06:29,685] INFO - 🔴 Conexión cerrada con 127.0.0.1:64141
+[2025-11-19 01:06:31,754] INFO - ✅ Cliente conectado desde ('127.0.0.1', 64142)
+[2025-11-19 01:06:31,755] INFO - 🔵 [Thread-Thread-39 (handle_client)] Atendiendo cliente 127.0.0.1:64142
+[2025-11-19 01:06:31,755] INFO - 📥 Cliente 127.0.0.1:64142 -> HISTORIAL 1350509525
+[2025-11-19 01:06:31,757] INFO - 📤 Respuesta a 127.0.0.1:64142 -> OK|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26|RETIRO|30.00|5279.45|2025-11-18 20:41:13
+[2025-11-19 01:06:31,758] INFO - ⚠️ Cliente 127.0.0.1:64142 desconectado (sin datos)
+[2025-11-19 01:06:31,758] INFO - 🔴 Conexión cerrada con 127.0.0.1:64142
+[2025-11-19 01:06:31,824] INFO - ✅ Cliente conectado desde ('127.0.0.1', 64143)
+[2025-11-19 01:06:31,825] INFO - 🔵 [Thread-Thread-40 (handle_client)] Atendiendo cliente 127.0.0.1:64143
+[2025-11-19 01:06:31,825] INFO - 📥 Cliente 127.0.0.1:64143 -> STATS
+[2025-11-19 01:06:31,826] INFO - 📤 Respuesta a 127.0.0.1:64143 -> OK|Clientes conectados: 40|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:31,826] INFO - ⚠️ Cliente 127.0.0.1:64143 desconectado (sin datos)
+[2025-11-19 01:06:31,826] INFO - 🔴 Conexión cerrada con 127.0.0.1:64143
+[2025-11-19 01:06:32,685] INFO - ✅ Cliente conectado desde ('127.0.0.1', 64144)
+[2025-11-19 01:06:32,686] INFO - 🔵 [Thread-Thread-41 (handle_client)] Atendiendo cliente 127.0.0.1:64144
+[2025-11-19 01:06:32,686] INFO - 📥 Cliente 127.0.0.1:64144 -> STATS
+[2025-11-19 01:06:32,687] INFO - 📤 Respuesta a 127.0.0.1:64144 -> OK|Clientes conectados: 41|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:32,687] INFO - ⚠️ Cliente 127.0.0.1:64144 desconectado (sin datos)
+[2025-11-19 01:06:32,687] INFO - 🔴 Conexión cerrada con 127.0.0.1:64144
+[2025-11-19 01:06:33,791] INFO - ✅ Cliente conectado desde ('127.0.0.1', 53210)
+[2025-11-19 01:06:33,792] INFO - 🔵 [Thread-Thread-42 (handle_client)] Atendiendo cliente 127.0.0.1:53210
+[2025-11-19 01:06:33,792] INFO - 📥 Cliente 127.0.0.1:53210 -> TRANSFERIR 1350509525 1234567890 1
+[2025-11-19 01:06:33,795] INFO - 📤 Respuesta a 127.0.0.1:53210 -> ERROR|Cuenta destino no existe
+[2025-11-19 01:06:33,796] INFO - ⚠️ Cliente 127.0.0.1:53210 desconectado (sin datos)
+[2025-11-19 01:06:33,796] INFO - 🔴 Conexión cerrada con 127.0.0.1:53210
+[2025-11-19 01:06:34,827] INFO - ✅ Cliente conectado desde ('127.0.0.1', 64515)
+[2025-11-19 01:06:34,828] INFO - 🔵 [Thread-Thread-43 (handle_client)] Atendiendo cliente 127.0.0.1:64515
+[2025-11-19 01:06:34,828] INFO - 📥 Cliente 127.0.0.1:64515 -> STATS
+[2025-11-19 01:06:34,829] INFO - 📤 Respuesta a 127.0.0.1:64515 -> OK|Clientes conectados: 43|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:34,829] INFO - ⚠️ Cliente 127.0.0.1:64515 desconectado (sin datos)
+[2025-11-19 01:06:34,829] INFO - 🔴 Conexión cerrada con 127.0.0.1:64515
+[2025-11-19 01:06:35,688] INFO - ✅ Cliente conectado desde ('127.0.0.1', 64517)
+[2025-11-19 01:06:35,689] INFO - 🔵 [Thread-Thread-44 (handle_client)] Atendiendo cliente 127.0.0.1:64517
+[2025-11-19 01:06:35,689] INFO - 📥 Cliente 127.0.0.1:64517 -> STATS
+[2025-11-19 01:06:35,690] INFO - 📤 Respuesta a 127.0.0.1:64517 -> OK|Clientes conectados: 44|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:35,690] INFO - ⚠️ Cliente 127.0.0.1:64517 desconectado (sin datos)
+[2025-11-19 01:06:35,690] INFO - 🔴 Conexión cerrada con 127.0.0.1:64517
+[2025-11-19 01:06:36,759] INFO - ✅ Cliente conectado desde ('127.0.0.1', 64518)
+[2025-11-19 01:06:36,759] INFO - 🔵 [Thread-Thread-45 (handle_client)] Atendiendo cliente 127.0.0.1:64518
+[2025-11-19 01:06:36,760] INFO - 📥 Cliente 127.0.0.1:64518 -> HISTORIAL 1350509525
+[2025-11-19 01:06:36,762] INFO - 📤 Respuesta a 127.0.0.1:64518 -> OK|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26|RETIRO|30.00|5279.45|2025-11-18 20:41:13
+[2025-11-19 01:06:36,762] INFO - ⚠️ Cliente 127.0.0.1:64518 desconectado (sin datos)
+[2025-11-19 01:06:36,762] INFO - 🔴 Conexión cerrada con 127.0.0.1:64518
+[2025-11-19 01:06:37,723] INFO - ✅ Cliente conectado desde ('127.0.0.1', 64519)
+[2025-11-19 01:06:37,724] INFO - 🔵 [Thread-Thread-46 (handle_client)] Atendiendo cliente 127.0.0.1:64519
+[2025-11-19 01:06:37,724] INFO - 📥 Cliente 127.0.0.1:64519 -> TRANSFERIR 1350509525 1234567890 1
+[2025-11-19 01:06:37,726] INFO - 📤 Respuesta a 127.0.0.1:64519 -> ERROR|Cuenta destino no existe
+[2025-11-19 01:06:37,726] INFO - ⚠️ Cliente 127.0.0.1:64519 desconectado (sin datos)
+[2025-11-19 01:06:37,728] INFO - 🔴 Conexión cerrada con 127.0.0.1:64519
+[2025-11-19 01:06:37,829] INFO - ✅ Cliente conectado desde ('127.0.0.1', 64520)
+[2025-11-19 01:06:37,830] INFO - 🔵 [Thread-Thread-47 (handle_client)] Atendiendo cliente 127.0.0.1:64520
+[2025-11-19 01:06:37,830] INFO - 📥 Cliente 127.0.0.1:64520 -> STATS
+[2025-11-19 01:06:37,831] INFO - 📤 Respuesta a 127.0.0.1:64520 -> OK|Clientes conectados: 47|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:37,831] INFO - ⚠️ Cliente 127.0.0.1:64520 desconectado (sin datos)
+[2025-11-19 01:06:37,831] INFO - 🔴 Conexión cerrada con 127.0.0.1:64520
+[2025-11-19 01:06:38,691] INFO - ✅ Cliente conectado desde ('127.0.0.1', 64521)
+[2025-11-19 01:06:38,691] INFO - 🔵 [Thread-Thread-48 (handle_client)] Atendiendo cliente 127.0.0.1:64521
+[2025-11-19 01:06:38,692] INFO - 📥 Cliente 127.0.0.1:64521 -> STATS
+[2025-11-19 01:06:38,693] INFO - 📤 Respuesta a 127.0.0.1:64521 -> OK|Clientes conectados: 48|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:38,693] INFO - ⚠️ Cliente 127.0.0.1:64521 desconectado (sin datos)
+[2025-11-19 01:06:38,693] INFO - 🔴 Conexión cerrada con 127.0.0.1:64521
+[2025-11-19 01:06:40,832] INFO - ✅ Cliente conectado desde ('127.0.0.1', 64522)
+[2025-11-19 01:06:40,832] INFO - 🔵 [Thread-Thread-49 (handle_client)] Atendiendo cliente 127.0.0.1:64522
+[2025-11-19 01:06:40,833] INFO - 📥 Cliente 127.0.0.1:64522 -> STATS
+[2025-11-19 01:06:40,833] INFO - 📤 Respuesta a 127.0.0.1:64522 -> OK|Clientes conectados: 49|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:40,833] INFO - ⚠️ Cliente 127.0.0.1:64522 desconectado (sin datos)
+[2025-11-19 01:06:40,834] INFO - 🔴 Conexión cerrada con 127.0.0.1:64522
+[2025-11-19 01:06:41,694] INFO - ✅ Cliente conectado desde ('127.0.0.1', 64523)
+[2025-11-19 01:06:41,694] INFO - 🔵 [Thread-Thread-50 (handle_client)] Atendiendo cliente 127.0.0.1:64523
+[2025-11-19 01:06:41,695] INFO - 📥 Cliente 127.0.0.1:64523 -> STATS
+[2025-11-19 01:06:41,695] INFO - 📤 Respuesta a 127.0.0.1:64523 -> OK|Clientes conectados: 50|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:41,695] INFO - ⚠️ Cliente 127.0.0.1:64523 desconectado (sin datos)
+[2025-11-19 01:06:41,696] INFO - 🔴 Conexión cerrada con 127.0.0.1:64523
+[2025-11-19 01:06:41,763] INFO - ✅ Cliente conectado desde ('127.0.0.1', 64524)
+[2025-11-19 01:06:41,764] INFO - 🔵 [Thread-Thread-51 (handle_client)] Atendiendo cliente 127.0.0.1:64524
+[2025-11-19 01:06:41,765] INFO - 📥 Cliente 127.0.0.1:64524 -> HISTORIAL 1350509525
+[2025-11-19 01:06:41,767] INFO - 📤 Respuesta a 127.0.0.1:64524 -> OK|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26|RETIRO|30.00|5279.45|2025-11-18 20:41:13
+[2025-11-19 01:06:41,767] INFO - ⚠️ Cliente 127.0.0.1:64524 desconectado (sin datos)
+[2025-11-19 01:06:41,767] INFO - 🔴 Conexión cerrada con 127.0.0.1:64524
+[2025-11-19 01:06:43,835] INFO - ✅ Cliente conectado desde ('127.0.0.1', 64525)
+[2025-11-19 01:06:43,836] INFO - 🔵 [Thread-Thread-52 (handle_client)] Atendiendo cliente 127.0.0.1:64525
+[2025-11-19 01:06:43,836] INFO - 📥 Cliente 127.0.0.1:64525 -> STATS
+[2025-11-19 01:06:43,837] INFO - 📤 Respuesta a 127.0.0.1:64525 -> OK|Clientes conectados: 52|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:43,837] INFO - ⚠️ Cliente 127.0.0.1:64525 desconectado (sin datos)
+[2025-11-19 01:06:43,837] INFO - 🔴 Conexión cerrada con 127.0.0.1:64525
+[2025-11-19 01:06:44,696] INFO - ✅ Cliente conectado desde ('127.0.0.1', 52260)
+[2025-11-19 01:06:44,697] INFO - 🔵 [Thread-Thread-53 (handle_client)] Atendiendo cliente 127.0.0.1:52260
+[2025-11-19 01:06:44,697] INFO - 📥 Cliente 127.0.0.1:52260 -> STATS
+[2025-11-19 01:06:44,698] INFO - 📤 Respuesta a 127.0.0.1:52260 -> OK|Clientes conectados: 53|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:44,698] INFO - ⚠️ Cliente 127.0.0.1:52260 desconectado (sin datos)
+[2025-11-19 01:06:44,698] INFO - 🔴 Conexión cerrada con 127.0.0.1:52260
+[2025-11-19 01:06:46,768] INFO - ✅ Cliente conectado desde ('127.0.0.1', 49646)
+[2025-11-19 01:06:46,769] INFO - 🔵 [Thread-Thread-54 (handle_client)] Atendiendo cliente 127.0.0.1:49646
+[2025-11-19 01:06:46,770] INFO - 📥 Cliente 127.0.0.1:49646 -> HISTORIAL 1350509525
+[2025-11-19 01:06:46,772] INFO - 📤 Respuesta a 127.0.0.1:49646 -> OK|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26|RETIRO|30.00|5279.45|2025-11-18 20:41:13
+[2025-11-19 01:06:46,772] INFO - ⚠️ Cliente 127.0.0.1:49646 desconectado (sin datos)
+[2025-11-19 01:06:46,773] INFO - 🔴 Conexión cerrada con 127.0.0.1:49646
+[2025-11-19 01:06:46,838] INFO - ✅ Cliente conectado desde ('127.0.0.1', 49650)
+[2025-11-19 01:06:46,839] INFO - 🔵 [Thread-Thread-55 (handle_client)] Atendiendo cliente 127.0.0.1:49650
+[2025-11-19 01:06:46,839] INFO - 📥 Cliente 127.0.0.1:49650 -> STATS
+[2025-11-19 01:06:46,840] INFO - 📤 Respuesta a 127.0.0.1:49650 -> OK|Clientes conectados: 55|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:46,840] INFO - ⚠️ Cliente 127.0.0.1:49650 desconectado (sin datos)
+[2025-11-19 01:06:46,840] INFO - 🔴 Conexión cerrada con 127.0.0.1:49650
+[2025-11-19 01:06:47,700] INFO - ✅ Cliente conectado desde ('127.0.0.1', 59740)
+[2025-11-19 01:06:47,701] INFO - 🔵 [Thread-Thread-56 (handle_client)] Atendiendo cliente 127.0.0.1:59740
+[2025-11-19 01:06:47,701] INFO - 📥 Cliente 127.0.0.1:59740 -> STATS
+[2025-11-19 01:06:47,701] INFO - 📤 Respuesta a 127.0.0.1:59740 -> OK|Clientes conectados: 56|Transacciones: 0|IPs activas: 1
+[2025-11-19 01:06:47,702] INFO - ⚠️ Cliente 127.0.0.1:59740 desconectado (sin datos)
+[2025-11-19 01:06:47,702] INFO - 🔴 Conexión cerrada con 127.0.0.1:59740
+[2025-11-19 01:06:47,795] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62610)
+[2025-11-19 01:06:47,795] INFO - 🔵 [Thread-Thread-57 (handle_client)] Atendiendo cliente 127.0.0.1:62610
+[2025-11-19 01:06:47,796] INFO - 📥 Cliente 127.0.0.1:62610 -> HISTORIAL 1350509525
+[2025-11-19 01:06:47,799] INFO - 📤 Respuesta a 127.0.0.1:62610 -> OK|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26|RETIRO|30.00|5279.45|2025-11-18 20:41:13
+[2025-11-19 01:06:47,799] INFO - ⚠️ Cliente 127.0.0.1:62610 desconectado (sin datos)
+[2025-11-19 01:06:47,799] INFO - 🔴 Conexión cerrada con 127.0.0.1:62610
+[2025-11-19 01:06:47,840] INFO - ✅ Cliente conectado desde ('127.0.0.1', 64920)
+[2025-11-19 01:06:47,841] INFO - 🔵 [Thread-Thread-58 (handle_client)] Atendiendo cliente 127.0.0.1:64920
+[2025-11-19 01:06:47,841] INFO - 📥 Cliente 127.0.0.1:64920 -> HISTORIAL 1350509525
+[2025-11-19 01:06:47,844] INFO - 📤 Respuesta a 127.0.0.1:64920 -> OK|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26|RETIRO|30.00|5279.45|2025-11-18 20:41:13
+[2025-11-19 01:06:47,844] INFO - ⚠️ Cliente 127.0.0.1:64920 desconectado (sin datos)
+[2025-11-19 01:06:47,844] INFO - 🔴 Conexión cerrada con 127.0.0.1:64920
+[2025-11-19 01:06:49,496] INFO - ✅ Cliente conectado desde ('127.0.0.1', 56796)
+[2025-11-19 01:06:49,497] INFO - 🔵 [Thread-Thread-59 (handle_client)] Atendiendo cliente 127.0.0.1:56796
+[2025-11-19 01:06:49,497] INFO - 📥 Cliente 127.0.0.1:56796 -> DISMINUIR 1350509525 22
+[2025-11-19 01:06:49,497] INFO - 🔒 Lock adquirido para cédula 1350509525 - Operación RETIRO
+[2025-11-19 01:06:49,506] INFO - 📤 MQTT: RETIRO $22.0 para cédula 1350509525
+[2025-11-19 01:06:49,507] INFO - 💸 RETIRO exitoso - Cédula: 1350509525, Monto: $22.00, Saldo: $5045.45 -> $5023.45
+[2025-11-19 01:06:49,507] INFO - 🔓 Lock liberado para cédula 1350509525
+[2025-11-19 01:06:49,507] INFO - 📤 Respuesta a 127.0.0.1:56796 -> OK|Retiro exitoso|5023.45
+[2025-11-19 01:06:49,508] INFO - ⚠️ Cliente 127.0.0.1:56796 desconectado (sin datos)
+[2025-11-19 01:06:49,508] INFO - 🔴 Conexión cerrada con 127.0.0.1:56796
+[2025-11-19 01:06:49,509] INFO - ✅ Cliente conectado desde ('127.0.0.1', 56797)
+[2025-11-19 01:06:49,511] INFO - 🔵 [Thread-Thread-60 (handle_client)] Atendiendo cliente 127.0.0.1:56797
+[2025-11-19 01:06:49,512] INFO - 📥 Cliente 127.0.0.1:56797 -> HISTORIAL 1350509525
+[2025-11-19 01:06:49,515] INFO - 📤 Respuesta a 127.0.0.1:56797 -> OK|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26
+[2025-11-19 01:06:49,515] INFO - ⚠️ Cliente 127.0.0.1:56797 desconectado (sin datos)
+[2025-11-19 01:06:49,516] INFO - 🔴 Conexión cerrada con 127.0.0.1:56797
+[2025-11-19 01:06:49,841] INFO - ✅ Cliente conectado desde ('127.0.0.1', 55187)
+[2025-11-19 01:06:49,841] INFO - 🔵 [Thread-Thread-61 (handle_client)] Atendiendo cliente 127.0.0.1:55187
+[2025-11-19 01:06:49,841] INFO - 📥 Cliente 127.0.0.1:55187 -> STATS
+[2025-11-19 01:06:49,842] INFO - 📤 Respuesta a 127.0.0.1:55187 -> OK|Clientes conectados: 61|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:06:49,842] INFO - ⚠️ Cliente 127.0.0.1:55187 desconectado (sin datos)
+[2025-11-19 01:06:49,842] INFO - 🔴 Conexión cerrada con 127.0.0.1:55187
+[2025-11-19 01:06:50,458] INFO - ✅ Cliente conectado desde ('127.0.0.1', 59222)
+[2025-11-19 01:06:50,459] INFO - 🔵 [Thread-Thread-62 (handle_client)] Atendiendo cliente 127.0.0.1:59222
+[2025-11-19 01:06:50,459] INFO - 📥 Cliente 127.0.0.1:59222 -> HISTORIAL 1350509525
+[2025-11-19 01:06:50,462] INFO - 📤 Respuesta a 127.0.0.1:59222 -> OK|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26
+[2025-11-19 01:06:50,462] INFO - ⚠️ Cliente 127.0.0.1:59222 desconectado (sin datos)
+[2025-11-19 01:06:50,462] INFO - 🔴 Conexión cerrada con 127.0.0.1:59222
+[2025-11-19 01:06:50,704] INFO - ✅ Cliente conectado desde ('127.0.0.1', 59223)
+[2025-11-19 01:06:50,723] INFO - 🔵 [Thread-Thread-63 (handle_client)] Atendiendo cliente 127.0.0.1:59223
+[2025-11-19 01:06:50,724] INFO - 📥 Cliente 127.0.0.1:59223 -> STATS
+[2025-11-19 01:06:50,725] INFO - 📤 Respuesta a 127.0.0.1:59223 -> OK|Clientes conectados: 63|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:06:50,746] INFO - ⚠️ Cliente 127.0.0.1:59223 desconectado (sin datos)
+[2025-11-19 01:06:50,746] INFO - 🔴 Conexión cerrada con 127.0.0.1:59223
+[2025-11-19 01:06:51,773] INFO - ✅ Cliente conectado desde ('127.0.0.1', 52114)
+[2025-11-19 01:06:51,774] INFO - 🔵 [Thread-Thread-64 (handle_client)] Atendiendo cliente 127.0.0.1:52114
+[2025-11-19 01:06:51,774] INFO - 📥 Cliente 127.0.0.1:52114 -> HISTORIAL 1350509525
+[2025-11-19 01:06:51,777] INFO - 📤 Respuesta a 127.0.0.1:52114 -> OK|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26
+[2025-11-19 01:06:51,778] INFO - ⚠️ Cliente 127.0.0.1:52114 desconectado (sin datos)
+[2025-11-19 01:06:51,778] INFO - 🔴 Conexión cerrada con 127.0.0.1:52114
+[2025-11-19 01:06:52,844] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58890)
+[2025-11-19 01:06:52,846] INFO - 🔵 [Thread-Thread-65 (handle_client)] Atendiendo cliente 127.0.0.1:58890
+[2025-11-19 01:06:52,846] INFO - 📥 Cliente 127.0.0.1:58890 -> STATS
+[2025-11-19 01:06:52,846] INFO - 📤 Respuesta a 127.0.0.1:58890 -> OK|Clientes conectados: 65|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:06:52,846] INFO - ⚠️ Cliente 127.0.0.1:58890 desconectado (sin datos)
+[2025-11-19 01:06:52,847] INFO - 🔴 Conexión cerrada con 127.0.0.1:58890
+[2025-11-19 01:06:53,728] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58891)
+[2025-11-19 01:06:53,728] INFO - 🔵 [Thread-Thread-66 (handle_client)] Atendiendo cliente 127.0.0.1:58891
+[2025-11-19 01:06:53,728] INFO - 📥 Cliente 127.0.0.1:58891 -> STATS
+[2025-11-19 01:06:53,728] INFO - 📤 Respuesta a 127.0.0.1:58891 -> OK|Clientes conectados: 66|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:06:53,730] INFO - ⚠️ Cliente 127.0.0.1:58891 desconectado (sin datos)
+[2025-11-19 01:06:53,730] INFO - 🔴 Conexión cerrada con 127.0.0.1:58891
+[2025-11-19 01:06:55,849] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58892)
+[2025-11-19 01:06:55,849] INFO - 🔵 [Thread-Thread-67 (handle_client)] Atendiendo cliente 127.0.0.1:58892
+[2025-11-19 01:06:55,850] INFO - 📥 Cliente 127.0.0.1:58892 -> STATS
+[2025-11-19 01:06:55,850] INFO - 📤 Respuesta a 127.0.0.1:58892 -> OK|Clientes conectados: 67|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:06:55,850] INFO - ⚠️ Cliente 127.0.0.1:58892 desconectado (sin datos)
+[2025-11-19 01:06:55,850] INFO - 🔴 Conexión cerrada con 127.0.0.1:58892
+[2025-11-19 01:06:56,732] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58893)
+[2025-11-19 01:06:56,732] INFO - 🔵 [Thread-Thread-68 (handle_client)] Atendiendo cliente 127.0.0.1:58893
+[2025-11-19 01:06:56,732] INFO - 📥 Cliente 127.0.0.1:58893 -> STATS
+[2025-11-19 01:06:56,733] INFO - 📤 Respuesta a 127.0.0.1:58893 -> OK|Clientes conectados: 68|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:06:56,733] INFO - ⚠️ Cliente 127.0.0.1:58893 desconectado (sin datos)
+[2025-11-19 01:06:56,733] INFO - 🔴 Conexión cerrada con 127.0.0.1:58893
+[2025-11-19 01:06:56,780] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58894)
+[2025-11-19 01:06:56,781] INFO - 🔵 [Thread-Thread-69 (handle_client)] Atendiendo cliente 127.0.0.1:58894
+[2025-11-19 01:06:56,781] INFO - 📥 Cliente 127.0.0.1:58894 -> HISTORIAL 1350509525
+[2025-11-19 01:06:56,783] INFO - 📤 Respuesta a 127.0.0.1:58894 -> OK|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26
+[2025-11-19 01:06:56,783] INFO - ⚠️ Cliente 127.0.0.1:58894 desconectado (sin datos)
+[2025-11-19 01:06:56,784] INFO - 🔴 Conexión cerrada con 127.0.0.1:58894
+[2025-11-19 01:06:58,853] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58895)
+[2025-11-19 01:06:58,853] INFO - 🔵 [Thread-Thread-70 (handle_client)] Atendiendo cliente 127.0.0.1:58895
+[2025-11-19 01:06:58,854] INFO - 📥 Cliente 127.0.0.1:58895 -> STATS
+[2025-11-19 01:06:58,854] INFO - 📤 Respuesta a 127.0.0.1:58895 -> OK|Clientes conectados: 70|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:06:58,854] INFO - ⚠️ Cliente 127.0.0.1:58895 desconectado (sin datos)
+[2025-11-19 01:06:58,854] INFO - 🔴 Conexión cerrada con 127.0.0.1:58895
+[2025-11-19 01:06:59,734] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62385)
+[2025-11-19 01:06:59,734] INFO - 🔵 [Thread-Thread-71 (handle_client)] Atendiendo cliente 127.0.0.1:62385
+[2025-11-19 01:06:59,736] INFO - 📥 Cliente 127.0.0.1:62385 -> STATS
+[2025-11-19 01:06:59,736] INFO - 📤 Respuesta a 127.0.0.1:62385 -> OK|Clientes conectados: 71|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:06:59,736] INFO - ⚠️ Cliente 127.0.0.1:62385 desconectado (sin datos)
+[2025-11-19 01:06:59,736] INFO - 🔴 Conexión cerrada con 127.0.0.1:62385
+[2025-11-19 01:07:01,785] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62386)
+[2025-11-19 01:07:01,785] INFO - 🔵 [Thread-Thread-72 (handle_client)] Atendiendo cliente 127.0.0.1:62386
+[2025-11-19 01:07:01,785] INFO - 📥 Cliente 127.0.0.1:62386 -> HISTORIAL 1350509525
+[2025-11-19 01:07:01,788] INFO - 📤 Respuesta a 127.0.0.1:62386 -> OK|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26
+[2025-11-19 01:07:01,788] INFO - ⚠️ Cliente 127.0.0.1:62386 desconectado (sin datos)
+[2025-11-19 01:07:01,788] INFO - 🔴 Conexión cerrada con 127.0.0.1:62386
+[2025-11-19 01:07:01,855] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62387)
+[2025-11-19 01:07:01,855] INFO - 🔵 [Thread-Thread-73 (handle_client)] Atendiendo cliente 127.0.0.1:62387
+[2025-11-19 01:07:01,856] INFO - 📥 Cliente 127.0.0.1:62387 -> STATS
+[2025-11-19 01:07:01,856] INFO - 📤 Respuesta a 127.0.0.1:62387 -> OK|Clientes conectados: 73|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:01,856] INFO - ⚠️ Cliente 127.0.0.1:62387 desconectado (sin datos)
+[2025-11-19 01:07:01,856] INFO - 🔴 Conexión cerrada con 127.0.0.1:62387
+[2025-11-19 01:07:02,737] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62388)
+[2025-11-19 01:07:02,737] INFO - 🔵 [Thread-Thread-74 (handle_client)] Atendiendo cliente 127.0.0.1:62388
+[2025-11-19 01:07:02,737] INFO - 📥 Cliente 127.0.0.1:62388 -> STATS
+[2025-11-19 01:07:02,737] INFO - 📤 Respuesta a 127.0.0.1:62388 -> OK|Clientes conectados: 74|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:02,739] INFO - ⚠️ Cliente 127.0.0.1:62388 desconectado (sin datos)
+[2025-11-19 01:07:02,739] INFO - 🔴 Conexión cerrada con 127.0.0.1:62388
+[2025-11-19 01:07:04,857] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62389)
+[2025-11-19 01:07:04,857] INFO - 🔵 [Thread-Thread-75 (handle_client)] Atendiendo cliente 127.0.0.1:62389
+[2025-11-19 01:07:04,859] INFO - 📥 Cliente 127.0.0.1:62389 -> STATS
+[2025-11-19 01:07:04,859] INFO - 📤 Respuesta a 127.0.0.1:62389 -> OK|Clientes conectados: 75|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:04,859] INFO - ⚠️ Cliente 127.0.0.1:62389 desconectado (sin datos)
+[2025-11-19 01:07:04,859] INFO - 🔴 Conexión cerrada con 127.0.0.1:62389
+[2025-11-19 01:07:05,740] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62390)
+[2025-11-19 01:07:05,741] INFO - 🔵 [Thread-Thread-76 (handle_client)] Atendiendo cliente 127.0.0.1:62390
+[2025-11-19 01:07:05,741] INFO - 📥 Cliente 127.0.0.1:62390 -> STATS
+[2025-11-19 01:07:05,741] INFO - 📤 Respuesta a 127.0.0.1:62390 -> OK|Clientes conectados: 76|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:05,741] INFO - ⚠️ Cliente 127.0.0.1:62390 desconectado (sin datos)
+[2025-11-19 01:07:05,741] INFO - 🔴 Conexión cerrada con 127.0.0.1:62390
+[2025-11-19 01:07:06,791] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62391)
+[2025-11-19 01:07:06,791] INFO - 🔵 [Thread-Thread-77 (handle_client)] Atendiendo cliente 127.0.0.1:62391
+[2025-11-19 01:07:06,791] INFO - 📥 Cliente 127.0.0.1:62391 -> HISTORIAL 1350509525
+[2025-11-19 01:07:06,792] INFO - 📤 Respuesta a 127.0.0.1:62391 -> OK|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26
+[2025-11-19 01:07:06,794] INFO - ⚠️ Cliente 127.0.0.1:62391 desconectado (sin datos)
+[2025-11-19 01:07:06,794] INFO - 🔴 Conexión cerrada con 127.0.0.1:62391
+[2025-11-19 01:07:07,860] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62392)
+[2025-11-19 01:07:07,861] INFO - 🔵 [Thread-Thread-78 (handle_client)] Atendiendo cliente 127.0.0.1:62392
+[2025-11-19 01:07:07,861] INFO - 📥 Cliente 127.0.0.1:62392 -> STATS
+[2025-11-19 01:07:07,861] INFO - 📤 Respuesta a 127.0.0.1:62392 -> OK|Clientes conectados: 78|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:07,861] INFO - ⚠️ Cliente 127.0.0.1:62392 desconectado (sin datos)
+[2025-11-19 01:07:07,861] INFO - 🔴 Conexión cerrada con 127.0.0.1:62392
+[2025-11-19 01:07:08,743] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62393)
+[2025-11-19 01:07:08,743] INFO - 🔵 [Thread-Thread-79 (handle_client)] Atendiendo cliente 127.0.0.1:62393
+[2025-11-19 01:07:08,743] INFO - 📥 Cliente 127.0.0.1:62393 -> STATS
+[2025-11-19 01:07:08,744] INFO - 📤 Respuesta a 127.0.0.1:62393 -> OK|Clientes conectados: 79|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:08,744] INFO - ⚠️ Cliente 127.0.0.1:62393 desconectado (sin datos)
+[2025-11-19 01:07:08,745] INFO - 🔴 Conexión cerrada con 127.0.0.1:62393
+[2025-11-19 01:07:10,863] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62394)
+[2025-11-19 01:07:10,864] INFO - 🔵 [Thread-Thread-80 (handle_client)] Atendiendo cliente 127.0.0.1:62394
+[2025-11-19 01:07:10,864] INFO - 📥 Cliente 127.0.0.1:62394 -> STATS
+[2025-11-19 01:07:10,865] INFO - 📤 Respuesta a 127.0.0.1:62394 -> OK|Clientes conectados: 80|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:10,865] INFO - ⚠️ Cliente 127.0.0.1:62394 desconectado (sin datos)
+[2025-11-19 01:07:10,865] INFO - 🔴 Conexión cerrada con 127.0.0.1:62394
+[2025-11-19 01:07:11,745] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62395)
+[2025-11-19 01:07:11,746] INFO - 🔵 [Thread-Thread-81 (handle_client)] Atendiendo cliente 127.0.0.1:62395
+[2025-11-19 01:07:11,746] INFO - 📥 Cliente 127.0.0.1:62395 -> STATS
+[2025-11-19 01:07:11,746] INFO - 📤 Respuesta a 127.0.0.1:62395 -> OK|Clientes conectados: 81|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:11,747] INFO - ⚠️ Cliente 127.0.0.1:62395 desconectado (sin datos)
+[2025-11-19 01:07:11,747] INFO - 🔴 Conexión cerrada con 127.0.0.1:62395
+[2025-11-19 01:07:11,794] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62396)
+[2025-11-19 01:07:11,796] INFO - 🔵 [Thread-Thread-82 (handle_client)] Atendiendo cliente 127.0.0.1:62396
+[2025-11-19 01:07:11,796] INFO - 📥 Cliente 127.0.0.1:62396 -> HISTORIAL 1350509525
+[2025-11-19 01:07:11,798] INFO - 📤 Respuesta a 127.0.0.1:62396 -> OK|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26
+[2025-11-19 01:07:11,799] INFO - ⚠️ Cliente 127.0.0.1:62396 desconectado (sin datos)
+[2025-11-19 01:07:11,799] INFO - 🔴 Conexión cerrada con 127.0.0.1:62396
+[2025-11-19 01:07:13,875] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62397)
+[2025-11-19 01:07:13,876] INFO - 🔵 [Thread-Thread-83 (handle_client)] Atendiendo cliente 127.0.0.1:62397
+[2025-11-19 01:07:13,876] INFO - 📥 Cliente 127.0.0.1:62397 -> STATS
+[2025-11-19 01:07:13,877] INFO - 📤 Respuesta a 127.0.0.1:62397 -> OK|Clientes conectados: 83|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:13,877] INFO - ⚠️ Cliente 127.0.0.1:62397 desconectado (sin datos)
+[2025-11-19 01:07:13,878] INFO - 🔴 Conexión cerrada con 127.0.0.1:62397
+[2025-11-19 01:07:14,748] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62398)
+[2025-11-19 01:07:14,749] INFO - 🔵 [Thread-Thread-84 (handle_client)] Atendiendo cliente 127.0.0.1:62398
+[2025-11-19 01:07:14,749] INFO - 📥 Cliente 127.0.0.1:62398 -> STATS
+[2025-11-19 01:07:14,749] INFO - 📤 Respuesta a 127.0.0.1:62398 -> OK|Clientes conectados: 84|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:14,750] INFO - ⚠️ Cliente 127.0.0.1:62398 desconectado (sin datos)
+[2025-11-19 01:07:14,750] INFO - 🔴 Conexión cerrada con 127.0.0.1:62398
+[2025-11-19 01:07:16,800] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62399)
+[2025-11-19 01:07:16,801] INFO - 🔵 [Thread-Thread-85 (handle_client)] Atendiendo cliente 127.0.0.1:62399
+[2025-11-19 01:07:16,801] INFO - 📥 Cliente 127.0.0.1:62399 -> HISTORIAL 1350509525
+[2025-11-19 01:07:16,803] INFO - 📤 Respuesta a 127.0.0.1:62399 -> OK|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26
+[2025-11-19 01:07:16,803] INFO - ⚠️ Cliente 127.0.0.1:62399 desconectado (sin datos)
+[2025-11-19 01:07:16,804] INFO - 🔴 Conexión cerrada con 127.0.0.1:62399
+[2025-11-19 01:07:16,879] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62400)
+[2025-11-19 01:07:16,880] INFO - 🔵 [Thread-Thread-86 (handle_client)] Atendiendo cliente 127.0.0.1:62400
+[2025-11-19 01:07:16,880] INFO - 📥 Cliente 127.0.0.1:62400 -> STATS
+[2025-11-19 01:07:16,881] INFO - 📤 Respuesta a 127.0.0.1:62400 -> OK|Clientes conectados: 86|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:16,881] INFO - ⚠️ Cliente 127.0.0.1:62400 desconectado (sin datos)
+[2025-11-19 01:07:16,881] INFO - 🔴 Conexión cerrada con 127.0.0.1:62400
+[2025-11-19 01:07:17,750] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62401)
+[2025-11-19 01:07:17,751] INFO - 🔵 [Thread-Thread-87 (handle_client)] Atendiendo cliente 127.0.0.1:62401
+[2025-11-19 01:07:17,751] INFO - 📥 Cliente 127.0.0.1:62401 -> STATS
+[2025-11-19 01:07:17,752] INFO - 📤 Respuesta a 127.0.0.1:62401 -> OK|Clientes conectados: 87|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:17,752] INFO - ⚠️ Cliente 127.0.0.1:62401 desconectado (sin datos)
+[2025-11-19 01:07:17,752] INFO - 🔴 Conexión cerrada con 127.0.0.1:62401
+[2025-11-19 01:07:19,883] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62668)
+[2025-11-19 01:07:19,884] INFO - 🔵 [Thread-Thread-88 (handle_client)] Atendiendo cliente 127.0.0.1:62668
+[2025-11-19 01:07:19,884] INFO - 📥 Cliente 127.0.0.1:62668 -> STATS
+[2025-11-19 01:07:19,886] INFO - 📤 Respuesta a 127.0.0.1:62668 -> OK|Clientes conectados: 88|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:19,887] INFO - ⚠️ Cliente 127.0.0.1:62668 desconectado (sin datos)
+[2025-11-19 01:07:19,891] INFO - 🔴 Conexión cerrada con 127.0.0.1:62668
+[2025-11-19 01:07:19,981] INFO - ✅ Cliente conectado desde ('127.0.0.1', 55826)
+[2025-11-19 01:07:19,981] INFO - 🔵 [Thread-Thread-89 (handle_client)] Atendiendo cliente 127.0.0.1:55826
+[2025-11-19 01:07:19,982] INFO - 📥 Cliente 127.0.0.1:55826 -> CREAR 0123456789 Prueba perez
+[2025-11-19 01:07:19,986] INFO - 👤 Cliente creado - Cédula: 0123456789, Nombre: Prueba perez, Saldo: $0.00
+[2025-11-19 01:07:19,987] INFO - 📤 Respuesta a 127.0.0.1:55826 -> OK|Cliente creado exitosamente|Prueba|perez|0.00
+[2025-11-19 01:07:19,987] INFO - ⚠️ Cliente 127.0.0.1:55826 desconectado (sin datos)
+[2025-11-19 01:07:19,987] INFO - 🔴 Conexión cerrada con 127.0.0.1:55826
+[2025-11-19 01:07:20,753] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58216)
+[2025-11-19 01:07:20,753] INFO - 🔵 [Thread-Thread-90 (handle_client)] Atendiendo cliente 127.0.0.1:58216
+[2025-11-19 01:07:20,754] INFO - 📥 Cliente 127.0.0.1:58216 -> STATS
+[2025-11-19 01:07:20,754] INFO - 📤 Respuesta a 127.0.0.1:58216 -> OK|Clientes conectados: 90|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:20,755] INFO - ⚠️ Cliente 127.0.0.1:58216 desconectado (sin datos)
+[2025-11-19 01:07:20,755] INFO - 🔴 Conexión cerrada con 127.0.0.1:58216
+[2025-11-19 01:07:21,804] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58217)
+[2025-11-19 01:07:21,805] INFO - 🔵 [Thread-Thread-91 (handle_client)] Atendiendo cliente 127.0.0.1:58217
+[2025-11-19 01:07:21,805] INFO - 📥 Cliente 127.0.0.1:58217 -> HISTORIAL 1350509525
+[2025-11-19 01:07:21,807] INFO - 📤 Respuesta a 127.0.0.1:58217 -> OK|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26
+[2025-11-19 01:07:21,808] INFO - ⚠️ Cliente 127.0.0.1:58217 desconectado (sin datos)
+[2025-11-19 01:07:21,808] INFO - 🔴 Conexión cerrada con 127.0.0.1:58217
+[2025-11-19 01:07:22,888] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58218)
+[2025-11-19 01:07:22,889] INFO - 🔵 [Thread-Thread-92 (handle_client)] Atendiendo cliente 127.0.0.1:58218
+[2025-11-19 01:07:22,889] INFO - 📥 Cliente 127.0.0.1:58218 -> STATS
+[2025-11-19 01:07:22,890] INFO - 📤 Respuesta a 127.0.0.1:58218 -> OK|Clientes conectados: 92|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:22,890] INFO - ⚠️ Cliente 127.0.0.1:58218 desconectado (sin datos)
+[2025-11-19 01:07:22,890] INFO - 🔴 Conexión cerrada con 127.0.0.1:58218
+[2025-11-19 01:07:23,756] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58219)
+[2025-11-19 01:07:23,757] INFO - 🔵 [Thread-Thread-93 (handle_client)] Atendiendo cliente 127.0.0.1:58219
+[2025-11-19 01:07:23,757] INFO - 📥 Cliente 127.0.0.1:58219 -> STATS
+[2025-11-19 01:07:23,758] INFO - 📤 Respuesta a 127.0.0.1:58219 -> OK|Clientes conectados: 93|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:23,758] INFO - ⚠️ Cliente 127.0.0.1:58219 desconectado (sin datos)
+[2025-11-19 01:07:23,758] INFO - 🔴 Conexión cerrada con 127.0.0.1:58219
+[2025-11-19 01:07:25,891] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58224)
+[2025-11-19 01:07:25,892] INFO - 🔵 [Thread-Thread-94 (handle_client)] Atendiendo cliente 127.0.0.1:58224
+[2025-11-19 01:07:25,892] INFO - 📥 Cliente 127.0.0.1:58224 -> STATS
+[2025-11-19 01:07:25,892] INFO - 📤 Respuesta a 127.0.0.1:58224 -> OK|Clientes conectados: 94|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:25,893] INFO - ⚠️ Cliente 127.0.0.1:58224 desconectado (sin datos)
+[2025-11-19 01:07:25,893] INFO - 🔴 Conexión cerrada con 127.0.0.1:58224
+[2025-11-19 01:07:26,759] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58225)
+[2025-11-19 01:07:26,760] INFO - 🔵 [Thread-Thread-95 (handle_client)] Atendiendo cliente 127.0.0.1:58225
+[2025-11-19 01:07:26,760] INFO - 📥 Cliente 127.0.0.1:58225 -> STATS
+[2025-11-19 01:07:26,760] INFO - 📤 Respuesta a 127.0.0.1:58225 -> OK|Clientes conectados: 95|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:26,760] INFO - ⚠️ Cliente 127.0.0.1:58225 desconectado (sin datos)
+[2025-11-19 01:07:26,761] INFO - 🔴 Conexión cerrada con 127.0.0.1:58225
+[2025-11-19 01:07:26,809] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58226)
+[2025-11-19 01:07:26,810] INFO - 🔵 [Thread-Thread-96 (handle_client)] Atendiendo cliente 127.0.0.1:58226
+[2025-11-19 01:07:26,810] INFO - 📥 Cliente 127.0.0.1:58226 -> HISTORIAL 1350509525
+[2025-11-19 01:07:26,812] INFO - 📤 Respuesta a 127.0.0.1:58226 -> OK|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26
+[2025-11-19 01:07:26,812] INFO - ⚠️ Cliente 127.0.0.1:58226 desconectado (sin datos)
+[2025-11-19 01:07:26,813] INFO - 🔴 Conexión cerrada con 127.0.0.1:58226
+[2025-11-19 01:07:28,894] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58227)
+[2025-11-19 01:07:28,894] INFO - 🔵 [Thread-Thread-97 (handle_client)] Atendiendo cliente 127.0.0.1:58227
+[2025-11-19 01:07:28,895] INFO - 📥 Cliente 127.0.0.1:58227 -> STATS
+[2025-11-19 01:07:28,895] INFO - 📤 Respuesta a 127.0.0.1:58227 -> OK|Clientes conectados: 97|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:28,895] INFO - ⚠️ Cliente 127.0.0.1:58227 desconectado (sin datos)
+[2025-11-19 01:07:28,895] INFO - 🔴 Conexión cerrada con 127.0.0.1:58227
+[2025-11-19 01:07:29,762] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58228)
+[2025-11-19 01:07:29,762] INFO - 🔵 [Thread-Thread-98 (handle_client)] Atendiendo cliente 127.0.0.1:58228
+[2025-11-19 01:07:29,763] INFO - 📥 Cliente 127.0.0.1:58228 -> STATS
+[2025-11-19 01:07:29,763] INFO - 📤 Respuesta a 127.0.0.1:58228 -> OK|Clientes conectados: 98|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:29,763] INFO - ⚠️ Cliente 127.0.0.1:58228 desconectado (sin datos)
+[2025-11-19 01:07:29,763] INFO - 🔴 Conexión cerrada con 127.0.0.1:58228
+[2025-11-19 01:07:31,813] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58229)
+[2025-11-19 01:07:31,813] INFO - 🔵 [Thread-Thread-99 (handle_client)] Atendiendo cliente 127.0.0.1:58229
+[2025-11-19 01:07:31,814] INFO - 📥 Cliente 127.0.0.1:58229 -> HISTORIAL 1350509525
+[2025-11-19 01:07:31,816] INFO - 📤 Respuesta a 127.0.0.1:58229 -> OK|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26
+[2025-11-19 01:07:31,816] INFO - ⚠️ Cliente 127.0.0.1:58229 desconectado (sin datos)
+[2025-11-19 01:07:31,816] INFO - 🔴 Conexión cerrada con 127.0.0.1:58229
+[2025-11-19 01:07:31,896] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58230)
+[2025-11-19 01:07:31,897] INFO - 🔵 [Thread-Thread-100 (handle_client)] Atendiendo cliente 127.0.0.1:58230
+[2025-11-19 01:07:31,898] INFO - 📥 Cliente 127.0.0.1:58230 -> STATS
+[2025-11-19 01:07:31,898] INFO - 📤 Respuesta a 127.0.0.1:58230 -> OK|Clientes conectados: 100|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:31,898] INFO - ⚠️ Cliente 127.0.0.1:58230 desconectado (sin datos)
+[2025-11-19 01:07:31,898] INFO - 🔴 Conexión cerrada con 127.0.0.1:58230
+[2025-11-19 01:07:32,764] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58231)
+[2025-11-19 01:07:32,765] INFO - 🔵 [Thread-Thread-101 (handle_client)] Atendiendo cliente 127.0.0.1:58231
+[2025-11-19 01:07:32,765] INFO - 📥 Cliente 127.0.0.1:58231 -> STATS
+[2025-11-19 01:07:32,765] INFO - 📤 Respuesta a 127.0.0.1:58231 -> OK|Clientes conectados: 101|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:32,766] INFO - ⚠️ Cliente 127.0.0.1:58231 desconectado (sin datos)
+[2025-11-19 01:07:32,766] INFO - 🔴 Conexión cerrada con 127.0.0.1:58231
+[2025-11-19 01:07:34,900] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58234)
+[2025-11-19 01:07:34,900] INFO - 🔵 [Thread-Thread-102 (handle_client)] Atendiendo cliente 127.0.0.1:58234
+[2025-11-19 01:07:34,901] INFO - 📥 Cliente 127.0.0.1:58234 -> STATS
+[2025-11-19 01:07:34,901] INFO - 📤 Respuesta a 127.0.0.1:58234 -> OK|Clientes conectados: 102|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:34,901] INFO - ⚠️ Cliente 127.0.0.1:58234 desconectado (sin datos)
+[2025-11-19 01:07:34,901] INFO - 🔴 Conexión cerrada con 127.0.0.1:58234
+[2025-11-19 01:07:35,767] INFO - ✅ Cliente conectado desde ('127.0.0.1', 60326)
+[2025-11-19 01:07:35,768] INFO - 🔵 [Thread-Thread-103 (handle_client)] Atendiendo cliente 127.0.0.1:60326
+[2025-11-19 01:07:35,768] INFO - 📥 Cliente 127.0.0.1:60326 -> STATS
+[2025-11-19 01:07:35,769] INFO - 📤 Respuesta a 127.0.0.1:60326 -> OK|Clientes conectados: 103|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:35,769] INFO - ⚠️ Cliente 127.0.0.1:60326 desconectado (sin datos)
+[2025-11-19 01:07:35,769] INFO - 🔴 Conexión cerrada con 127.0.0.1:60326
+[2025-11-19 01:07:36,817] INFO - ✅ Cliente conectado desde ('127.0.0.1', 50806)
+[2025-11-19 01:07:36,818] INFO - 🔵 [Thread-Thread-104 (handle_client)] Atendiendo cliente 127.0.0.1:50806
+[2025-11-19 01:07:36,818] INFO - 📥 Cliente 127.0.0.1:50806 -> HISTORIAL 1350509525
+[2025-11-19 01:07:36,820] INFO - 📤 Respuesta a 127.0.0.1:50806 -> OK|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26
+[2025-11-19 01:07:36,820] INFO - ⚠️ Cliente 127.0.0.1:50806 desconectado (sin datos)
+[2025-11-19 01:07:36,821] INFO - 🔴 Conexión cerrada con 127.0.0.1:50806
+[2025-11-19 01:07:37,902] INFO - ✅ Cliente conectado desde ('127.0.0.1', 50710)
+[2025-11-19 01:07:37,903] INFO - 🔵 [Thread-Thread-105 (handle_client)] Atendiendo cliente 127.0.0.1:50710
+[2025-11-19 01:07:37,903] INFO - 📥 Cliente 127.0.0.1:50710 -> STATS
+[2025-11-19 01:07:37,903] INFO - 📤 Respuesta a 127.0.0.1:50710 -> OK|Clientes conectados: 105|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:37,903] INFO - ⚠️ Cliente 127.0.0.1:50710 desconectado (sin datos)
+[2025-11-19 01:07:37,904] INFO - 🔴 Conexión cerrada con 127.0.0.1:50710
+[2025-11-19 01:07:38,770] INFO - ✅ Cliente conectado desde ('127.0.0.1', 49866)
+[2025-11-19 01:07:38,771] INFO - 🔵 [Thread-Thread-106 (handle_client)] Atendiendo cliente 127.0.0.1:49866
+[2025-11-19 01:07:38,771] INFO - 📥 Cliente 127.0.0.1:49866 -> STATS
+[2025-11-19 01:07:38,772] INFO - 📤 Respuesta a 127.0.0.1:49866 -> OK|Clientes conectados: 106|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:38,772] INFO - ⚠️ Cliente 127.0.0.1:49866 desconectado (sin datos)
+[2025-11-19 01:07:38,772] INFO - 🔴 Conexión cerrada con 127.0.0.1:49866
+[2025-11-19 01:07:40,904] INFO - ✅ Cliente conectado desde ('127.0.0.1', 54539)
+[2025-11-19 01:07:40,905] INFO - 🔵 [Thread-Thread-107 (handle_client)] Atendiendo cliente 127.0.0.1:54539
+[2025-11-19 01:07:40,905] INFO - 📥 Cliente 127.0.0.1:54539 -> STATS
+[2025-11-19 01:07:40,905] INFO - 📤 Respuesta a 127.0.0.1:54539 -> OK|Clientes conectados: 107|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:40,906] INFO - ⚠️ Cliente 127.0.0.1:54539 desconectado (sin datos)
+[2025-11-19 01:07:40,906] INFO - 🔴 Conexión cerrada con 127.0.0.1:54539
+[2025-11-19 01:07:41,773] INFO - ✅ Cliente conectado desde ('127.0.0.1', 56529)
+[2025-11-19 01:07:41,773] INFO - 🔵 [Thread-Thread-108 (handle_client)] Atendiendo cliente 127.0.0.1:56529
+[2025-11-19 01:07:41,774] INFO - 📥 Cliente 127.0.0.1:56529 -> STATS
+[2025-11-19 01:07:41,774] INFO - 📤 Respuesta a 127.0.0.1:56529 -> OK|Clientes conectados: 108|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:41,774] INFO - ⚠️ Cliente 127.0.0.1:56529 desconectado (sin datos)
+[2025-11-19 01:07:41,775] INFO - 🔴 Conexión cerrada con 127.0.0.1:56529
+[2025-11-19 01:07:41,822] INFO - ✅ Cliente conectado desde ('127.0.0.1', 56531)
+[2025-11-19 01:07:41,823] INFO - 🔵 [Thread-Thread-109 (handle_client)] Atendiendo cliente 127.0.0.1:56531
+[2025-11-19 01:07:41,823] INFO - 📥 Cliente 127.0.0.1:56531 -> HISTORIAL 1350509525
+[2025-11-19 01:07:41,826] INFO - 📤 Respuesta a 127.0.0.1:56531 -> OK|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26
+[2025-11-19 01:07:41,826] INFO - ⚠️ Cliente 127.0.0.1:56531 desconectado (sin datos)
+[2025-11-19 01:07:41,826] INFO - 🔴 Conexión cerrada con 127.0.0.1:56531
+[2025-11-19 01:07:43,907] INFO - ✅ Cliente conectado desde ('127.0.0.1', 56532)
+[2025-11-19 01:07:43,908] INFO - 🔵 [Thread-Thread-110 (handle_client)] Atendiendo cliente 127.0.0.1:56532
+[2025-11-19 01:07:43,908] INFO - 📥 Cliente 127.0.0.1:56532 -> STATS
+[2025-11-19 01:07:43,908] INFO - 📤 Respuesta a 127.0.0.1:56532 -> OK|Clientes conectados: 110|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:43,908] INFO - ⚠️ Cliente 127.0.0.1:56532 desconectado (sin datos)
+[2025-11-19 01:07:43,909] INFO - 🔴 Conexión cerrada con 127.0.0.1:56532
+[2025-11-19 01:07:44,730] INFO - ✅ Cliente conectado desde ('127.0.0.1', 65176)
+[2025-11-19 01:07:44,731] INFO - 🔵 [Thread-Thread-111 (handle_client)] Atendiendo cliente 127.0.0.1:65176
+[2025-11-19 01:07:44,731] INFO - 📥 Cliente 127.0.0.1:65176 -> CREAR 0123456789 Prueba perez
+[2025-11-19 01:07:44,733] INFO - 📤 Respuesta a 127.0.0.1:65176 -> ERROR|Cliente ya existe
+[2025-11-19 01:07:44,733] INFO - ⚠️ Cliente 127.0.0.1:65176 desconectado (sin datos)
+[2025-11-19 01:07:44,733] INFO - 🔴 Conexión cerrada con 127.0.0.1:65176
+[2025-11-19 01:07:44,775] INFO - ✅ Cliente conectado desde ('127.0.0.1', 65177)
+[2025-11-19 01:07:44,776] INFO - 🔵 [Thread-Thread-112 (handle_client)] Atendiendo cliente 127.0.0.1:65177
+[2025-11-19 01:07:44,776] INFO - 📥 Cliente 127.0.0.1:65177 -> STATS
+[2025-11-19 01:07:44,777] INFO - 📤 Respuesta a 127.0.0.1:65177 -> OK|Clientes conectados: 112|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:44,777] INFO - ⚠️ Cliente 127.0.0.1:65177 desconectado (sin datos)
+[2025-11-19 01:07:44,777] INFO - 🔴 Conexión cerrada con 127.0.0.1:65177
+[2025-11-19 01:07:46,827] INFO - ✅ Cliente conectado desde ('127.0.0.1', 56088)
+[2025-11-19 01:07:46,828] INFO - 🔵 [Thread-Thread-113 (handle_client)] Atendiendo cliente 127.0.0.1:56088
+[2025-11-19 01:07:46,828] INFO - 📥 Cliente 127.0.0.1:56088 -> HISTORIAL 1350509525
+[2025-11-19 01:07:46,830] INFO - 📤 Respuesta a 127.0.0.1:56088 -> OK|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26
+[2025-11-19 01:07:46,831] INFO - ⚠️ Cliente 127.0.0.1:56088 desconectado (sin datos)
+[2025-11-19 01:07:46,831] INFO - 🔴 Conexión cerrada con 127.0.0.1:56088
+[2025-11-19 01:07:46,910] INFO - ✅ Cliente conectado desde ('127.0.0.1', 56089)
+[2025-11-19 01:07:46,910] INFO - 🔵 [Thread-Thread-114 (handle_client)] Atendiendo cliente 127.0.0.1:56089
+[2025-11-19 01:07:46,911] INFO - 📥 Cliente 127.0.0.1:56089 -> STATS
+[2025-11-19 01:07:46,911] INFO - 📤 Respuesta a 127.0.0.1:56089 -> OK|Clientes conectados: 114|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:46,911] INFO - ⚠️ Cliente 127.0.0.1:56089 desconectado (sin datos)
+[2025-11-19 01:07:46,912] INFO - 🔴 Conexión cerrada con 127.0.0.1:56089
+[2025-11-19 01:07:47,779] INFO - ✅ Cliente conectado desde ('127.0.0.1', 56090)
+[2025-11-19 01:07:47,779] INFO - 🔵 [Thread-Thread-115 (handle_client)] Atendiendo cliente 127.0.0.1:56090
+[2025-11-19 01:07:47,780] INFO - 📥 Cliente 127.0.0.1:56090 -> STATS
+[2025-11-19 01:07:47,780] INFO - 📤 Respuesta a 127.0.0.1:56090 -> OK|Clientes conectados: 115|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:47,780] INFO - ⚠️ Cliente 127.0.0.1:56090 desconectado (sin datos)
+[2025-11-19 01:07:47,781] INFO - 🔴 Conexión cerrada con 127.0.0.1:56090
+[2025-11-19 01:07:49,913] INFO - ✅ Cliente conectado desde ('127.0.0.1', 54670)
+[2025-11-19 01:07:49,913] INFO - 🔵 [Thread-Thread-116 (handle_client)] Atendiendo cliente 127.0.0.1:54670
+[2025-11-19 01:07:49,914] INFO - 📥 Cliente 127.0.0.1:54670 -> STATS
+[2025-11-19 01:07:49,914] INFO - 📤 Respuesta a 127.0.0.1:54670 -> OK|Clientes conectados: 116|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:49,914] INFO - ⚠️ Cliente 127.0.0.1:54670 desconectado (sin datos)
+[2025-11-19 01:07:49,915] INFO - 🔴 Conexión cerrada con 127.0.0.1:54670
+[2025-11-19 01:07:50,782] INFO - ✅ Cliente conectado desde ('127.0.0.1', 53905)
+[2025-11-19 01:07:50,783] INFO - 🔵 [Thread-Thread-117 (handle_client)] Atendiendo cliente 127.0.0.1:53905
+[2025-11-19 01:07:50,783] INFO - 📥 Cliente 127.0.0.1:53905 -> STATS
+[2025-11-19 01:07:50,783] INFO - 📤 Respuesta a 127.0.0.1:53905 -> OK|Clientes conectados: 117|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:50,784] INFO - ⚠️ Cliente 127.0.0.1:53905 desconectado (sin datos)
+[2025-11-19 01:07:50,784] INFO - 🔴 Conexión cerrada con 127.0.0.1:53905
+[2025-11-19 01:07:51,353] INFO - ✅ Cliente conectado desde ('127.0.0.1', 51275)
+[2025-11-19 01:07:51,353] INFO - 🔵 [Thread-Thread-118 (handle_client)] Atendiendo cliente 127.0.0.1:51275
+[2025-11-19 01:07:51,353] INFO - 📥 Cliente 127.0.0.1:51275 -> CONSULTA 0123456789
+[2025-11-19 01:07:51,360] INFO - 📤 Respuesta a 127.0.0.1:51275 -> OK|Prueba|perez|0.00
+[2025-11-19 01:07:51,360] INFO - ⚠️ Cliente 127.0.0.1:51275 desconectado (sin datos)
+[2025-11-19 01:07:51,361] INFO - 🔴 Conexión cerrada con 127.0.0.1:51275
+[2025-11-19 01:07:51,562] INFO - ✅ Cliente conectado desde ('127.0.0.1', 51276)
+[2025-11-19 01:07:51,563] INFO - 🔵 [Thread-Thread-119 (handle_client)] Atendiendo cliente 127.0.0.1:51276
+[2025-11-19 01:07:51,563] INFO - 📥 Cliente 127.0.0.1:51276 -> HISTORIAL 0123456789
+[2025-11-19 01:07:51,567] INFO - 📤 Respuesta a 127.0.0.1:51276 -> OK|Sin transacciones
+[2025-11-19 01:07:51,567] INFO - ⚠️ Cliente 127.0.0.1:51276 desconectado (sin datos)
+[2025-11-19 01:07:51,567] INFO - 🔴 Conexión cerrada con 127.0.0.1:51276
+[2025-11-19 01:07:51,569] INFO - ✅ Cliente conectado desde ('127.0.0.1', 54204)
+[2025-11-19 01:07:51,569] INFO - 🔵 [Thread-Thread-120 (handle_client)] Atendiendo cliente 127.0.0.1:54204
+[2025-11-19 01:07:51,570] INFO - 📥 Cliente 127.0.0.1:54204 -> HISTORIAL 0123456789
+[2025-11-19 01:07:51,573] INFO - 📤 Respuesta a 127.0.0.1:54204 -> OK|Sin transacciones
+[2025-11-19 01:07:51,573] INFO - ⚠️ Cliente 127.0.0.1:54204 desconectado (sin datos)
+[2025-11-19 01:07:51,573] INFO - 🔴 Conexión cerrada con 127.0.0.1:54204
+[2025-11-19 01:07:51,832] INFO - ✅ Cliente conectado desde ('127.0.0.1', 51111)
+[2025-11-19 01:07:51,833] INFO - 🔵 [Thread-Thread-121 (handle_client)] Atendiendo cliente 127.0.0.1:51111
+[2025-11-19 01:07:51,833] INFO - 📥 Cliente 127.0.0.1:51111 -> HISTORIAL 1350509525
+[2025-11-19 01:07:51,836] INFO - 📤 Respuesta a 127.0.0.1:51111 -> OK|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26
+[2025-11-19 01:07:51,836] INFO - ⚠️ Cliente 127.0.0.1:51111 desconectado (sin datos)
+[2025-11-19 01:07:51,836] INFO - 🔴 Conexión cerrada con 127.0.0.1:51111
+[2025-11-19 01:07:51,837] INFO - ✅ Cliente conectado desde ('127.0.0.1', 51112)
+[2025-11-19 01:07:51,838] INFO - 🔵 [Thread-Thread-122 (handle_client)] Atendiendo cliente 127.0.0.1:51112
+[2025-11-19 01:07:51,838] INFO - 📥 Cliente 127.0.0.1:51112 -> HISTORIAL 0123456789
+[2025-11-19 01:07:51,840] INFO - 📤 Respuesta a 127.0.0.1:51112 -> OK|Sin transacciones
+[2025-11-19 01:07:51,840] INFO - ⚠️ Cliente 127.0.0.1:51112 desconectado (sin datos)
+[2025-11-19 01:07:51,840] INFO - 🔴 Conexión cerrada con 127.0.0.1:51112
+[2025-11-19 01:07:51,881] INFO - ✅ Cliente conectado desde ('127.0.0.1', 50472)
+[2025-11-19 01:07:51,881] INFO - 🔵 [Thread-Thread-123 (handle_client)] Atendiendo cliente 127.0.0.1:50472
+[2025-11-19 01:07:51,882] INFO - 📥 Cliente 127.0.0.1:50472 -> CONSULTA 0123456789
+[2025-11-19 01:07:51,884] INFO - 📤 Respuesta a 127.0.0.1:50472 -> OK|Prueba|perez|0.00
+[2025-11-19 01:07:51,884] INFO - ⚠️ Cliente 127.0.0.1:50472 desconectado (sin datos)
+[2025-11-19 01:07:51,885] INFO - 🔴 Conexión cerrada con 127.0.0.1:50472
+[2025-11-19 01:07:51,927] INFO - ✅ Cliente conectado desde ('127.0.0.1', 61511)
+[2025-11-19 01:07:51,927] INFO - 🔵 [Thread-Thread-124 (handle_client)] Atendiendo cliente 127.0.0.1:61511
+[2025-11-19 01:07:51,928] INFO - 📥 Cliente 127.0.0.1:61511 -> CONSULTA 0123456789
+[2025-11-19 01:07:51,929] INFO - 📤 Respuesta a 127.0.0.1:61511 -> OK|Prueba|perez|0.00
+[2025-11-19 01:07:51,930] INFO - ⚠️ Cliente 127.0.0.1:61511 desconectado (sin datos)
+[2025-11-19 01:07:51,930] INFO - 🔴 Conexión cerrada con 127.0.0.1:61511
+[2025-11-19 01:07:52,424] INFO - ✅ Cliente conectado desde ('127.0.0.1', 56873)
+[2025-11-19 01:07:52,425] INFO - 🔵 [Thread-Thread-125 (handle_client)] Atendiendo cliente 127.0.0.1:56873
+[2025-11-19 01:07:52,425] INFO - 📥 Cliente 127.0.0.1:56873 -> HISTORIAL 0123456789
+[2025-11-19 01:07:52,428] INFO - 📤 Respuesta a 127.0.0.1:56873 -> OK|Sin transacciones
+[2025-11-19 01:07:52,428] INFO - ⚠️ Cliente 127.0.0.1:56873 desconectado (sin datos)
+[2025-11-19 01:07:52,429] INFO - 🔴 Conexión cerrada con 127.0.0.1:56873
+[2025-11-19 01:07:52,487] INFO - ✅ Cliente conectado desde ('127.0.0.1', 64685)
+[2025-11-19 01:07:52,487] INFO - 🔵 [Thread-Thread-126 (handle_client)] Atendiendo cliente 127.0.0.1:64685
+[2025-11-19 01:07:52,488] INFO - 📥 Cliente 127.0.0.1:64685 -> HISTORIAL 0123456789
+[2025-11-19 01:07:52,490] INFO - 📤 Respuesta a 127.0.0.1:64685 -> OK|Sin transacciones
+[2025-11-19 01:07:52,490] INFO - ⚠️ Cliente 127.0.0.1:64685 desconectado (sin datos)
+[2025-11-19 01:07:52,490] INFO - 🔴 Conexión cerrada con 127.0.0.1:64685
+[2025-11-19 01:07:52,915] INFO - ✅ Cliente conectado desde ('127.0.0.1', 57689)
+[2025-11-19 01:07:52,916] INFO - 🔵 [Thread-Thread-127 (handle_client)] Atendiendo cliente 127.0.0.1:57689
+[2025-11-19 01:07:52,917] INFO - 📥 Cliente 127.0.0.1:57689 -> STATS
+[2025-11-19 01:07:52,917] INFO - 📤 Respuesta a 127.0.0.1:57689 -> OK|Clientes conectados: 127|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:52,917] INFO - ⚠️ Cliente 127.0.0.1:57689 desconectado (sin datos)
+[2025-11-19 01:07:52,918] INFO - 🔴 Conexión cerrada con 127.0.0.1:57689
+[2025-11-19 01:07:53,784] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62281)
+[2025-11-19 01:07:53,784] INFO - 🔵 [Thread-Thread-128 (handle_client)] Atendiendo cliente 127.0.0.1:62281
+[2025-11-19 01:07:53,786] INFO - 📥 Cliente 127.0.0.1:62281 -> STATS
+[2025-11-19 01:07:53,786] INFO - 📤 Respuesta a 127.0.0.1:62281 -> OK|Clientes conectados: 128|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:53,786] INFO - ⚠️ Cliente 127.0.0.1:62281 desconectado (sin datos)
+[2025-11-19 01:07:53,786] INFO - 🔴 Conexión cerrada con 127.0.0.1:62281
+[2025-11-19 01:07:55,919] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62563)
+[2025-11-19 01:07:55,920] INFO - 🔵 [Thread-Thread-129 (handle_client)] Atendiendo cliente 127.0.0.1:62563
+[2025-11-19 01:07:55,920] INFO - 📥 Cliente 127.0.0.1:62563 -> STATS
+[2025-11-19 01:07:55,920] INFO - 📤 Respuesta a 127.0.0.1:62563 -> OK|Clientes conectados: 129|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:55,920] INFO - ⚠️ Cliente 127.0.0.1:62563 desconectado (sin datos)
+[2025-11-19 01:07:55,921] INFO - 🔴 Conexión cerrada con 127.0.0.1:62563
+[2025-11-19 01:07:56,787] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62564)
+[2025-11-19 01:07:56,788] INFO - 🔵 [Thread-Thread-130 (handle_client)] Atendiendo cliente 127.0.0.1:62564
+[2025-11-19 01:07:56,788] INFO - 📥 Cliente 127.0.0.1:62564 -> STATS
+[2025-11-19 01:07:56,788] INFO - 📤 Respuesta a 127.0.0.1:62564 -> OK|Clientes conectados: 130|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:56,789] INFO - ⚠️ Cliente 127.0.0.1:62564 desconectado (sin datos)
+[2025-11-19 01:07:56,789] INFO - 🔴 Conexión cerrada con 127.0.0.1:62564
+[2025-11-19 01:07:56,841] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62565)
+[2025-11-19 01:07:56,841] INFO - 🔵 [Thread-Thread-131 (handle_client)] Atendiendo cliente 127.0.0.1:62565
+[2025-11-19 01:07:56,841] INFO - 📥 Cliente 127.0.0.1:62565 -> HISTORIAL 1350509525
+[2025-11-19 01:07:56,844] INFO - 📤 Respuesta a 127.0.0.1:62565 -> OK|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26
+[2025-11-19 01:07:56,844] INFO - ⚠️ Cliente 127.0.0.1:62565 desconectado (sin datos)
+[2025-11-19 01:07:56,844] INFO - 🔴 Conexión cerrada con 127.0.0.1:62565
+[2025-11-19 01:07:56,844] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62566)
+[2025-11-19 01:07:56,846] INFO - 🔵 [Thread-Thread-132 (handle_client)] Atendiendo cliente 127.0.0.1:62566
+[2025-11-19 01:07:56,846] INFO - 📥 Cliente 127.0.0.1:62566 -> HISTORIAL 0123456789
+[2025-11-19 01:07:56,847] INFO - 📤 Respuesta a 127.0.0.1:62566 -> OK|Sin transacciones
+[2025-11-19 01:07:56,847] INFO - ⚠️ Cliente 127.0.0.1:62566 desconectado (sin datos)
+[2025-11-19 01:07:56,849] INFO - 🔴 Conexión cerrada con 127.0.0.1:62566
+[2025-11-19 01:07:58,922] INFO - ✅ Cliente conectado desde ('127.0.0.1', 63537)
+[2025-11-19 01:07:58,922] INFO - 🔵 [Thread-Thread-133 (handle_client)] Atendiendo cliente 127.0.0.1:63537
+[2025-11-19 01:07:58,922] INFO - 📥 Cliente 127.0.0.1:63537 -> STATS
+[2025-11-19 01:07:58,922] INFO - 📤 Respuesta a 127.0.0.1:63537 -> OK|Clientes conectados: 133|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:58,923] INFO - ⚠️ Cliente 127.0.0.1:63537 desconectado (sin datos)
+[2025-11-19 01:07:58,923] INFO - 🔴 Conexión cerrada con 127.0.0.1:63537
+[2025-11-19 01:07:59,790] INFO - ✅ Cliente conectado desde ('127.0.0.1', 55167)
+[2025-11-19 01:07:59,790] INFO - 🔵 [Thread-Thread-134 (handle_client)] Atendiendo cliente 127.0.0.1:55167
+[2025-11-19 01:07:59,791] INFO - 📥 Cliente 127.0.0.1:55167 -> STATS
+[2025-11-19 01:07:59,791] INFO - 📤 Respuesta a 127.0.0.1:55167 -> OK|Clientes conectados: 134|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:07:59,791] INFO - ⚠️ Cliente 127.0.0.1:55167 desconectado (sin datos)
+[2025-11-19 01:07:59,791] INFO - 🔴 Conexión cerrada con 127.0.0.1:55167
+[2025-11-19 01:08:01,849] INFO - ✅ Cliente conectado desde ('127.0.0.1', 55169)
+[2025-11-19 01:08:01,849] INFO - 🔵 [Thread-Thread-135 (handle_client)] Atendiendo cliente 127.0.0.1:55169
+[2025-11-19 01:08:01,851] INFO - 📥 Cliente 127.0.0.1:55169 -> HISTORIAL 1350509525
+[2025-11-19 01:08:01,852] INFO - 📤 Respuesta a 127.0.0.1:55169 -> OK|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26
+[2025-11-19 01:08:01,853] INFO - ⚠️ Cliente 127.0.0.1:55169 desconectado (sin datos)
+[2025-11-19 01:08:01,853] INFO - 🔴 Conexión cerrada con 127.0.0.1:55169
+[2025-11-19 01:08:01,853] INFO - ✅ Cliente conectado desde ('127.0.0.1', 55170)
+[2025-11-19 01:08:01,853] INFO - 🔵 [Thread-Thread-136 (handle_client)] Atendiendo cliente 127.0.0.1:55170
+[2025-11-19 01:08:01,853] INFO - 📥 Cliente 127.0.0.1:55170 -> HISTORIAL 0123456789
+[2025-11-19 01:08:01,856] INFO - 📤 Respuesta a 127.0.0.1:55170 -> OK|Sin transacciones
+[2025-11-19 01:08:01,856] INFO - ⚠️ Cliente 127.0.0.1:55170 desconectado (sin datos)
+[2025-11-19 01:08:01,856] INFO - 🔴 Conexión cerrada con 127.0.0.1:55170
+[2025-11-19 01:08:01,925] INFO - ✅ Cliente conectado desde ('127.0.0.1', 55171)
+[2025-11-19 01:08:01,925] INFO - 🔵 [Thread-Thread-137 (handle_client)] Atendiendo cliente 127.0.0.1:55171
+[2025-11-19 01:08:01,926] INFO - 📥 Cliente 127.0.0.1:55171 -> STATS
+[2025-11-19 01:08:01,926] INFO - 📤 Respuesta a 127.0.0.1:55171 -> OK|Clientes conectados: 137|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:08:01,926] INFO - ⚠️ Cliente 127.0.0.1:55171 desconectado (sin datos)
+[2025-11-19 01:08:01,926] INFO - 🔴 Conexión cerrada con 127.0.0.1:55171
+[2025-11-19 01:08:02,741] INFO - ✅ Cliente conectado desde ('127.0.0.1', 65503)
+[2025-11-19 01:08:02,742] INFO - 🔵 [Thread-Thread-138 (handle_client)] Atendiendo cliente 127.0.0.1:65503
+[2025-11-19 01:08:02,742] INFO - 📥 Cliente 127.0.0.1:65503 -> TRANSFERIR 1350509525 01234567890 1
+[2025-11-19 01:08:02,746] INFO - 📤 Respuesta a 127.0.0.1:65503 -> ERROR|Cuenta destino no existe
+[2025-11-19 01:08:02,747] INFO - ⚠️ Cliente 127.0.0.1:65503 desconectado (sin datos)
+[2025-11-19 01:08:02,747] INFO - 🔴 Conexión cerrada con 127.0.0.1:65503
+[2025-11-19 01:08:02,793] INFO - ✅ Cliente conectado desde ('127.0.0.1', 56485)
+[2025-11-19 01:08:02,793] INFO - 🔵 [Thread-Thread-139 (handle_client)] Atendiendo cliente 127.0.0.1:56485
+[2025-11-19 01:08:02,794] INFO - 📥 Cliente 127.0.0.1:56485 -> STATS
+[2025-11-19 01:08:02,794] INFO - 📤 Respuesta a 127.0.0.1:56485 -> OK|Clientes conectados: 139|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:08:02,794] INFO - ⚠️ Cliente 127.0.0.1:56485 desconectado (sin datos)
+[2025-11-19 01:08:02,794] INFO - 🔴 Conexión cerrada con 127.0.0.1:56485
+[2025-11-19 01:08:04,927] INFO - ✅ Cliente conectado desde ('127.0.0.1', 56353)
+[2025-11-19 01:08:04,928] INFO - 🔵 [Thread-Thread-140 (handle_client)] Atendiendo cliente 127.0.0.1:56353
+[2025-11-19 01:08:04,928] INFO - 📥 Cliente 127.0.0.1:56353 -> STATS
+[2025-11-19 01:08:04,928] INFO - 📤 Respuesta a 127.0.0.1:56353 -> OK|Clientes conectados: 140|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:08:04,930] INFO - ⚠️ Cliente 127.0.0.1:56353 desconectado (sin datos)
+[2025-11-19 01:08:04,930] INFO - 🔴 Conexión cerrada con 127.0.0.1:56353
+[2025-11-19 01:08:05,797] INFO - ✅ Cliente conectado desde ('127.0.0.1', 56354)
+[2025-11-19 01:08:05,799] INFO - 🔵 [Thread-Thread-141 (handle_client)] Atendiendo cliente 127.0.0.1:56354
+[2025-11-19 01:08:05,800] INFO - 📥 Cliente 127.0.0.1:56354 -> STATS
+[2025-11-19 01:08:05,800] INFO - 📤 Respuesta a 127.0.0.1:56354 -> OK|Clientes conectados: 141|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:08:05,800] INFO - ⚠️ Cliente 127.0.0.1:56354 desconectado (sin datos)
+[2025-11-19 01:08:05,802] INFO - 🔴 Conexión cerrada con 127.0.0.1:56354
+[2025-11-19 01:08:06,858] INFO - ✅ Cliente conectado desde ('127.0.0.1', 61131)
+[2025-11-19 01:08:06,858] INFO - 🔵 [Thread-Thread-142 (handle_client)] Atendiendo cliente 127.0.0.1:61131
+[2025-11-19 01:08:06,859] INFO - 📥 Cliente 127.0.0.1:61131 -> HISTORIAL 1350509525
+[2025-11-19 01:08:06,861] INFO - 📤 Respuesta a 127.0.0.1:61131 -> OK|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26
+[2025-11-19 01:08:06,861] INFO - ⚠️ Cliente 127.0.0.1:61131 desconectado (sin datos)
+[2025-11-19 01:08:06,863] INFO - 🔴 Conexión cerrada con 127.0.0.1:61131
+[2025-11-19 01:08:06,863] INFO - ✅ Cliente conectado desde ('127.0.0.1', 61132)
+[2025-11-19 01:08:06,863] INFO - 🔵 [Thread-Thread-143 (handle_client)] Atendiendo cliente 127.0.0.1:61132
+[2025-11-19 01:08:06,865] INFO - 📥 Cliente 127.0.0.1:61132 -> HISTORIAL 0123456789
+[2025-11-19 01:08:06,866] INFO - 📤 Respuesta a 127.0.0.1:61132 -> OK|Sin transacciones
+[2025-11-19 01:08:06,866] INFO - ⚠️ Cliente 127.0.0.1:61132 desconectado (sin datos)
+[2025-11-19 01:08:06,866] INFO - 🔴 Conexión cerrada con 127.0.0.1:61132
+[2025-11-19 01:08:07,932] INFO - ✅ Cliente conectado desde ('127.0.0.1', 61136)
+[2025-11-19 01:08:07,932] INFO - 🔵 [Thread-Thread-144 (handle_client)] Atendiendo cliente 127.0.0.1:61136
+[2025-11-19 01:08:07,932] INFO - 📥 Cliente 127.0.0.1:61136 -> STATS
+[2025-11-19 01:08:07,934] INFO - 📤 Respuesta a 127.0.0.1:61136 -> OK|Clientes conectados: 144|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:08:07,934] INFO - ⚠️ Cliente 127.0.0.1:61136 desconectado (sin datos)
+[2025-11-19 01:08:07,934] INFO - 🔴 Conexión cerrada con 127.0.0.1:61136
+[2025-11-19 01:08:08,804] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62648)
+[2025-11-19 01:08:08,808] INFO - 🔵 [Thread-Thread-145 (handle_client)] Atendiendo cliente 127.0.0.1:62648
+[2025-11-19 01:08:08,809] INFO - 📥 Cliente 127.0.0.1:62648 -> STATS
+[2025-11-19 01:08:08,810] INFO - 📤 Respuesta a 127.0.0.1:62648 -> OK|Clientes conectados: 145|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:08:08,811] INFO - ⚠️ Cliente 127.0.0.1:62648 desconectado (sin datos)
+[2025-11-19 01:08:08,811] INFO - 🔴 Conexión cerrada con 127.0.0.1:62648
+[2025-11-19 01:08:10,935] INFO - ✅ Cliente conectado desde ('127.0.0.1', 53295)
+[2025-11-19 01:08:10,936] INFO - 🔵 [Thread-Thread-146 (handle_client)] Atendiendo cliente 127.0.0.1:53295
+[2025-11-19 01:08:10,936] INFO - 📥 Cliente 127.0.0.1:53295 -> STATS
+[2025-11-19 01:08:10,937] INFO - 📤 Respuesta a 127.0.0.1:53295 -> OK|Clientes conectados: 146|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:08:10,937] INFO - ⚠️ Cliente 127.0.0.1:53295 desconectado (sin datos)
+[2025-11-19 01:08:10,937] INFO - 🔴 Conexión cerrada con 127.0.0.1:53295
+[2025-11-19 01:08:11,811] INFO - ✅ Cliente conectado desde ('127.0.0.1', 53296)
+[2025-11-19 01:08:11,812] INFO - 🔵 [Thread-Thread-147 (handle_client)] Atendiendo cliente 127.0.0.1:53296
+[2025-11-19 01:08:11,812] INFO - 📥 Cliente 127.0.0.1:53296 -> STATS
+[2025-11-19 01:08:11,813] INFO - 📤 Respuesta a 127.0.0.1:53296 -> OK|Clientes conectados: 147|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:08:11,813] INFO - ⚠️ Cliente 127.0.0.1:53296 desconectado (sin datos)
+[2025-11-19 01:08:11,813] INFO - 🔴 Conexión cerrada con 127.0.0.1:53296
+[2025-11-19 01:08:11,868] INFO - ✅ Cliente conectado desde ('127.0.0.1', 53297)
+[2025-11-19 01:08:11,869] INFO - 🔵 [Thread-Thread-148 (handle_client)] Atendiendo cliente 127.0.0.1:53297
+[2025-11-19 01:08:11,869] INFO - 📥 Cliente 127.0.0.1:53297 -> HISTORIAL 1350509525
+[2025-11-19 01:08:11,872] INFO - 📤 Respuesta a 127.0.0.1:53297 -> OK|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26
+[2025-11-19 01:08:11,872] INFO - ⚠️ Cliente 127.0.0.1:53297 desconectado (sin datos)
+[2025-11-19 01:08:11,872] INFO - 🔴 Conexión cerrada con 127.0.0.1:53297
+[2025-11-19 01:08:11,873] INFO - ✅ Cliente conectado desde ('127.0.0.1', 53298)
+[2025-11-19 01:08:11,873] INFO - 🔵 [Thread-Thread-149 (handle_client)] Atendiendo cliente 127.0.0.1:53298
+[2025-11-19 01:08:11,874] INFO - 📥 Cliente 127.0.0.1:53298 -> HISTORIAL 0123456789
+[2025-11-19 01:08:11,877] INFO - 📤 Respuesta a 127.0.0.1:53298 -> OK|Sin transacciones
+[2025-11-19 01:08:11,878] INFO - ⚠️ Cliente 127.0.0.1:53298 desconectado (sin datos)
+[2025-11-19 01:08:11,878] INFO - 🔴 Conexión cerrada con 127.0.0.1:53298
+[2025-11-19 01:08:13,938] INFO - ✅ Cliente conectado desde ('127.0.0.1', 60173)
+[2025-11-19 01:08:13,939] INFO - 🔵 [Thread-Thread-150 (handle_client)] Atendiendo cliente 127.0.0.1:60173
+[2025-11-19 01:08:13,939] INFO - 📥 Cliente 127.0.0.1:60173 -> STATS
+[2025-11-19 01:08:13,940] INFO - 📤 Respuesta a 127.0.0.1:60173 -> OK|Clientes conectados: 150|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:08:13,940] INFO - ⚠️ Cliente 127.0.0.1:60173 desconectado (sin datos)
+[2025-11-19 01:08:13,940] INFO - 🔴 Conexión cerrada con 127.0.0.1:60173
+[2025-11-19 01:08:14,814] INFO - ✅ Cliente conectado desde ('127.0.0.1', 52869)
+[2025-11-19 01:08:14,815] INFO - 🔵 [Thread-Thread-151 (handle_client)] Atendiendo cliente 127.0.0.1:52869
+[2025-11-19 01:08:14,815] INFO - 📥 Cliente 127.0.0.1:52869 -> STATS
+[2025-11-19 01:08:14,816] INFO - 📤 Respuesta a 127.0.0.1:52869 -> OK|Clientes conectados: 151|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:08:14,816] INFO - ⚠️ Cliente 127.0.0.1:52869 desconectado (sin datos)
+[2025-11-19 01:08:14,816] INFO - 🔴 Conexión cerrada con 127.0.0.1:52869
+[2025-11-19 01:08:16,879] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58930)
+[2025-11-19 01:08:16,881] INFO - 🔵 [Thread-Thread-152 (handle_client)] Atendiendo cliente 127.0.0.1:58930
+[2025-11-19 01:08:16,881] INFO - 📥 Cliente 127.0.0.1:58930 -> HISTORIAL 1350509525
+[2025-11-19 01:08:16,886] INFO - 📤 Respuesta a 127.0.0.1:58930 -> OK|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37|RETIRO|22.00|5257.45|2025-11-18 20:43:26
+[2025-11-19 01:08:16,886] INFO - ⚠️ Cliente 127.0.0.1:58930 desconectado (sin datos)
+[2025-11-19 01:08:16,886] INFO - 🔴 Conexión cerrada con 127.0.0.1:58930
+[2025-11-19 01:08:16,888] INFO - ✅ Cliente conectado desde ('127.0.0.1', 58931)
+[2025-11-19 01:08:16,889] INFO - 🔵 [Thread-Thread-153 (handle_client)] Atendiendo cliente 127.0.0.1:58931
+[2025-11-19 01:08:16,890] INFO - 📥 Cliente 127.0.0.1:58931 -> HISTORIAL 0123456789
+[2025-11-19 01:08:16,892] INFO - 📤 Respuesta a 127.0.0.1:58931 -> OK|Sin transacciones
+[2025-11-19 01:08:16,892] INFO - ⚠️ Cliente 127.0.0.1:58931 desconectado (sin datos)
+[2025-11-19 01:08:16,892] INFO - 🔴 Conexión cerrada con 127.0.0.1:58931
+[2025-11-19 01:08:16,941] INFO - ✅ Cliente conectado desde ('127.0.0.1', 57558)
+[2025-11-19 01:08:16,941] INFO - 🔵 [Thread-Thread-154 (handle_client)] Atendiendo cliente 127.0.0.1:57558
+[2025-11-19 01:08:16,941] INFO - 📥 Cliente 127.0.0.1:57558 -> STATS
+[2025-11-19 01:08:16,942] INFO - 📤 Respuesta a 127.0.0.1:57558 -> OK|Clientes conectados: 154|Transacciones: 1|IPs activas: 1
+[2025-11-19 01:08:16,942] INFO - ⚠️ Cliente 127.0.0.1:57558 desconectado (sin datos)
+[2025-11-19 01:08:16,942] INFO - 🔴 Conexión cerrada con 127.0.0.1:57558
+[2025-11-19 01:08:17,217] INFO - ✅ Cliente conectado desde ('127.0.0.1', 52145)
+[2025-11-19 01:08:17,218] INFO - 🔵 [Thread-Thread-155 (handle_client)] Atendiendo cliente 127.0.0.1:52145
+[2025-11-19 01:08:17,218] INFO - 📥 Cliente 127.0.0.1:52145 -> TRANSFERIR 1350509525 0123456789 1
+[2025-11-19 01:08:17,230] INFO - 📤 MQTT: TRANSFERENCIA $1.0 de 1350509525 a 0123456789
+[2025-11-19 01:08:17,231] ERROR - ❌ Error en TRANSFERIR: Object of type Decimal is not JSON serializable
+[2025-11-19 01:08:17,231] INFO - 📤 Respuesta a 127.0.0.1:52145 -> ERROR|Object of type Decimal is not JSON serializable
+[2025-11-19 01:08:17,231] INFO - ⚠️ Cliente 127.0.0.1:52145 desconectado (sin datos)
+[2025-11-19 01:08:17,231] INFO - 🔴 Conexión cerrada con 127.0.0.1:52145
+[2025-11-19 01:08:17,818] INFO - ✅ Cliente conectado desde ('127.0.0.1', 56508)
+[2025-11-19 01:08:17,819] INFO - 🔵 [Thread-Thread-156 (handle_client)] Atendiendo cliente 127.0.0.1:56508
+[2025-11-19 01:08:17,820] INFO - 📥 Cliente 127.0.0.1:56508 -> STATS
+[2025-11-19 01:08:17,820] INFO - 📤 Respuesta a 127.0.0.1:56508 -> OK|Clientes conectados: 156|Transacciones: 3|IPs activas: 1
+[2025-11-19 01:08:17,821] INFO - ⚠️ Cliente 127.0.0.1:56508 desconectado (sin datos)
+[2025-11-19 01:08:17,821] INFO - 🔴 Conexión cerrada con 127.0.0.1:56508
+[2025-11-19 01:08:19,943] INFO - ✅ Cliente conectado desde ('127.0.0.1', 54705)
+[2025-11-19 01:08:19,944] INFO - 🔵 [Thread-Thread-157 (handle_client)] Atendiendo cliente 127.0.0.1:54705
+[2025-11-19 01:08:19,944] INFO - 📥 Cliente 127.0.0.1:54705 -> STATS
+[2025-11-19 01:08:19,944] INFO - 📤 Respuesta a 127.0.0.1:54705 -> OK|Clientes conectados: 157|Transacciones: 3|IPs activas: 1
+[2025-11-19 01:08:19,944] INFO - ⚠️ Cliente 127.0.0.1:54705 desconectado (sin datos)
+[2025-11-19 01:08:19,945] INFO - 🔴 Conexión cerrada con 127.0.0.1:54705
+[2025-11-19 01:08:20,823] INFO - ✅ Cliente conectado desde ('127.0.0.1', 54706)
+[2025-11-19 01:08:20,823] INFO - 🔵 [Thread-Thread-158 (handle_client)] Atendiendo cliente 127.0.0.1:54706
+[2025-11-19 01:08:20,823] INFO - 📥 Cliente 127.0.0.1:54706 -> STATS
+[2025-11-19 01:08:20,823] INFO - 📤 Respuesta a 127.0.0.1:54706 -> OK|Clientes conectados: 158|Transacciones: 3|IPs activas: 1
+[2025-11-19 01:08:20,824] INFO - ⚠️ Cliente 127.0.0.1:54706 desconectado (sin datos)
+[2025-11-19 01:08:20,824] INFO - 🔴 Conexión cerrada con 127.0.0.1:54706
+[2025-11-19 01:08:21,892] INFO - ✅ Cliente conectado desde ('127.0.0.1', 50941)
+[2025-11-19 01:08:21,894] INFO - 🔵 [Thread-Thread-159 (handle_client)] Atendiendo cliente 127.0.0.1:50941
+[2025-11-19 01:08:21,894] INFO - 📥 Cliente 127.0.0.1:50941 -> HISTORIAL 1350509525
+[2025-11-19 01:08:21,896] INFO - 📤 Respuesta a 127.0.0.1:50941 -> OK|TRANSFERENCIA_ENVIADA|1.00|5022.45|2025-11-19 01:08:17|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37
+[2025-11-19 01:08:21,896] INFO - ⚠️ Cliente 127.0.0.1:50941 desconectado (sin datos)
+[2025-11-19 01:08:21,896] INFO - 🔴 Conexión cerrada con 127.0.0.1:50941
+[2025-11-19 01:08:21,897] INFO - ✅ Cliente conectado desde ('127.0.0.1', 50942)
+[2025-11-19 01:08:21,898] INFO - 🔵 [Thread-Thread-160 (handle_client)] Atendiendo cliente 127.0.0.1:50942
+[2025-11-19 01:08:21,898] INFO - 📥 Cliente 127.0.0.1:50942 -> HISTORIAL 0123456789
+[2025-11-19 01:08:21,900] INFO - 📤 Respuesta a 127.0.0.1:50942 -> OK|TRANSFERENCIA_RECIBIDA|1.00|1.00|2025-11-19 01:08:17
+[2025-11-19 01:08:21,900] INFO - ⚠️ Cliente 127.0.0.1:50942 desconectado (sin datos)
+[2025-11-19 01:08:21,901] INFO - 🔴 Conexión cerrada con 127.0.0.1:50942
+[2025-11-19 01:08:22,947] INFO - ✅ Cliente conectado desde ('127.0.0.1', 50943)
+[2025-11-19 01:08:22,947] INFO - 🔵 [Thread-Thread-161 (handle_client)] Atendiendo cliente 127.0.0.1:50943
+[2025-11-19 01:08:22,948] INFO - 📥 Cliente 127.0.0.1:50943 -> STATS
+[2025-11-19 01:08:22,948] INFO - 📤 Respuesta a 127.0.0.1:50943 -> OK|Clientes conectados: 161|Transacciones: 3|IPs activas: 1
+[2025-11-19 01:08:22,949] INFO - ⚠️ Cliente 127.0.0.1:50943 desconectado (sin datos)
+[2025-11-19 01:08:22,949] INFO - 🔴 Conexión cerrada con 127.0.0.1:50943
+[2025-11-19 01:08:23,826] INFO - ✅ Cliente conectado desde ('127.0.0.1', 51089)
+[2025-11-19 01:08:23,826] INFO - 🔵 [Thread-Thread-162 (handle_client)] Atendiendo cliente 127.0.0.1:51089
+[2025-11-19 01:08:23,827] INFO - 📥 Cliente 127.0.0.1:51089 -> STATS
+[2025-11-19 01:08:23,827] INFO - 📤 Respuesta a 127.0.0.1:51089 -> OK|Clientes conectados: 162|Transacciones: 3|IPs activas: 1
+[2025-11-19 01:08:23,827] INFO - ⚠️ Cliente 127.0.0.1:51089 desconectado (sin datos)
+[2025-11-19 01:08:23,828] INFO - 🔴 Conexión cerrada con 127.0.0.1:51089
+[2025-11-19 01:08:25,949] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62198)
+[2025-11-19 01:08:25,950] INFO - 🔵 [Thread-Thread-163 (handle_client)] Atendiendo cliente 127.0.0.1:62198
+[2025-11-19 01:08:25,950] INFO - 📥 Cliente 127.0.0.1:62198 -> STATS
+[2025-11-19 01:08:25,950] INFO - 📤 Respuesta a 127.0.0.1:62198 -> OK|Clientes conectados: 163|Transacciones: 3|IPs activas: 1
+[2025-11-19 01:08:25,951] INFO - ⚠️ Cliente 127.0.0.1:62198 desconectado (sin datos)
+[2025-11-19 01:08:25,951] INFO - 🔴 Conexión cerrada con 127.0.0.1:62198
+[2025-11-19 01:08:26,828] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62199)
+[2025-11-19 01:08:26,829] INFO - 🔵 [Thread-Thread-164 (handle_client)] Atendiendo cliente 127.0.0.1:62199
+[2025-11-19 01:08:26,829] INFO - 📥 Cliente 127.0.0.1:62199 -> STATS
+[2025-11-19 01:08:26,830] INFO - 📤 Respuesta a 127.0.0.1:62199 -> OK|Clientes conectados: 164|Transacciones: 3|IPs activas: 1
+[2025-11-19 01:08:26,830] INFO - ⚠️ Cliente 127.0.0.1:62199 desconectado (sin datos)
+[2025-11-19 01:08:26,830] INFO - 🔴 Conexión cerrada con 127.0.0.1:62199
+[2025-11-19 01:08:26,902] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62200)
+[2025-11-19 01:08:26,903] INFO - 🔵 [Thread-Thread-165 (handle_client)] Atendiendo cliente 127.0.0.1:62200
+[2025-11-19 01:08:26,906] INFO - 📥 Cliente 127.0.0.1:62200 -> HISTORIAL 1350509525
+[2025-11-19 01:08:26,914] INFO - 📤 Respuesta a 127.0.0.1:62200 -> OK|TRANSFERENCIA_ENVIADA|1.00|5022.45|2025-11-19 01:08:17|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39|RETIRO|1423.00|3834.45|2025-11-18 20:44:37
+[2025-11-19 01:08:26,915] INFO - ⚠️ Cliente 127.0.0.1:62200 desconectado (sin datos)
+[2025-11-19 01:08:26,915] INFO - 🔴 Conexión cerrada con 127.0.0.1:62200
+[2025-11-19 01:08:26,916] INFO - ✅ Cliente conectado desde ('127.0.0.1', 62201)
+[2025-11-19 01:08:26,917] INFO - 🔵 [Thread-Thread-166 (handle_client)] Atendiendo cliente 127.0.0.1:62201
+[2025-11-19 01:08:26,917] INFO - 📥 Cliente 127.0.0.1:62201 -> HISTORIAL 0123456789
+[2025-11-19 01:08:26,920] INFO - 📤 Respuesta a 127.0.0.1:62201 -> OK|TRANSFERENCIA_RECIBIDA|1.00|1.00|2025-11-19 01:08:17
+[2025-11-19 01:08:26,922] INFO - ⚠️ Cliente 127.0.0.1:62201 desconectado (sin datos)
+[2025-11-19 01:08:26,925] INFO - 🔴 Conexión cerrada con 127.0.0.1:62201
+[2025-11-19 01:08:28,953] INFO - ✅ Cliente conectado desde ('127.0.0.1', 57652)
+[2025-11-19 01:08:28,953] INFO - 🔵 [Thread-Thread-167 (handle_client)] Atendiendo cliente 127.0.0.1:57652
+[2025-11-19 01:08:28,953] INFO - 📥 Cliente 127.0.0.1:57652 -> STATS
+[2025-11-19 01:08:28,954] INFO - 📤 Respuesta a 127.0.0.1:57652 -> OK|Clientes conectados: 167|Transacciones: 3|IPs activas: 1
+[2025-11-19 01:08:28,954] INFO - ⚠️ Cliente 127.0.0.1:57652 desconectado (sin datos)
+[2025-11-19 01:08:28,954] INFO - 🔴 Conexión cerrada con 127.0.0.1:57652
+[2025-11-19 01:08:29,831] INFO - ✅ Cliente conectado desde ('127.0.0.1', 57654)
+[2025-11-19 01:08:29,832] INFO - 🔵 [Thread-Thread-168 (handle_client)] Atendiendo cliente 127.0.0.1:57654
+[2025-11-19 01:08:29,832] INFO - 📥 Cliente 127.0.0.1:57654 -> STATS
+[2025-11-19 01:08:29,833] INFO - 📤 Respuesta a 127.0.0.1:57654 -> OK|Clientes conectados: 168|Transacciones: 3|IPs activas: 1
+[2025-11-19 01:08:29,833] INFO - ⚠️ Cliente 127.0.0.1:57654 desconectado (sin datos)
+[2025-11-19 01:08:29,833] INFO - 🔴 Conexión cerrada con 127.0.0.1:57654
+[2025-11-19 01:08:31,329] INFO - ✅ Cliente conectado desde ('127.0.0.1', 64630)
+[2025-11-19 01:08:31,329] INFO - 🔵 [Thread-Thread-169 (handle_client)] Atendiendo cliente 127.0.0.1:64630
+[2025-11-19 01:08:31,330] INFO - 📥 Cliente 127.0.0.1:64630 -> TRANSFERIR 1350509525 0123456789 1.22
+[2025-11-19 01:08:31,345] INFO - 📤 MQTT: TRANSFERENCIA $1.22 de 1350509525 a 0123456789
+[2025-11-19 01:08:31,346] ERROR - ❌ Error en TRANSFERIR: Object of type Decimal is not JSON serializable
+[2025-11-19 01:08:31,346] INFO - 📤 Respuesta a 127.0.0.1:64630 -> ERROR|Object of type Decimal is not JSON serializable
+[2025-11-19 01:08:31,346] INFO - ⚠️ Cliente 127.0.0.1:64630 desconectado (sin datos)
+[2025-11-19 01:08:31,347] INFO - 🔴 Conexión cerrada con 127.0.0.1:64630
+[2025-11-19 01:08:31,922] INFO - ✅ Cliente conectado desde ('127.0.0.1', 57602)
+[2025-11-19 01:08:31,922] INFO - 🔵 [Thread-Thread-170 (handle_client)] Atendiendo cliente 127.0.0.1:57602
+[2025-11-19 01:08:31,923] INFO - 📥 Cliente 127.0.0.1:57602 -> HISTORIAL 1350509525
+[2025-11-19 01:08:31,925] INFO - 📤 Respuesta a 127.0.0.1:57602 -> OK|TRANSFERENCIA_ENVIADA|1.22|5021.23|2025-11-19 01:08:31|TRANSFERENCIA_ENVIADA|1.00|5022.45|2025-11-19 01:08:17|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39
+[2025-11-19 01:08:31,925] INFO - ⚠️ Cliente 127.0.0.1:57602 desconectado (sin datos)
+[2025-11-19 01:08:31,925] INFO - 🔴 Conexión cerrada con 127.0.0.1:57602
+[2025-11-19 01:08:31,926] INFO - ✅ Cliente conectado desde ('127.0.0.1', 57603)
+[2025-11-19 01:08:31,927] INFO - 🔵 [Thread-Thread-171 (handle_client)] Atendiendo cliente 127.0.0.1:57603
+[2025-11-19 01:08:31,927] INFO - 📥 Cliente 127.0.0.1:57603 -> HISTORIAL 0123456789
+[2025-11-19 01:08:31,929] INFO - 📤 Respuesta a 127.0.0.1:57603 -> OK|TRANSFERENCIA_RECIBIDA|1.22|2.22|2025-11-19 01:08:31|TRANSFERENCIA_RECIBIDA|1.00|1.00|2025-11-19 01:08:17
+[2025-11-19 01:08:31,929] INFO - ⚠️ Cliente 127.0.0.1:57603 desconectado (sin datos)
+[2025-11-19 01:08:31,929] INFO - 🔴 Conexión cerrada con 127.0.0.1:57603
+[2025-11-19 01:08:31,955] INFO - ✅ Cliente conectado desde ('127.0.0.1', 57604)
+[2025-11-19 01:08:31,956] INFO - 🔵 [Thread-Thread-172 (handle_client)] Atendiendo cliente 127.0.0.1:57604
+[2025-11-19 01:08:31,956] INFO - 📥 Cliente 127.0.0.1:57604 -> STATS
+[2025-11-19 01:08:31,956] INFO - 📤 Respuesta a 127.0.0.1:57604 -> OK|Clientes conectados: 172|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:08:31,957] INFO - ⚠️ Cliente 127.0.0.1:57604 desconectado (sin datos)
+[2025-11-19 01:08:31,957] INFO - 🔴 Conexión cerrada con 127.0.0.1:57604
+[2025-11-19 01:08:32,833] INFO - ✅ Cliente conectado desde ('127.0.0.1', 59853)
+[2025-11-19 01:08:32,834] INFO - 🔵 [Thread-Thread-173 (handle_client)] Atendiendo cliente 127.0.0.1:59853
+[2025-11-19 01:08:32,834] INFO - 📥 Cliente 127.0.0.1:59853 -> STATS
+[2025-11-19 01:08:32,835] INFO - 📤 Respuesta a 127.0.0.1:59853 -> OK|Clientes conectados: 173|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:08:32,836] INFO - ⚠️ Cliente 127.0.0.1:59853 desconectado (sin datos)
+[2025-11-19 01:08:32,836] INFO - 🔴 Conexión cerrada con 127.0.0.1:59853
+[2025-11-19 01:08:34,957] INFO - ✅ Cliente conectado desde ('127.0.0.1', 50508)
+[2025-11-19 01:08:34,959] INFO - 🔵 [Thread-Thread-174 (handle_client)] Atendiendo cliente 127.0.0.1:50508
+[2025-11-19 01:08:34,959] INFO - 📥 Cliente 127.0.0.1:50508 -> STATS
+[2025-11-19 01:08:34,960] INFO - 📤 Respuesta a 127.0.0.1:50508 -> OK|Clientes conectados: 174|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:08:34,960] INFO - ⚠️ Cliente 127.0.0.1:50508 desconectado (sin datos)
+[2025-11-19 01:08:34,960] INFO - 🔴 Conexión cerrada con 127.0.0.1:50508
+[2025-11-19 01:08:35,837] INFO - ✅ Cliente conectado desde ('127.0.0.1', 50511)
+[2025-11-19 01:08:35,837] INFO - 🔵 [Thread-Thread-175 (handle_client)] Atendiendo cliente 127.0.0.1:50511
+[2025-11-19 01:08:35,838] INFO - 📥 Cliente 127.0.0.1:50511 -> STATS
+[2025-11-19 01:08:35,838] INFO - 📤 Respuesta a 127.0.0.1:50511 -> OK|Clientes conectados: 175|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:08:35,838] INFO - ⚠️ Cliente 127.0.0.1:50511 desconectado (sin datos)
+[2025-11-19 01:08:35,839] INFO - 🔴 Conexión cerrada con 127.0.0.1:50511
+[2025-11-19 01:08:36,931] INFO - ✅ Cliente conectado desde ('127.0.0.1', 60630)
+[2025-11-19 01:08:36,931] INFO - 🔵 [Thread-Thread-176 (handle_client)] Atendiendo cliente 127.0.0.1:60630
+[2025-11-19 01:08:36,931] INFO - 📥 Cliente 127.0.0.1:60630 -> HISTORIAL 1350509525
+[2025-11-19 01:08:36,933] INFO - 📤 Respuesta a 127.0.0.1:60630 -> OK|TRANSFERENCIA_ENVIADA|1.22|5021.23|2025-11-19 01:08:31|TRANSFERENCIA_ENVIADA|1.00|5022.45|2025-11-19 01:08:17|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39
+[2025-11-19 01:08:36,934] INFO - ⚠️ Cliente 127.0.0.1:60630 desconectado (sin datos)
+[2025-11-19 01:08:36,934] INFO - 🔴 Conexión cerrada con 127.0.0.1:60630
+[2025-11-19 01:08:36,934] INFO - ✅ Cliente conectado desde ('127.0.0.1', 60631)
+[2025-11-19 01:08:36,935] INFO - 🔵 [Thread-Thread-177 (handle_client)] Atendiendo cliente 127.0.0.1:60631
+[2025-11-19 01:08:36,935] INFO - 📥 Cliente 127.0.0.1:60631 -> HISTORIAL 0123456789
+[2025-11-19 01:08:36,938] INFO - 📤 Respuesta a 127.0.0.1:60631 -> OK|TRANSFERENCIA_RECIBIDA|1.22|2.22|2025-11-19 01:08:31|TRANSFERENCIA_RECIBIDA|1.00|1.00|2025-11-19 01:08:17
+[2025-11-19 01:08:36,938] INFO - ⚠️ Cliente 127.0.0.1:60631 desconectado (sin datos)
+[2025-11-19 01:08:36,938] INFO - 🔴 Conexión cerrada con 127.0.0.1:60631
+[2025-11-19 01:08:37,960] INFO - ✅ Cliente conectado desde ('127.0.0.1', 60635)
+[2025-11-19 01:08:37,961] INFO - 🔵 [Thread-Thread-178 (handle_client)] Atendiendo cliente 127.0.0.1:60635
+[2025-11-19 01:08:37,961] INFO - 📥 Cliente 127.0.0.1:60635 -> STATS
+[2025-11-19 01:08:37,962] INFO - 📤 Respuesta a 127.0.0.1:60635 -> OK|Clientes conectados: 178|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:08:37,962] INFO - ⚠️ Cliente 127.0.0.1:60635 desconectado (sin datos)
+[2025-11-19 01:08:37,962] INFO - 🔴 Conexión cerrada con 127.0.0.1:60635
+[2025-11-19 01:08:38,840] INFO - ✅ Cliente conectado desde ('127.0.0.1', 60636)
+[2025-11-19 01:08:38,840] INFO - 🔵 [Thread-Thread-179 (handle_client)] Atendiendo cliente 127.0.0.1:60636
+[2025-11-19 01:08:38,841] INFO - 📥 Cliente 127.0.0.1:60636 -> STATS
+[2025-11-19 01:08:38,841] INFO - 📤 Respuesta a 127.0.0.1:60636 -> OK|Clientes conectados: 179|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:08:38,841] INFO - ⚠️ Cliente 127.0.0.1:60636 desconectado (sin datos)
+[2025-11-19 01:08:38,842] INFO - 🔴 Conexión cerrada con 127.0.0.1:60636
+[2025-11-19 01:08:40,964] INFO - ✅ Cliente conectado desde ('127.0.0.1', 49282)
+[2025-11-19 01:08:40,964] INFO - 🔵 [Thread-Thread-180 (handle_client)] Atendiendo cliente 127.0.0.1:49282
+[2025-11-19 01:08:40,965] INFO - 📥 Cliente 127.0.0.1:49282 -> STATS
+[2025-11-19 01:08:40,965] INFO - 📤 Respuesta a 127.0.0.1:49282 -> OK|Clientes conectados: 180|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:08:40,965] INFO - ⚠️ Cliente 127.0.0.1:49282 desconectado (sin datos)
+[2025-11-19 01:08:40,966] INFO - 🔴 Conexión cerrada con 127.0.0.1:49282
+[2025-11-19 01:08:41,843] INFO - ✅ Cliente conectado desde ('127.0.0.1', 49920)
+[2025-11-19 01:08:41,843] INFO - 🔵 [Thread-Thread-181 (handle_client)] Atendiendo cliente 127.0.0.1:49920
+[2025-11-19 01:08:41,844] INFO - 📥 Cliente 127.0.0.1:49920 -> STATS
+[2025-11-19 01:08:41,844] INFO - 📤 Respuesta a 127.0.0.1:49920 -> OK|Clientes conectados: 181|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:08:41,844] INFO - ⚠️ Cliente 127.0.0.1:49920 desconectado (sin datos)
+[2025-11-19 01:08:41,845] INFO - 🔴 Conexión cerrada con 127.0.0.1:49920
+[2025-11-19 01:08:41,939] INFO - ✅ Cliente conectado desde ('127.0.0.1', 49921)
+[2025-11-19 01:08:41,939] INFO - 🔵 [Thread-Thread-182 (handle_client)] Atendiendo cliente 127.0.0.1:49921
+[2025-11-19 01:08:41,940] INFO - 📥 Cliente 127.0.0.1:49921 -> HISTORIAL 1350509525
+[2025-11-19 01:08:41,942] INFO - 📤 Respuesta a 127.0.0.1:49921 -> OK|TRANSFERENCIA_ENVIADA|1.22|5021.23|2025-11-19 01:08:31|TRANSFERENCIA_ENVIADA|1.00|5022.45|2025-11-19 01:08:17|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39
+[2025-11-19 01:08:41,942] INFO - ⚠️ Cliente 127.0.0.1:49921 desconectado (sin datos)
+[2025-11-19 01:08:41,943] INFO - 🔴 Conexión cerrada con 127.0.0.1:49921
+[2025-11-19 01:08:41,943] INFO - ✅ Cliente conectado desde ('127.0.0.1', 49922)
+[2025-11-19 01:08:41,944] INFO - 🔵 [Thread-Thread-183 (handle_client)] Atendiendo cliente 127.0.0.1:49922
+[2025-11-19 01:08:41,944] INFO - 📥 Cliente 127.0.0.1:49922 -> HISTORIAL 0123456789
+[2025-11-19 01:08:41,946] INFO - 📤 Respuesta a 127.0.0.1:49922 -> OK|TRANSFERENCIA_RECIBIDA|1.22|2.22|2025-11-19 01:08:31|TRANSFERENCIA_RECIBIDA|1.00|1.00|2025-11-19 01:08:17
+[2025-11-19 01:08:41,946] INFO - ⚠️ Cliente 127.0.0.1:49922 desconectado (sin datos)
+[2025-11-19 01:08:41,946] INFO - 🔴 Conexión cerrada con 127.0.0.1:49922
+[2025-11-19 01:08:43,966] INFO - ✅ Cliente conectado desde ('127.0.0.1', 59856)
+[2025-11-19 01:08:43,967] INFO - 🔵 [Thread-Thread-184 (handle_client)] Atendiendo cliente 127.0.0.1:59856
+[2025-11-19 01:08:43,968] INFO - 📥 Cliente 127.0.0.1:59856 -> STATS
+[2025-11-19 01:08:43,968] INFO - 📤 Respuesta a 127.0.0.1:59856 -> OK|Clientes conectados: 184|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:08:43,968] INFO - ⚠️ Cliente 127.0.0.1:59856 desconectado (sin datos)
+[2025-11-19 01:08:43,969] INFO - 🔴 Conexión cerrada con 127.0.0.1:59856
+[2025-11-19 01:08:44,846] INFO - ✅ Cliente conectado desde ('127.0.0.1', 59857)
+[2025-11-19 01:08:44,847] INFO - 🔵 [Thread-Thread-185 (handle_client)] Atendiendo cliente 127.0.0.1:59857
+[2025-11-19 01:08:44,847] INFO - 📥 Cliente 127.0.0.1:59857 -> STATS
+[2025-11-19 01:08:44,848] INFO - 📤 Respuesta a 127.0.0.1:59857 -> OK|Clientes conectados: 185|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:08:44,848] INFO - ⚠️ Cliente 127.0.0.1:59857 desconectado (sin datos)
+[2025-11-19 01:08:44,848] INFO - 🔴 Conexión cerrada con 127.0.0.1:59857
+[2025-11-19 01:08:46,948] INFO - ✅ Cliente conectado desde ('127.0.0.1', 54676)
+[2025-11-19 01:08:46,948] INFO - 🔵 [Thread-Thread-186 (handle_client)] Atendiendo cliente 127.0.0.1:54676
+[2025-11-19 01:08:46,949] INFO - 📥 Cliente 127.0.0.1:54676 -> HISTORIAL 1350509525
+[2025-11-19 01:08:46,951] INFO - 📤 Respuesta a 127.0.0.1:54676 -> OK|TRANSFERENCIA_ENVIADA|1.22|5021.23|2025-11-19 01:08:31|TRANSFERENCIA_ENVIADA|1.00|5022.45|2025-11-19 01:08:17|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39
+[2025-11-19 01:08:46,951] INFO - ⚠️ Cliente 127.0.0.1:54676 desconectado (sin datos)
+[2025-11-19 01:08:46,951] INFO - 🔴 Conexión cerrada con 127.0.0.1:54676
+[2025-11-19 01:08:46,952] INFO - ✅ Cliente conectado desde ('127.0.0.1', 54677)
+[2025-11-19 01:08:46,952] INFO - 🔵 [Thread-Thread-187 (handle_client)] Atendiendo cliente 127.0.0.1:54677
+[2025-11-19 01:08:46,953] INFO - 📥 Cliente 127.0.0.1:54677 -> HISTORIAL 0123456789
+[2025-11-19 01:08:46,955] INFO - 📤 Respuesta a 127.0.0.1:54677 -> OK|TRANSFERENCIA_RECIBIDA|1.22|2.22|2025-11-19 01:08:31|TRANSFERENCIA_RECIBIDA|1.00|1.00|2025-11-19 01:08:17
+[2025-11-19 01:08:46,955] INFO - ⚠️ Cliente 127.0.0.1:54677 desconectado (sin datos)
+[2025-11-19 01:08:46,956] INFO - 🔴 Conexión cerrada con 127.0.0.1:54677
+[2025-11-19 01:08:46,970] INFO - ✅ Cliente conectado desde ('127.0.0.1', 54678)
+[2025-11-19 01:08:46,970] INFO - 🔵 [Thread-Thread-188 (handle_client)] Atendiendo cliente 127.0.0.1:54678
+[2025-11-19 01:08:46,971] INFO - 📥 Cliente 127.0.0.1:54678 -> STATS
+[2025-11-19 01:08:46,971] INFO - 📤 Respuesta a 127.0.0.1:54678 -> OK|Clientes conectados: 188|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:08:46,972] INFO - ⚠️ Cliente 127.0.0.1:54678 desconectado (sin datos)
+[2025-11-19 01:08:46,972] INFO - 🔴 Conexión cerrada con 127.0.0.1:54678
+[2025-11-19 01:08:47,849] INFO - ✅ Cliente conectado desde ('127.0.0.1', 54679)
+[2025-11-19 01:08:47,849] INFO - 🔵 [Thread-Thread-189 (handle_client)] Atendiendo cliente 127.0.0.1:54679
+[2025-11-19 01:08:47,850] INFO - 📥 Cliente 127.0.0.1:54679 -> STATS
+[2025-11-19 01:08:47,850] INFO - 📤 Respuesta a 127.0.0.1:54679 -> OK|Clientes conectados: 189|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:08:47,850] INFO - ⚠️ Cliente 127.0.0.1:54679 desconectado (sin datos)
+[2025-11-19 01:08:47,850] INFO - 🔴 Conexión cerrada con 127.0.0.1:54679
+[2025-11-19 01:08:49,973] INFO - ✅ Cliente conectado desde ('127.0.0.1', 61682)
+[2025-11-19 01:08:49,974] INFO - 🔵 [Thread-Thread-190 (handle_client)] Atendiendo cliente 127.0.0.1:61682
+[2025-11-19 01:08:49,974] INFO - 📥 Cliente 127.0.0.1:61682 -> STATS
+[2025-11-19 01:08:49,974] INFO - 📤 Respuesta a 127.0.0.1:61682 -> OK|Clientes conectados: 190|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:08:49,974] INFO - ⚠️ Cliente 127.0.0.1:61682 desconectado (sin datos)
+[2025-11-19 01:08:49,975] INFO - 🔴 Conexión cerrada con 127.0.0.1:61682
+[2025-11-19 01:08:50,852] INFO - ✅ Cliente conectado desde ('127.0.0.1', 64740)
+[2025-11-19 01:08:50,853] INFO - 🔵 [Thread-Thread-191 (handle_client)] Atendiendo cliente 127.0.0.1:64740
+[2025-11-19 01:08:50,853] INFO - 📥 Cliente 127.0.0.1:64740 -> STATS
+[2025-11-19 01:08:50,853] INFO - 📤 Respuesta a 127.0.0.1:64740 -> OK|Clientes conectados: 191|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:08:50,853] INFO - ⚠️ Cliente 127.0.0.1:64740 desconectado (sin datos)
+[2025-11-19 01:08:50,854] INFO - 🔴 Conexión cerrada con 127.0.0.1:64740
+[2025-11-19 01:08:51,956] INFO - ✅ Cliente conectado desde ('127.0.0.1', 64741)
+[2025-11-19 01:08:51,957] INFO - 🔵 [Thread-Thread-192 (handle_client)] Atendiendo cliente 127.0.0.1:64741
+[2025-11-19 01:08:51,957] INFO - 📥 Cliente 127.0.0.1:64741 -> HISTORIAL 1350509525
+[2025-11-19 01:08:51,960] INFO - 📤 Respuesta a 127.0.0.1:64741 -> OK|TRANSFERENCIA_ENVIADA|1.22|5021.23|2025-11-19 01:08:31|TRANSFERENCIA_ENVIADA|1.00|5022.45|2025-11-19 01:08:17|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39
+[2025-11-19 01:08:51,960] INFO - ⚠️ Cliente 127.0.0.1:64741 desconectado (sin datos)
+[2025-11-19 01:08:51,960] INFO - 🔴 Conexión cerrada con 127.0.0.1:64741
+[2025-11-19 01:08:51,962] INFO - ✅ Cliente conectado desde ('127.0.0.1', 64742)
+[2025-11-19 01:08:51,962] INFO - 🔵 [Thread-Thread-193 (handle_client)] Atendiendo cliente 127.0.0.1:64742
+[2025-11-19 01:08:51,963] INFO - 📥 Cliente 127.0.0.1:64742 -> HISTORIAL 0123456789
+[2025-11-19 01:08:51,965] INFO - 📤 Respuesta a 127.0.0.1:64742 -> OK|TRANSFERENCIA_RECIBIDA|1.22|2.22|2025-11-19 01:08:31|TRANSFERENCIA_RECIBIDA|1.00|1.00|2025-11-19 01:08:17
+[2025-11-19 01:08:51,965] INFO - ⚠️ Cliente 127.0.0.1:64742 desconectado (sin datos)
+[2025-11-19 01:08:51,966] INFO - 🔴 Conexión cerrada con 127.0.0.1:64742
+[2025-11-19 01:08:52,975] INFO - ✅ Cliente conectado desde ('127.0.0.1', 53217)
+[2025-11-19 01:08:52,975] INFO - 🔵 [Thread-Thread-194 (handle_client)] Atendiendo cliente 127.0.0.1:53217
+[2025-11-19 01:08:52,977] INFO - 📥 Cliente 127.0.0.1:53217 -> STATS
+[2025-11-19 01:08:52,977] INFO - 📤 Respuesta a 127.0.0.1:53217 -> OK|Clientes conectados: 194|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:08:52,977] INFO - ⚠️ Cliente 127.0.0.1:53217 desconectado (sin datos)
+[2025-11-19 01:08:52,977] INFO - 🔴 Conexión cerrada con 127.0.0.1:53217
+[2025-11-19 01:08:53,854] INFO - ✅ Cliente conectado desde ('127.0.0.1', 53218)
+[2025-11-19 01:08:53,855] INFO - 🔵 [Thread-Thread-195 (handle_client)] Atendiendo cliente 127.0.0.1:53218
+[2025-11-19 01:08:53,855] INFO - 📥 Cliente 127.0.0.1:53218 -> STATS
+[2025-11-19 01:08:53,855] INFO - 📤 Respuesta a 127.0.0.1:53218 -> OK|Clientes conectados: 195|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:08:53,855] INFO - ⚠️ Cliente 127.0.0.1:53218 desconectado (sin datos)
+[2025-11-19 01:08:53,857] INFO - 🔴 Conexión cerrada con 127.0.0.1:53218
+[2025-11-19 01:08:55,978] INFO - ✅ Cliente conectado desde ('127.0.0.1', 63739)
+[2025-11-19 01:08:55,978] INFO - 🔵 [Thread-Thread-196 (handle_client)] Atendiendo cliente 127.0.0.1:63739
+[2025-11-19 01:08:55,979] INFO - 📥 Cliente 127.0.0.1:63739 -> STATS
+[2025-11-19 01:08:55,979] INFO - 📤 Respuesta a 127.0.0.1:63739 -> OK|Clientes conectados: 196|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:08:55,979] INFO - ⚠️ Cliente 127.0.0.1:63739 desconectado (sin datos)
+[2025-11-19 01:08:55,979] INFO - 🔴 Conexión cerrada con 127.0.0.1:63739
+[2025-11-19 01:08:56,857] INFO - ✅ Cliente conectado desde ('127.0.0.1', 63741)
+[2025-11-19 01:08:56,858] INFO - 🔵 [Thread-Thread-197 (handle_client)] Atendiendo cliente 127.0.0.1:63741
+[2025-11-19 01:08:56,858] INFO - 📥 Cliente 127.0.0.1:63741 -> STATS
+[2025-11-19 01:08:56,858] INFO - 📤 Respuesta a 127.0.0.1:63741 -> OK|Clientes conectados: 197|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:08:56,858] INFO - ⚠️ Cliente 127.0.0.1:63741 desconectado (sin datos)
+[2025-11-19 01:08:56,858] INFO - 🔴 Conexión cerrada con 127.0.0.1:63741
+[2025-11-19 01:08:56,966] INFO - ✅ Cliente conectado desde ('127.0.0.1', 63742)
+[2025-11-19 01:08:56,966] INFO - 🔵 [Thread-Thread-198 (handle_client)] Atendiendo cliente 127.0.0.1:63742
+[2025-11-19 01:08:56,968] INFO - 📥 Cliente 127.0.0.1:63742 -> HISTORIAL 1350509525
+[2025-11-19 01:08:56,969] INFO - 📤 Respuesta a 127.0.0.1:63742 -> OK|TRANSFERENCIA_ENVIADA|1.22|5021.23|2025-11-19 01:08:31|TRANSFERENCIA_ENVIADA|1.00|5022.45|2025-11-19 01:08:17|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39
+[2025-11-19 01:08:56,969] INFO - ⚠️ Cliente 127.0.0.1:63742 desconectado (sin datos)
+[2025-11-19 01:08:56,969] INFO - 🔴 Conexión cerrada con 127.0.0.1:63742
+[2025-11-19 01:08:56,971] INFO - ✅ Cliente conectado desde ('127.0.0.1', 63743)
+[2025-11-19 01:08:56,971] INFO - 🔵 [Thread-Thread-199 (handle_client)] Atendiendo cliente 127.0.0.1:63743
+[2025-11-19 01:08:56,971] INFO - 📥 Cliente 127.0.0.1:63743 -> HISTORIAL 0123456789
+[2025-11-19 01:08:56,973] INFO - 📤 Respuesta a 127.0.0.1:63743 -> OK|TRANSFERENCIA_RECIBIDA|1.22|2.22|2025-11-19 01:08:31|TRANSFERENCIA_RECIBIDA|1.00|1.00|2025-11-19 01:08:17
+[2025-11-19 01:08:56,974] INFO - ⚠️ Cliente 127.0.0.1:63743 desconectado (sin datos)
+[2025-11-19 01:08:56,974] INFO - 🔴 Conexión cerrada con 127.0.0.1:63743
+[2025-11-19 01:08:58,981] INFO - ✅ Cliente conectado desde ('127.0.0.1', 49305)
+[2025-11-19 01:08:58,981] INFO - 🔵 [Thread-Thread-200 (handle_client)] Atendiendo cliente 127.0.0.1:49305
+[2025-11-19 01:08:58,981] INFO - 📥 Cliente 127.0.0.1:49305 -> STATS
+[2025-11-19 01:08:58,983] INFO - 📤 Respuesta a 127.0.0.1:49305 -> OK|Clientes conectados: 200|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:08:58,983] INFO - ⚠️ Cliente 127.0.0.1:49305 desconectado (sin datos)
+[2025-11-19 01:08:58,983] INFO - 🔴 Conexión cerrada con 127.0.0.1:49305
+[2025-11-19 01:08:59,860] INFO - ✅ Cliente conectado desde ('127.0.0.1', 49306)
+[2025-11-19 01:08:59,860] INFO - 🔵 [Thread-Thread-201 (handle_client)] Atendiendo cliente 127.0.0.1:49306
+[2025-11-19 01:08:59,860] INFO - 📥 Cliente 127.0.0.1:49306 -> STATS
+[2025-11-19 01:08:59,862] INFO - 📤 Respuesta a 127.0.0.1:49306 -> OK|Clientes conectados: 201|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:08:59,862] INFO - ⚠️ Cliente 127.0.0.1:49306 desconectado (sin datos)
+[2025-11-19 01:08:59,862] INFO - 🔴 Conexión cerrada con 127.0.0.1:49306
+[2025-11-19 01:09:01,975] INFO - ✅ Cliente conectado desde ('127.0.0.1', 60376)
+[2025-11-19 01:09:01,975] INFO - 🔵 [Thread-Thread-202 (handle_client)] Atendiendo cliente 127.0.0.1:60376
+[2025-11-19 01:09:01,975] INFO - 📥 Cliente 127.0.0.1:60376 -> HISTORIAL 1350509525
+[2025-11-19 01:09:01,978] INFO - 📤 Respuesta a 127.0.0.1:60376 -> OK|TRANSFERENCIA_ENVIADA|1.22|5021.23|2025-11-19 01:08:31|TRANSFERENCIA_ENVIADA|1.00|5022.45|2025-11-19 01:08:17|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39
+[2025-11-19 01:09:01,978] INFO - ⚠️ Cliente 127.0.0.1:60376 desconectado (sin datos)
+[2025-11-19 01:09:01,978] INFO - 🔴 Conexión cerrada con 127.0.0.1:60376
+[2025-11-19 01:09:01,978] INFO - ✅ Cliente conectado desde ('127.0.0.1', 60377)
+[2025-11-19 01:09:01,980] INFO - 🔵 [Thread-Thread-203 (handle_client)] Atendiendo cliente 127.0.0.1:60377
+[2025-11-19 01:09:01,980] INFO - 📥 Cliente 127.0.0.1:60377 -> HISTORIAL 0123456789
+[2025-11-19 01:09:01,981] INFO - 📤 Respuesta a 127.0.0.1:60377 -> OK|TRANSFERENCIA_RECIBIDA|1.22|2.22|2025-11-19 01:08:31|TRANSFERENCIA_RECIBIDA|1.00|1.00|2025-11-19 01:08:17
+[2025-11-19 01:09:01,981] INFO - ⚠️ Cliente 127.0.0.1:60377 desconectado (sin datos)
+[2025-11-19 01:09:01,981] INFO - 🔴 Conexión cerrada con 127.0.0.1:60377
+[2025-11-19 01:09:01,984] INFO - ✅ Cliente conectado desde ('127.0.0.1', 60378)
+[2025-11-19 01:09:01,984] INFO - 🔵 [Thread-Thread-204 (handle_client)] Atendiendo cliente 127.0.0.1:60378
+[2025-11-19 01:09:01,984] INFO - 📥 Cliente 127.0.0.1:60378 -> STATS
+[2025-11-19 01:09:01,984] INFO - 📤 Respuesta a 127.0.0.1:60378 -> OK|Clientes conectados: 204|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:09:01,986] INFO - ⚠️ Cliente 127.0.0.1:60378 desconectado (sin datos)
+[2025-11-19 01:09:01,986] INFO - 🔴 Conexión cerrada con 127.0.0.1:60378
+[2025-11-19 01:09:02,862] INFO - ✅ Cliente conectado desde ('127.0.0.1', 60379)
+[2025-11-19 01:09:02,864] INFO - 🔵 [Thread-Thread-205 (handle_client)] Atendiendo cliente 127.0.0.1:60379
+[2025-11-19 01:09:02,864] INFO - 📥 Cliente 127.0.0.1:60379 -> STATS
+[2025-11-19 01:09:02,864] INFO - 📤 Respuesta a 127.0.0.1:60379 -> OK|Clientes conectados: 205|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:09:02,864] INFO - ⚠️ Cliente 127.0.0.1:60379 desconectado (sin datos)
+[2025-11-19 01:09:02,866] INFO - 🔴 Conexión cerrada con 127.0.0.1:60379
+[2025-11-19 01:09:04,986] INFO - ✅ Cliente conectado desde ('127.0.0.1', 53892)
+[2025-11-19 01:09:04,987] INFO - 🔵 [Thread-Thread-206 (handle_client)] Atendiendo cliente 127.0.0.1:53892
+[2025-11-19 01:09:04,987] INFO - 📥 Cliente 127.0.0.1:53892 -> STATS
+[2025-11-19 01:09:04,987] INFO - 📤 Respuesta a 127.0.0.1:53892 -> OK|Clientes conectados: 206|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:09:04,987] INFO - ⚠️ Cliente 127.0.0.1:53892 desconectado (sin datos)
+[2025-11-19 01:09:04,987] INFO - 🔴 Conexión cerrada con 127.0.0.1:53892
+[2025-11-19 01:09:05,866] INFO - ✅ Cliente conectado desde ('127.0.0.1', 53893)
+[2025-11-19 01:09:05,867] INFO - 🔵 [Thread-Thread-207 (handle_client)] Atendiendo cliente 127.0.0.1:53893
+[2025-11-19 01:09:05,867] INFO - 📥 Cliente 127.0.0.1:53893 -> STATS
+[2025-11-19 01:09:05,867] INFO - 📤 Respuesta a 127.0.0.1:53893 -> OK|Clientes conectados: 207|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:09:05,867] INFO - ⚠️ Cliente 127.0.0.1:53893 desconectado (sin datos)
+[2025-11-19 01:09:05,868] INFO - 🔴 Conexión cerrada con 127.0.0.1:53893
+[2025-11-19 01:09:06,983] INFO - ✅ Cliente conectado desde ('127.0.0.1', 53894)
+[2025-11-19 01:09:06,983] INFO - 🔵 [Thread-Thread-208 (handle_client)] Atendiendo cliente 127.0.0.1:53894
+[2025-11-19 01:09:06,984] INFO - 📥 Cliente 127.0.0.1:53894 -> HISTORIAL 1350509525
+[2025-11-19 01:09:06,986] INFO - 📤 Respuesta a 127.0.0.1:53894 -> OK|TRANSFERENCIA_ENVIADA|1.22|5021.23|2025-11-19 01:08:31|TRANSFERENCIA_ENVIADA|1.00|5022.45|2025-11-19 01:08:17|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39
+[2025-11-19 01:09:06,986] INFO - ⚠️ Cliente 127.0.0.1:53894 desconectado (sin datos)
+[2025-11-19 01:09:06,986] INFO - 🔴 Conexión cerrada con 127.0.0.1:53894
+[2025-11-19 01:09:06,987] INFO - ✅ Cliente conectado desde ('127.0.0.1', 53895)
+[2025-11-19 01:09:06,987] INFO - 🔵 [Thread-Thread-209 (handle_client)] Atendiendo cliente 127.0.0.1:53895
+[2025-11-19 01:09:06,987] INFO - 📥 Cliente 127.0.0.1:53895 -> HISTORIAL 0123456789
+[2025-11-19 01:09:06,989] INFO - 📤 Respuesta a 127.0.0.1:53895 -> OK|TRANSFERENCIA_RECIBIDA|1.22|2.22|2025-11-19 01:08:31|TRANSFERENCIA_RECIBIDA|1.00|1.00|2025-11-19 01:08:17
+[2025-11-19 01:09:06,989] INFO - ⚠️ Cliente 127.0.0.1:53895 desconectado (sin datos)
+[2025-11-19 01:09:06,990] INFO - 🔴 Conexión cerrada con 127.0.0.1:53895
+[2025-11-19 01:09:07,989] INFO - ✅ Cliente conectado desde ('127.0.0.1', 49840)
+[2025-11-19 01:09:07,989] INFO - 🔵 [Thread-Thread-210 (handle_client)] Atendiendo cliente 127.0.0.1:49840
+[2025-11-19 01:09:07,991] INFO - 📥 Cliente 127.0.0.1:49840 -> STATS
+[2025-11-19 01:09:07,991] INFO - 📤 Respuesta a 127.0.0.1:49840 -> OK|Clientes conectados: 210|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:09:07,991] INFO - ⚠️ Cliente 127.0.0.1:49840 desconectado (sin datos)
+[2025-11-19 01:09:07,991] INFO - 🔴 Conexión cerrada con 127.0.0.1:49840
+[2025-11-19 01:09:08,869] INFO - ✅ Cliente conectado desde ('127.0.0.1', 49841)
+[2025-11-19 01:09:08,870] INFO - 🔵 [Thread-Thread-211 (handle_client)] Atendiendo cliente 127.0.0.1:49841
+[2025-11-19 01:09:08,870] INFO - 📥 Cliente 127.0.0.1:49841 -> STATS
+[2025-11-19 01:09:08,871] INFO - 📤 Respuesta a 127.0.0.1:49841 -> OK|Clientes conectados: 211|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:09:08,871] INFO - ⚠️ Cliente 127.0.0.1:49841 desconectado (sin datos)
+[2025-11-19 01:09:08,871] INFO - 🔴 Conexión cerrada con 127.0.0.1:49841
+[2025-11-19 01:09:10,993] INFO - ✅ Cliente conectado desde ('127.0.0.1', 56578)
+[2025-11-19 01:09:10,993] INFO - 🔵 [Thread-Thread-212 (handle_client)] Atendiendo cliente 127.0.0.1:56578
+[2025-11-19 01:09:10,994] INFO - 📥 Cliente 127.0.0.1:56578 -> STATS
+[2025-11-19 01:09:10,994] INFO - 📤 Respuesta a 127.0.0.1:56578 -> OK|Clientes conectados: 212|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:09:10,994] INFO - ⚠️ Cliente 127.0.0.1:56578 desconectado (sin datos)
+[2025-11-19 01:09:10,994] INFO - 🔴 Conexión cerrada con 127.0.0.1:56578
+[2025-11-19 01:09:11,872] INFO - ✅ Cliente conectado desde ('127.0.0.1', 53803)
+[2025-11-19 01:09:11,872] INFO - 🔵 [Thread-Thread-213 (handle_client)] Atendiendo cliente 127.0.0.1:53803
+[2025-11-19 01:09:11,873] INFO - 📥 Cliente 127.0.0.1:53803 -> STATS
+[2025-11-19 01:09:11,873] INFO - 📤 Respuesta a 127.0.0.1:53803 -> OK|Clientes conectados: 213|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:09:11,873] INFO - ⚠️ Cliente 127.0.0.1:53803 desconectado (sin datos)
+[2025-11-19 01:09:11,874] INFO - 🔴 Conexión cerrada con 127.0.0.1:53803
+[2025-11-19 01:09:11,991] INFO - ✅ Cliente conectado desde ('127.0.0.1', 53804)
+[2025-11-19 01:09:11,991] INFO - 🔵 [Thread-Thread-214 (handle_client)] Atendiendo cliente 127.0.0.1:53804
+[2025-11-19 01:09:11,991] INFO - 📥 Cliente 127.0.0.1:53804 -> HISTORIAL 1350509525
+[2025-11-19 01:09:11,993] INFO - 📤 Respuesta a 127.0.0.1:53804 -> OK|TRANSFERENCIA_ENVIADA|1.22|5021.23|2025-11-19 01:08:31|TRANSFERENCIA_ENVIADA|1.00|5022.45|2025-11-19 01:08:17|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39
+[2025-11-19 01:09:11,994] INFO - ⚠️ Cliente 127.0.0.1:53804 desconectado (sin datos)
+[2025-11-19 01:09:11,994] INFO - 🔴 Conexión cerrada con 127.0.0.1:53804
+[2025-11-19 01:09:11,994] INFO - ✅ Cliente conectado desde ('127.0.0.1', 53805)
+[2025-11-19 01:09:11,995] INFO - 🔵 [Thread-Thread-215 (handle_client)] Atendiendo cliente 127.0.0.1:53805
+[2025-11-19 01:09:11,995] INFO - 📥 Cliente 127.0.0.1:53805 -> HISTORIAL 0123456789
+[2025-11-19 01:09:11,999] INFO - 📤 Respuesta a 127.0.0.1:53805 -> OK|TRANSFERENCIA_RECIBIDA|1.22|2.22|2025-11-19 01:08:31|TRANSFERENCIA_RECIBIDA|1.00|1.00|2025-11-19 01:08:17
+[2025-11-19 01:09:11,999] INFO - ⚠️ Cliente 127.0.0.1:53805 desconectado (sin datos)
+[2025-11-19 01:09:11,999] INFO - 🔴 Conexión cerrada con 127.0.0.1:53805
+[2025-11-19 01:09:13,996] INFO - ✅ Cliente conectado desde ('127.0.0.1', 63690)
+[2025-11-19 01:09:13,996] INFO - 🔵 [Thread-Thread-216 (handle_client)] Atendiendo cliente 127.0.0.1:63690
+[2025-11-19 01:09:13,997] INFO - 📥 Cliente 127.0.0.1:63690 -> STATS
+[2025-11-19 01:09:13,997] INFO - 📤 Respuesta a 127.0.0.1:63690 -> OK|Clientes conectados: 216|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:09:13,997] INFO - ⚠️ Cliente 127.0.0.1:63690 desconectado (sin datos)
+[2025-11-19 01:09:13,997] INFO - 🔴 Conexión cerrada con 127.0.0.1:63690
+[2025-11-19 01:09:14,874] INFO - ✅ Cliente conectado desde ('127.0.0.1', 63691)
+[2025-11-19 01:09:14,874] INFO - 🔵 [Thread-Thread-217 (handle_client)] Atendiendo cliente 127.0.0.1:63691
+[2025-11-19 01:09:14,875] INFO - 📥 Cliente 127.0.0.1:63691 -> STATS
+[2025-11-19 01:09:14,875] INFO - 📤 Respuesta a 127.0.0.1:63691 -> OK|Clientes conectados: 217|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:09:14,875] INFO - ⚠️ Cliente 127.0.0.1:63691 desconectado (sin datos)
+[2025-11-19 01:09:14,876] INFO - 🔴 Conexión cerrada con 127.0.0.1:63691
+[2025-11-19 01:09:16,999] INFO - ✅ Cliente conectado desde ('127.0.0.1', 49611)
+[2025-11-19 01:09:17,000] INFO - 🔵 [Thread-Thread-218 (handle_client)] Atendiendo cliente 127.0.0.1:49611
+[2025-11-19 01:09:17,000] INFO - 📥 Cliente 127.0.0.1:49611 -> STATS
+[2025-11-19 01:09:17,000] INFO - ✅ Cliente conectado desde ('127.0.0.1', 49612)
+[2025-11-19 01:09:17,001] INFO - 📤 Respuesta a 127.0.0.1:49611 -> OK|Clientes conectados: 219|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:09:17,004] INFO - ⚠️ Cliente 127.0.0.1:49611 desconectado (sin datos)
+[2025-11-19 01:09:17,004] INFO - 🔵 [Thread-Thread-219 (handle_client)] Atendiendo cliente 127.0.0.1:49612
+[2025-11-19 01:09:17,005] INFO - 🔴 Conexión cerrada con 127.0.0.1:49611
+[2025-11-19 01:09:17,005] INFO - 📥 Cliente 127.0.0.1:49612 -> HISTORIAL 1350509525
+[2025-11-19 01:09:17,007] INFO - 📤 Respuesta a 127.0.0.1:49612 -> OK|TRANSFERENCIA_ENVIADA|1.22|5021.23|2025-11-19 01:08:31|TRANSFERENCIA_ENVIADA|1.00|5022.45|2025-11-19 01:08:17|RETIRO|22.00|5023.45|2025-11-19 01:06:49|DEPOSITO|22.00|5045.45|2025-11-19 00:55:55|RETIRO|22.00|5023.45|2025-11-18 21:08:28|DEPOSITO|11.00|5045.45|2025-11-18 21:08:24|RETIRO|22.00|5034.45|2025-11-18 21:05:04|DEPOSITO|222.00|5056.45|2025-11-18 21:04:02|RETIRO|1000.00|4834.45|2025-11-18 20:58:03|DEPOSITO|2000.00|5834.45|2025-11-18 20:57:39
+[2025-11-19 01:09:17,008] INFO - ⚠️ Cliente 127.0.0.1:49612 desconectado (sin datos)
+[2025-11-19 01:09:17,008] INFO - 🔴 Conexión cerrada con 127.0.0.1:49612
+[2025-11-19 01:09:17,009] INFO - ✅ Cliente conectado desde ('127.0.0.1', 49613)
+[2025-11-19 01:09:17,012] INFO - 🔵 [Thread-Thread-220 (handle_client)] Atendiendo cliente 127.0.0.1:49613
+[2025-11-19 01:09:17,012] INFO - 📥 Cliente 127.0.0.1:49613 -> HISTORIAL 0123456789
+[2025-11-19 01:09:17,015] INFO - 📤 Respuesta a 127.0.0.1:49613 -> OK|TRANSFERENCIA_RECIBIDA|1.22|2.22|2025-11-19 01:08:31|TRANSFERENCIA_RECIBIDA|1.00|1.00|2025-11-19 01:08:17
+[2025-11-19 01:09:17,018] INFO - ⚠️ Cliente 127.0.0.1:49613 desconectado (sin datos)
+[2025-11-19 01:09:17,018] INFO - 🔴 Conexión cerrada con 127.0.0.1:49613
+[2025-11-19 01:09:17,877] INFO - ✅ Cliente conectado desde ('127.0.0.1', 49614)
+[2025-11-19 01:09:17,879] INFO - 🔵 [Thread-Thread-221 (handle_client)] Atendiendo cliente 127.0.0.1:49614
+[2025-11-19 01:09:17,879] INFO - 📥 Cliente 127.0.0.1:49614 -> STATS
+[2025-11-19 01:09:17,880] INFO - 📤 Respuesta a 127.0.0.1:49614 -> OK|Clientes conectados: 221|Transacciones: 5|IPs activas: 1
+[2025-11-19 01:09:17,880] INFO - ⚠️ Cliente 127.0.0.1:49614 desconectado (sin datos)
+[2025-11-19 01:09:17,880] INFO - 🔴 Conexión cerrada con 127.0.0.1:49614

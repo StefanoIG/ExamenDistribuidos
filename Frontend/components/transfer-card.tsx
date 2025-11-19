@@ -4,6 +4,7 @@ import { useState } from "react"
 import { useToast } from "@/hooks/use-toast"
 import { useSocket } from "@/context/socket-context"
 import { ArrowLeftRight, Loader2 } from "lucide-react"
+import { AlertToast } from "@/components/alert-toast"
 
 interface TransferCardProps {
   currentCedula: string
@@ -15,6 +16,12 @@ export function TransferCard({ currentCedula, currentBalance, onTransferComplete
   const [cedulaDestino, setCedulaDestino] = useState("")
   const [monto, setMonto] = useState("")
   const [loading, setLoading] = useState(false)
+  const [alert, setAlert] = useState<{
+    show: boolean
+    title: string
+    description: string
+    variant: "success" | "error"
+  } | null>(null)
   const { toast } = useToast()
   const { sendSocketMessage } = useSocket()
 
@@ -68,6 +75,15 @@ export function TransferCard({ currentCedula, currentBalance, onTransferComplete
       console.log("Resultado de transferencia:", result)
       
       if (result && result.success === true) {
+        // Mostrar alerta grande de éxito
+        setAlert({
+          show: true,
+          title: "✅ Transferencia Exitosa",
+          description: `Se transfirieron $${amount.toFixed(2)} a la cuenta ${cedulaDestino}`,
+          variant: "success"
+        })
+        
+        // También toast tradicional
         toast({
           title: "✅ Transferencia exitosa",
           description: `$${amount.toFixed(2)} transferidos a ${cedulaDestino}`,
@@ -77,8 +93,17 @@ export function TransferCard({ currentCedula, currentBalance, onTransferComplete
         setMonto("")
         onTransferComplete?.()
       } else {
-        // Mostrar error específico
+        // Mostrar alerta grande de error
         const errorMsg = (result && result.error) || "No se pudo completar la transferencia"
+        
+        setAlert({
+          show: true,
+          title: "❌ Error en Transferencia",
+          description: errorMsg,
+          variant: "error"
+        })
+        
+        // También toast tradicional
         toast({
           title: "❌ Error en transferencia",
           description: errorMsg,
@@ -88,6 +113,13 @@ export function TransferCard({ currentCedula, currentBalance, onTransferComplete
         console.error("Error de transferencia:", errorMsg, result)
       }
     } catch (error) {
+      setAlert({
+        show: true,
+        title: "❌ Error de Conexión",
+        description: "No se pudo conectar con el servidor",
+        variant: "error"
+      })
+      
       toast({
         title: "❌ Error de conexión",
         description: "No se pudo conectar con el servidor",
@@ -101,67 +133,79 @@ export function TransferCard({ currentCedula, currentBalance, onTransferComplete
   }
 
   return (
-    <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 border border-slate-700 shadow-lg">
-      <div className="mb-6">
-        <div className="flex items-center gap-3 mb-2">
-          <div className="p-2 bg-blue-500/20 rounded-lg border border-blue-500/50">
-            <ArrowLeftRight className="h-5 w-5 text-blue-400" />
+    <>
+      {alert && alert.show && (
+        <AlertToast
+          title={alert.title}
+          description={alert.description}
+          variant={alert.variant}
+          duration={6000}
+          onClose={() => setAlert(null)}
+        />
+      )}
+      
+      <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 border border-slate-700 shadow-lg">
+        <div className="mb-6">
+          <div className="flex items-center gap-3 mb-2">
+            <div className="p-2 bg-blue-500/20 rounded-lg border border-blue-500/50">
+              <ArrowLeftRight className="h-5 w-5 text-blue-400" />
+            </div>
+            <h3 className="text-xl font-bold text-white">Transferir a Otra Cuenta</h3>
           </div>
-          <h3 className="text-xl font-bold text-white">Transferir a Otra Cuenta</h3>
+          <p className="text-sm text-slate-400 ml-12">
+            Saldo disponible: <span className="text-emerald-400 font-semibold">${currentBalance.toFixed(2)}</span>
+          </p>
         </div>
-        <p className="text-sm text-slate-400 ml-12">
-          Saldo disponible: <span className="text-emerald-400 font-semibold">${currentBalance.toFixed(2)}</span>
-        </p>
-      </div>
-      <div className="space-y-4">
-        <div className="space-y-2">
-          <label htmlFor="cedula-destino" className="block text-sm font-medium text-slate-300">
-            Cédula Destino
-          </label>
-          <input
-            id="cedula-destino"
-            type="text"
-            placeholder="Cédula de la cuenta destino"
-            value={cedulaDestino}
-            onChange={(e) => setCedulaDestino(e.target.value)}
+        <div className="space-y-4">
+          <div className="space-y-2">
+            <label htmlFor="cedula-destino" className="block text-sm font-medium text-slate-300">
+              Cédula Destino
+            </label>
+            <input
+              id="cedula-destino"
+              type="text"
+              placeholder="Cédula de la cuenta destino"
+              value={cedulaDestino}
+              onChange={(e) => setCedulaDestino(e.target.value)}
+              disabled={loading}
+              className="w-full rounded-xl bg-slate-700/50 border border-slate-600 px-4 py-3 text-white placeholder-slate-500 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20 disabled:opacity-50 transition-all"
+            />
+          </div>
+          <div className="space-y-2">
+            <label htmlFor="monto-transferencia" className="block text-sm font-medium text-slate-300">
+              Monto a Transferir
+            </label>
+            <input
+              id="monto-transferencia"
+              type="number"
+              step="0.01"
+              min="0"
+              placeholder="0.00"
+              value={monto}
+              onChange={(e) => setMonto(e.target.value)}
+              disabled={loading}
+              className="w-full rounded-xl bg-slate-700/50 border border-slate-600 px-4 py-3 text-white placeholder-slate-500 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20 disabled:opacity-50 transition-all"
+            />
+          </div>
+          <button
+            onClick={handleTransfer}
             disabled={loading}
-            className="w-full rounded-xl bg-slate-700/50 border border-slate-600 px-4 py-3 text-white placeholder-slate-500 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20 disabled:opacity-50 transition-all"
-          />
+            className="w-full rounded-xl bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 font-semibold hover:from-blue-700 hover:to-purple-700 disabled:opacity-50 transition-all duration-200 flex items-center justify-center gap-2 shadow-lg mt-6"
+          >
+            {loading ? (
+              <>
+                <Loader2 className="h-4 w-4 animate-spin" />
+                Transfiriendo...
+              </>
+            ) : (
+              <>
+                <ArrowLeftRight className="h-4 w-4" />
+                Transferir
+              </>
+            )}
+          </button>
         </div>
-        <div className="space-y-2">
-          <label htmlFor="monto-transferencia" className="block text-sm font-medium text-slate-300">
-            Monto a Transferir
-          </label>
-          <input
-            id="monto-transferencia"
-            type="number"
-            step="0.01"
-            min="0"
-            placeholder="0.00"
-            value={monto}
-            onChange={(e) => setMonto(e.target.value)}
-            disabled={loading}
-            className="w-full rounded-xl bg-slate-700/50 border border-slate-600 px-4 py-3 text-white placeholder-slate-500 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20 disabled:opacity-50 transition-all"
-          />
-        </div>
-        <button
-          onClick={handleTransfer}
-          disabled={loading}
-          className="w-full rounded-xl bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 font-semibold hover:from-blue-700 hover:to-purple-700 disabled:opacity-50 transition-all duration-200 flex items-center justify-center gap-2 shadow-lg mt-6"
-        >
-          {loading ? (
-            <>
-              <Loader2 className="h-4 w-4 animate-spin" />
-              Transfiriendo...
-            </>
-          ) : (
-            <>
-              <ArrowLeftRight className="h-4 w-4" />
-              Transferir
-            </>
-          )}
-        </button>
       </div>
-    </div>
+    </>
   )
 }
