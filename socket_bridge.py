@@ -94,12 +94,27 @@ class SocketBridge:
                 }
 
             elif 'Cliente creado' in respuesta:
+                # Formato: OK|Cliente creado exitosamente|nombres|apellidos|saldo
                 return {
                     'success': True,
                     'action': 'crear',
                     'data': {
                         'mensaje': 'Cliente creado exitosamente',
-                        'saldo_inicial': float(partes[-1])
+                        'nombres': partes[2] if len(partes) > 2 else '',
+                        'apellidos': partes[3] if len(partes) > 3 else '',
+                        'saldo_inicial': float(partes[4]) if len(partes) > 4 else 0.0
+                    }
+                }
+
+            elif 'Transferencia exitosa' in respuesta:
+                # Formato: OK|Transferencia exitosa|saldo_origen|saldo_destino
+                return {
+                    'success': True,
+                    'action': 'transferir',
+                    'data': {
+                        'mensaje': 'Transferencia exitosa',
+                        'saldo_origen': float(partes[2]) if len(partes) > 2 else 0.0,
+                        'saldo_destino': float(partes[3]) if len(partes) > 3 else 0.0
                     }
                 }
 
@@ -112,9 +127,15 @@ class SocketBridge:
 
             elif 'Clientes conectados' in respuesta:
                 # Formato: OK|Clientes conectados: X|Transacciones: Y|IPs activas: Z
-                clientes_activos = int(partes[1].split(': ')[-1])
-                operaciones_simultaneas = int(partes[2].split(': ')[-1])
-                conexiones_activas = int(partes[3].split(': ')[-1])
+                try:
+                    clientes_activos = int(partes[1].split(': ')[-1])
+                    operaciones_simultaneas = int(partes[2].split(': ')[-1])
+                    conexiones_activas = int(partes[3].split(': ')[-1])
+                except (ValueError, IndexError) as e:
+                    logging.warning(f"Error parseando stats: {e}, respuesta: {respuesta}")
+                    clientes_activos = 0
+                    operaciones_simultaneas = 0
+                    conexiones_activas = 0
                 
                 return {
                     'success': True,
@@ -247,20 +268,22 @@ def retiro():
         return jsonify({'success': False, 'error': str(e)}), 500
 
 
-@app.route('/api/cliente', methods=['POST'])
+@app.route('/api/crear', methods=['POST'])
 def crear_cliente():
-    """Crea un nuevo cliente"""
+    """Crea un nuevo cliente con saldo inicial 0"""
     try:
         data = request.get_json()
         cedula = data.get('cedula')
-        nombres = data.get('nombres')
-        apellidos = data.get('apellidos')
-        saldo = data.get('saldo', 0)
+        nombre = data.get('nombre')
 
-        if not cedula or not nombres or not apellidos:
-            return jsonify({'success': False, 'error': 'Cédula, nombres y apellidos requeridos'}), 400
+        if not cedula or not nombre:
+            return jsonify({'success': False, 'error': 'Cédula y nombre completo requeridos'}), 400
 
-        comando = f"CREAR {cedula} {nombres} {apellidos} {saldo}"
+        # Validar que cédula comience con 0
+        if not cedula.startswith('0'):
+            return jsonify({'success': False, 'error': 'La cédula debe comenzar con 0'}), 400
+
+        comando = f"CREAR {cedula} {nombre}"
         logging.info(f"📥 Comando: {comando}")
 
         respuesta = SocketBridge.send_command(comando)
@@ -270,7 +293,41 @@ def crear_cliente():
         return jsonify(resultado)
 
     except Exception as e:
-        logging.error(f"❌ Error en /api/cliente: {e}")
+        logging.error(f"❌ Error en /api/crear: {e}")
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+
+@app.route('/api/transferir', methods=['POST'])
+def transferir():
+    """Realiza una transferencia entre cuentas"""
+    try:
+        data = request.get_json()
+        cedula_origen = data.get('cedula_origen')
+        cedula_destino = data.get('cedula_destino')
+        monto = data.get('monto')
+
+        if not cedula_origen or not cedula_destino or monto is None:
+            return jsonify({'success': False, 'error': 'Cédula origen, destino y monto requeridos'}), 400
+
+        comando = f"TRANSFERIR {cedula_origen} {cedula_destino} {monto}"
+        logging.info(f"📥 Comando: {comando}")
+
+        respuesta = SocketBridge.send_command(comando)
+        resultado = SocketBridge.parsear_respuesta(respuesta)
+
+        # Emitir actualización de balance para ambas cuentas
+        if resultado.get('success'):
+            data_parts = resultado.get('data', {})
+            if 'saldo_origen' in data_parts:
+                broadcast_balance_update(cedula_origen, data_parts['saldo_origen'])
+            if 'saldo_destino' in data_parts:
+                broadcast_balance_update(cedula_destino, data_parts['saldo_destino'])
+
+        logging.info(f"📤 Respuesta: {respuesta}")
+        return jsonify(resultado)
+
+    except Exception as e:
+        logging.error(f"❌ Error en /api/transferir: {e}")
         return jsonify({'success': False, 'error': str(e)}), 500
 
 

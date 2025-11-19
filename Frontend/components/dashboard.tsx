@@ -8,6 +8,7 @@ import TransactionModal from "./transaction-modal"
 import TransactionHistory from "./transaction-history"
 import AdminPanel from "./admin-panel"
 import FinancialChart from "./financial-chart"
+import { TransferCard } from "./transfer-card"
 import { LogOut, DollarSign, TrendingDown, History } from "lucide-react"
 
 interface DashboardProps {
@@ -89,7 +90,20 @@ export default function Dashboard({ cedula, onLogout }: DashboardProps) {
           amount: tx.monto,
           newBalance: tx.saldo_final
         })) as Transaction[]
-        setTransactions(mappedTransactions)
+        
+        // Solo actualizar si realmente hay cambios para evitar re-render del gráfico
+        setTransactions(prev => {
+          if (prev.length !== mappedTransactions.length) {
+            return mappedTransactions
+          }
+          // Comparar si hay diferencias reales
+          const hasChanges = mappedTransactions.some((tx, i) => 
+            !prev[i] || 
+            tx.date !== prev[i].date || 
+            tx.amount !== prev[i].amount
+          )
+          return hasChanges ? mappedTransactions : prev
+        })
       }
     }
 
@@ -119,11 +133,14 @@ export default function Dashboard({ cedula, onLogout }: DashboardProps) {
         addToast(`✅ Depósito de $${amount} realizado exitosamente`, "success")
         setModalType(null)
         
-        // Refrescar historial después de depósito
-        const txResponse = await sendSocketMessage("GET_TRANSACTIONS", { cedula })
-        if (txResponse && typeof txResponse === "object" && "transactions" in txResponse) {
-          setTransactions(txResponse.transactions as Transaction[])
-        }
+        // WebSocket se encargará de actualizar transacciones automáticamente
+        // Solo refrescar si WebSocket no está conectado
+        setTimeout(async () => {
+          const txResponse = await sendSocketMessage("GET_TRANSACTIONS", { cedula })
+          if (txResponse && typeof txResponse === "object" && "transactions" in txResponse) {
+            setTransactions(txResponse.transactions as Transaction[])
+          }
+        }, 500)
       } else if (response && typeof response === "object" && "message" in response) {
         addToast(`❌ ${(response as Record<string, unknown>).message as string}`, "error")
       }
@@ -142,11 +159,14 @@ export default function Dashboard({ cedula, onLogout }: DashboardProps) {
         addToast(`✅ Retiro de $${amount} realizado exitosamente`, "success")
         setModalType(null)
         
-        // Refrescar historial después de retiro
-        const txResponse = await sendSocketMessage("GET_TRANSACTIONS", { cedula })
-        if (txResponse && typeof txResponse === "object" && "transactions" in txResponse) {
-          setTransactions(txResponse.transactions as Transaction[])
-        }
+        // WebSocket se encargará de actualizar transacciones automáticamente
+        // Solo refrescar si WebSocket no está conectado
+        setTimeout(async () => {
+          const txResponse = await sendSocketMessage("GET_TRANSACTIONS", { cedula })
+          if (txResponse && typeof txResponse === "object" && "transactions" in txResponse) {
+            setTransactions(txResponse.transactions as Transaction[])
+          }
+        }, 500)
       } else if (response && typeof response === "object" && "message" in response) {
         addToast(`❌ ${(response as Record<string, unknown>).message as string}`, "error")
       }
@@ -219,6 +239,31 @@ export default function Dashboard({ cedula, onLogout }: DashboardProps) {
           onClick={() => setModalType("history")}
           disabled={isLoading}
           className="md:col-span-2"
+        />
+      </div>
+
+      {/* Transfer Card */}
+      <div className="mt-6">
+        <TransferCard
+          currentCedula={cedula}
+          currentBalance={userData?.balance || 0}
+          onTransferComplete={async () => {
+            // Refresh balance and transactions after transfer
+            const response = await sendSocketMessage("LOGIN", cedula)
+            if (response && typeof response === "object" && "user" in response) {
+              const user = response.user as Record<string, unknown>
+              setUserData({
+                name: user.name as string,
+                balance: user.balance as number,
+                role: user.role as string,
+              })
+            }
+            
+            const txResponse = await sendSocketMessage("GET_TRANSACTIONS", { cedula })
+            if (txResponse && typeof txResponse === "object" && "transactions" in txResponse) {
+              setTransactions(txResponse.transactions as Transaction[])
+            }
+          }}
         />
       </div>
 

@@ -95,7 +95,7 @@ class DatabaseSetup:
             CREATE TABLE IF NOT EXISTS transacciones (
                 id INT AUTO_INCREMENT PRIMARY KEY,
                 cedula VARCHAR(15) NOT NULL,
-                tipo ENUM('DEPOSITO', 'RETIRO') NOT NULL,
+                tipo ENUM('DEPOSITO', 'RETIRO', 'TRANSFERENCIA_ENVIADA', 'TRANSFERENCIA_RECIBIDA') NOT NULL,
                 monto DECIMAL(10, 2) NOT NULL CHECK (monto > 0),
                 saldo_final DECIMAL(10, 2) NOT NULL,
                 fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP,

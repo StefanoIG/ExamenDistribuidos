@@ -91,7 +91,7 @@ export function SocketProvider({ children }: { children: React.ReactNode }) {
       if (typeof data === "string") {
         // Para LOGIN - consulta simple
         if (type === "LOGIN") {
-          endpoint = "/api/consulta"
+          endpoint = "/consulta"
           body = { cedula: data }
         }
       } else if (typeof data === "object" && data !== null) {
@@ -99,19 +99,31 @@ export function SocketProvider({ children }: { children: React.ReactNode }) {
         
         switch (type) {
           case "CHECK_BALANCE":
-            endpoint = "/api/consulta"
+            endpoint = "/consulta"
             body = { cedula: dataObj.cedula as string }
             break
           case "DEPOSIT":
-            endpoint = "/api/deposito"
+            endpoint = "/deposito"
             body = { cedula: dataObj.cedula as string, monto: dataObj.amount as number }
             break
           case "WITHDRAW":
-            endpoint = "/api/retiro"
+            endpoint = "/retiro"
             body = { cedula: dataObj.cedula as string, monto: dataObj.amount as number }
             break
+          case "CREATE_ACCOUNT":
+            endpoint = "/crear"
+            body = { cedula: dataObj.cedula as string, nombre: dataObj.nombre as string }
+            break
+          case "TRANSFER":
+            endpoint = "/transferir"
+            body = { 
+              cedula_origen: dataObj.cedula_origen as string, 
+              cedula_destino: dataObj.cedula_destino as string,
+              monto: dataObj.amount as number 
+            }
+            break
           case "GET_TRANSACTIONS":
-            endpoint = `/api/historial/${dataObj.cedula as string}`
+            endpoint = `/historial/${dataObj.cedula as string}`
             method = "GET"
             break
           default:

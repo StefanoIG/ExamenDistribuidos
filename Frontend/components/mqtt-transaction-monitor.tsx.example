@@ -1,0 +1,131 @@
+// Componente de ejemplo: Monitor de transacciones en tiempo real con MQTT
+// Archivo: Frontend/components/mqtt-transaction-monitor.tsx
+
+"use client";
+
+import { useState } from 'react';
+import { useMQTT } from '@/hooks/use-mqtt';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
+
+export function MQTTTransactionMonitor() {
+  const { messages, isConnected, error } = useMQTT({
+    topics: [
+      'banco/transacciones',  // Todas las transacciones
+      'banco/alertas'          // Alertas
+    ],
+    onMessage: (topic, message) => {
+      console.log(`📨 [${topic}]`, message);
+    }
+  });
+
+  return (
+    <Card>
+      <CardHeader>
+        <CardTitle className="flex items-center justify-between">
+          <span>📡 Monitor MQTT en Tiempo Real</span>
+          <Badge variant={isConnected ? 'default' : 'destructive'}>
+            {isConnected ? '🟢 Conectado' : '🔴 Desconectado'}
+          </Badge>
+        </CardTitle>
+      </CardHeader>
+      <CardContent>
+        {error && (
+          <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded mb-4">
+            ❌ Error: {error}
+          </div>
+        )}
+
+        <div className="space-y-2 max-h-96 overflow-y-auto">
+          {messages.length === 0 && (
+            <p className="text-gray-500 text-center py-8">
+              Esperando eventos MQTT...
+            </p>
+          )}
+
+          {messages.map((msg, index) => (
+            <div
+              key={index}
+              className="border rounded-lg p-3 bg-gray-50 hover:bg-gray-100 transition"
+            >
+              <div className="flex items-center justify-between mb-2">
+                <Badge variant="outline">{msg.topic}</Badge>
+                <span className="text-xs text-gray-500">
+                  {msg.timestamp.toLocaleTimeString()}
+                </span>
+              </div>
+
+              {msg.topic === 'banco/transacciones' && (
+                <TransactionCard data={msg.payload} />
+              )}
+
+              {msg.topic === 'banco/alertas' && (
+                <AlertCard data={msg.payload} />
+              )}
+            </div>
+          ))}
+        </div>
+      </CardContent>
+    </Card>
+  );
+}
+
+function TransactionCard({ data }: { data: any }) {
+  const isDeposit = data.tipo === 'DEPOSITO';
+
+  return (
+    <div className="flex items-center gap-3">
+      <div className="text-2xl">
+        {isDeposit ? '💰' : '💸'}
+      </div>
+      <div className="flex-1">
+        <p className="font-semibold">
+          {data.tipo}
+        </p>
+        <p className="text-sm text-gray-600">
+          Cédula: {data.cedula}
+        </p>
+      </div>
+      <div className="text-right">
+        <p className={`font-bold ${isDeposit ? 'text-green-600' : 'text-red-600'}`}>
+          {isDeposit ? '+' : '-'}${data.monto.toFixed(2)}
+        </p>
+        <p className="text-xs text-gray-500">
+          Saldo: ${data.saldo_nuevo.toFixed(2)}
+        </p>
+      </div>
+    </div>
+  );
+}
+
+function AlertCard({ data }: { data: any }) {
+  return (
+    <div className="flex items-center gap-3">
+      <div className="text-2xl">🚨</div>
+      <div className="flex-1">
+        <p className="font-semibold text-orange-600">
+          {data.type}
+        </p>
+        <p className="text-sm text-gray-700">
+          {data.message}
+        </p>
+        {data.cedula && (
+          <p className="text-xs text-gray-500">
+            Cédula: {data.cedula}
+          </p>
+        )}
+      </div>
+    </div>
+  );
+}
+
+// Uso en una página:
+// import { MQTTTransactionMonitor } from '@/components/mqtt-transaction-monitor';
+//
+// export default function AdminPage() {
+//   return (
+//     <div>
+//       <MQTTTransactionMonitor />
+//     </div>
+//   );
+// }

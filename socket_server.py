@@ -17,6 +17,14 @@ from decimal import Decimal
 from db_connection import DatabaseManager
 import os
 
+# Importar MQTT de forma opcional
+try:
+    from mqtt_publisher import MQTTPublisher
+    MQTT_AVAILABLE = True
+except ImportError:
+    MQTT_AVAILABLE = False
+    logging.warning("⚠️ paho-mqtt no disponible. Sistema funcionará sin MQTT.")
+
 # Configuración de logging avanzado
 logging.basicConfig(
     level=logging.INFO,
@@ -36,6 +44,7 @@ class SocketServer:
         self.port = port
         self.server_socket = None
         self.db_manager = None
+        self.mqtt_publisher = None  # Publisher MQTT
         self.running = False
 
         # Control de concurrencia: un lock por cada cédula
@@ -61,7 +70,23 @@ class SocketServer:
     def initialize_database(self, db_config):
         """Inicializa el gestor de base de datos"""
         self.db_manager = DatabaseManager(db_config)
-        logging.info("Gestor de base de datos inicializado")
+        logging.info("✅ Gestor de base de datos inicializado")
+        
+        # Inicializar MQTT Publisher (solo si está disponible)
+        if MQTT_AVAILABLE:
+            try:
+                self.mqtt_publisher = MQTTPublisher()
+                if self.mqtt_publisher.connect():
+                    logging.info("✅ MQTT Publisher conectado")
+                else:
+                    logging.warning("⚠️ MQTT no disponible, continuando sin publicación MQTT")
+                    self.mqtt_publisher = None
+            except Exception as e:
+                logging.warning(f"⚠️ Error conectando MQTT: {e}. Sistema funcionará sin MQTT.")
+                self.mqtt_publisher = None
+        else:
+            logging.info("ℹ️ MQTT deshabilitado (paho-mqtt no instalado)")
+            self.mqtt_publisher = None
 
     def start(self):
         """Inicia el servidor de sockets"""
@@ -168,12 +193,16 @@ class SocketServer:
                 monto = float(partes[2])
                 return self.cmd_disminuir(cedula, monto, client_id)
 
-            elif comando == 'CREAR' and len(partes) >= 5:
+            elif comando == 'CREAR' and len(partes) >= 3:
                 cedula = partes[1]
-                nombres = partes[2]
-                apellidos = partes[3]
-                saldo = float(partes[4])
-                return self.cmd_crear(cedula, nombres, apellidos, saldo, client_id)
+                nombre_completo = ' '.join(partes[2:])
+                return self.cmd_crear(cedula, nombre_completo, client_id)
+
+            elif comando == 'TRANSFERIR' and len(partes) >= 4:
+                cedula_origen = partes[1]
+                cedula_destino = partes[2]
+                monto = float(partes[3])
+                return self.cmd_transferir(cedula_origen, cedula_destino, monto, client_id)
 
             elif comando == 'HISTORIAL' and len(partes) >= 2:
                 cedula = partes[1]
@@ -244,6 +273,20 @@ class SocketServer:
                 with self.stats_lock:
                     self.stats['total_transacciones'] += 1
 
+                # 🆕 Publicar evento MQTT
+                if self.mqtt_publisher and self.mqtt_publisher.connected:
+                    self.mqtt_publisher.publish_transaction(
+                        cedula=cedula,
+                        tipo='DEPOSITO',
+                        monto=float(monto),
+                        saldo_nuevo=float(nuevo_saldo)
+                    )
+                    self.mqtt_publisher.publish_balance_update(
+                        cedula=cedula,
+                        saldo_nuevo=float(nuevo_saldo),
+                        saldo_anterior=float(saldo_anterior)
+                    )
+
                 logging.info(
                     f"💰 DEPOSITO exitoso - Cédula: {cedula}, "
                     f"Monto: ${monto:.2f}, "
@@ -302,6 +345,29 @@ class SocketServer:
                 with self.stats_lock:
                     self.stats['total_transacciones'] += 1
 
+                # 🆕 Publicar evento MQTT
+                if self.mqtt_publisher and self.mqtt_publisher.connected:
+                    self.mqtt_publisher.publish_transaction(
+                        cedula=cedula,
+                        tipo='RETIRO',
+                        monto=float(monto),
+                        saldo_nuevo=float(nuevo_saldo)
+                    )
+                    self.mqtt_publisher.publish_balance_update(
+                        cedula=cedula,
+                        saldo_nuevo=float(nuevo_saldo),
+                        saldo_anterior=float(saldo_anterior)
+                    )
+                    
+                    # Publicar alerta si saldo bajo
+                    if nuevo_saldo < Decimal('100.00'):
+                        self.mqtt_publisher.publish_alert(
+                            alert_type='LOW_BALANCE',
+                            message=f'Saldo bajo: ${float(nuevo_saldo):.2f}',
+                            cedula=cedula,
+                            data={'saldo': float(nuevo_saldo)}
+                        )
+
                 logging.info(
                     f"💸 RETIRO exitoso - Cédula: {cedula}, "
                     f"Monto: ${monto:.2f}, "
@@ -316,25 +382,100 @@ class SocketServer:
             finally:
                 logging.info(f"🔓 Lock liberado para cédula {cedula}")
 
-    def cmd_crear(self, cedula, nombres, apellidos, saldo, client_id):
-        """Crea un nuevo cliente"""
+    def cmd_crear(self, cedula, nombre_completo, client_id):
+        """Crea un nuevo cliente con saldo inicial de 0"""
         try:
+            # Validar formato de cédula (debe comenzar con 0)
+            if not cedula.startswith('0'):
+                return "ERROR|La cédula debe comenzar con 0"
+
             # Verificar si ya existe
             if self.db_manager.consultar_cliente(cedula):
                 return "ERROR|Cliente ya existe"
 
-            # Crear cliente
-            self.db_manager.crear_cliente(cedula, nombres, apellidos, saldo)
+            # Separar nombres y apellidos del nombre completo
+            partes_nombre = nombre_completo.split()
+            if len(partes_nombre) < 2:
+                return "ERROR|Debe proporcionar al menos nombre y apellido"
+            
+            # Asumir que la primera mitad son nombres y la segunda apellidos
+            mitad = len(partes_nombre) // 2
+            nombres = ' '.join(partes_nombre[:mitad])
+            apellidos = ' '.join(partes_nombre[mitad:])
+
+            # Crear cliente con saldo inicial 0
+            saldo_inicial = 0.0
+            self.db_manager.crear_cliente(cedula, nombres, apellidos, saldo_inicial)
 
             logging.info(
                 f"👤 Cliente creado - Cédula: {cedula}, "
-                f"Nombre: {nombres} {apellidos}, Saldo: ${saldo:.2f}"
+                f"Nombre: {nombre_completo}, Saldo: ${saldo_inicial:.2f}"
             )
 
-            return f"OK|Cliente creado exitosamente|{saldo:.2f}"
+            return f"OK|Cliente creado exitosamente|{nombres}|{apellidos}|{saldo_inicial:.2f}"
 
         except Exception as e:
             logging.error(f"❌ Error en CREAR: {e}")
+            return f"ERROR|{str(e)}"
+
+    def cmd_transferir(self, cedula_origen, cedula_destino, monto, client_id):
+        """Transfiere dinero entre dos cuentas"""
+        # Lock de ambas cédulas en orden para evitar deadlocks
+        cedulas_ordenadas = sorted([cedula_origen, cedula_destino])
+        lock1 = self.get_client_lock(cedulas_ordenadas[0])
+        lock2 = self.get_client_lock(cedulas_ordenadas[1])
+
+        try:
+            with lock1:
+                with lock2:
+                    # Verificar que ambas cuentas existan
+                    cliente_origen = self.db_manager.consultar_cliente(cedula_origen)
+                    if not cliente_origen:
+                        return "ERROR|Cuenta origen no existe"
+
+                    cliente_destino = self.db_manager.consultar_cliente(cedula_destino)
+                    if not cliente_destino:
+                        return "ERROR|Cuenta destino no existe"
+
+                    # Verificar saldo suficiente
+                    saldo_origen = float(cliente_origen['saldo'])
+                    if saldo_origen < monto:
+                        return "ERROR|Saldo insuficiente en cuenta origen"
+
+                    # Realizar transferencia
+                    nuevo_saldo_origen = saldo_origen - monto
+                    nuevo_saldo_destino = float(cliente_destino['saldo']) + monto
+
+                    # Actualizar saldos
+                    self.db_manager.actualizar_saldo(cedula_origen, nuevo_saldo_origen)
+                    self.db_manager.actualizar_saldo(cedula_destino, nuevo_saldo_destino)
+
+                    # Registrar transacciones
+                    self.db_manager.insertar_transaccion(cedula_origen, 'TRANSFERENCIA_ENVIADA', monto, nuevo_saldo_origen)
+                    self.db_manager.insertar_transaccion(cedula_destino, 'TRANSFERENCIA_RECIBIDA', monto, nuevo_saldo_destino)
+
+                    # Actualizar estadísticas
+                    with self.stats_lock:
+                        self.stats['total_transacciones'] += 2
+
+                    # Publicar a MQTT
+                    if self.mqtt_publisher and self.mqtt_publisher.connected:
+                        self.mqtt_publisher.publish_transfer(
+                            cedula_origen, cedula_destino, monto,
+                            nuevo_saldo_origen, nuevo_saldo_destino
+                        )
+                        self.mqtt_publisher.publish_balance_update(cedula_origen, nuevo_saldo_origen, saldo_origen)
+                        self.mqtt_publisher.publish_balance_update(cedula_destino, nuevo_saldo_destino, cliente_destino['saldo'])
+
+                    logging.info(
+                        f"🔄 TRANSFERENCIA: ${monto:.2f} de {cedula_origen} a {cedula_destino} | "
+                        f"Cliente {client_id}"
+                    )
+
+                    return f"OK|Transferencia exitosa|{nuevo_saldo_origen:.2f}|{nuevo_saldo_destino:.2f}"
+
+        except Exception as e:
+            logging.error(f"❌ Error en TRANSFERIR: {e}")
             return f"ERROR|{str(e)}"
 
     def cmd_historial(self, cedula, client_id):
@@ -359,6 +500,16 @@ class SocketServer:
     def cmd_stats(self):
         """Retorna estadísticas del servidor"""
         with self.stats_lock:
+            stats_data = {
+                'clientes_conectados': self.stats['clientes_conectados'],
+                'total_transacciones': self.stats['total_transacciones'],
+                'ips_activas': len(self.stats['clientes_activos'])
+            }
+            
+            # 🆕 Publicar estadísticas a MQTT
+            if self.mqtt_publisher and self.mqtt_publisher.connected:
+                self.mqtt_publisher.publish_stats(stats_data)
+            
             return (
                 f"OK|Clientes conectados: {self.stats['clientes_conectados']}|"
                 f"Transacciones: {self.stats['total_transacciones']}|"
@@ -369,6 +520,10 @@ class SocketServer:
         """Detiene el servidor"""
         logging.info("🛑 Deteniendo servidor...")
         self.running = False
+
+        # Desconectar MQTT
+        if self.mqtt_publisher:
+            self.mqtt_publisher.disconnect()
 
         if self.server_socket:
             self.server_socket.close()

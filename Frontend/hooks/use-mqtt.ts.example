@@ -1,0 +1,173 @@
+// Hook personalizado para MQTT en Next.js
+// Uso: const { messages, isConnected } = useMQTT(['banco/transacciones']);
+
+import { useEffect, useState, useRef } from 'react';
+import mqtt, { MqttClient } from 'mqtt';
+
+interface MQTTMessage {
+  topic: string;
+  payload: any;
+  timestamp: Date;
+}
+
+interface UseMQTTOptions {
+  brokerUrl?: string;
+  topics?: string[];
+  onMessage?: (topic: string, message: any) => void;
+}
+
+export function useMQTT(options: UseMQTTOptions = {}) {
+  const {
+    brokerUrl = process.env.NEXT_PUBLIC_MQTT_BROKER_URL || 'ws://localhost:9001',
+    topics = [],
+    onMessage
+  } = options;
+
+  const [isConnected, setIsConnected] = useState(false);
+  const [messages, setMessages] = useState<MQTTMessage[]>([]);
+  const [error, setError] = useState<string | null>(null);
+  const clientRef = useRef<MqttClient | null>(null);
+
+  useEffect(() => {
+    // Solo conectar en el cliente (no en SSR)
+    if (typeof window === 'undefined') return;
+
+    try {
+      // Conectar al broker MQTT vía WebSocket
+      const client = mqtt.connect(brokerUrl, {
+        clientId: `frontend_${Math.random().toString(16).slice(2, 10)}`,
+        clean: true,
+        reconnectPeriod: 1000,
+      });
+
+      clientRef.current = client;
+
+      client.on('connect', () => {
+        console.log('✅ Conectado a MQTT broker:', brokerUrl);
+        setIsConnected(true);
+        setError(null);
+
+        // Suscribirse a los tópicos
+        topics.forEach(topic => {
+          client.subscribe(topic, { qos: 1 }, (err) => {
+            if (err) {
+              console.error(`❌ Error suscribiéndose a ${topic}:`, err);
+            } else {
+              console.log(`📡 Suscrito a: ${topic}`);
+            }
+          });
+        });
+      });
+
+      client.on('message', (topic, payload) => {
+        try {
+          const message = JSON.parse(payload.toString());
+          const mqttMessage: MQTTMessage = {
+            topic,
+            payload: message,
+            timestamp: new Date()
+          };
+
+          setMessages(prev => [mqttMessage, ...prev].slice(0, 100)); // Mantener últimos 100
+
+          // Callback personalizado
+          if (onMessage) {
+            onMessage(topic, message);
+          }
+        } catch (e) {
+          console.error('Error parseando mensaje MQTT:', e);
+        }
+      });
+
+      client.on('error', (err) => {
+        console.error('❌ Error MQTT:', err);
+        setError(err.message);
+      });
+
+      client.on('disconnect', () => {
+        console.log('🔌 Desconectado de MQTT broker');
+        setIsConnected(false);
+      });
+
+      client.on('reconnect', () => {
+        console.log('🔄 Reconectando a MQTT broker...');
+      });
+
+    } catch (err: any) {
+      console.error('❌ Error inicializando MQTT:', err);
+      setError(err.message);
+    }
+
+    // Cleanup
+    return () => {
+      if (clientRef.current) {
+        clientRef.current.end();
+      }
+    };
+  }, [brokerUrl, topics.join(',')]); // Recargar si cambian topics
+
+  // Método para publicar mensajes
+  const publish = (topic: string, message: any, options = { qos: 1 }) => {
+    if (!clientRef.current || !isConnected) {
+      console.warn('MQTT no conectado, no se puede publicar');
+      return false;
+    }
+
+    try {
+      clientRef.current.publish(
+        topic,
+        JSON.stringify(message),
+        options as any,
+        (err) => {
+          if (err) {
+            console.error('❌ Error publicando:', err);
+          }
+        }
+      );
+      return true;
+    } catch (e) {
+      console.error('Error publicando a MQTT:', e);
+      return false;
+    }
+  };
+
+  // Método para suscribirse a nuevos tópicos dinámicamente
+  const subscribe = (topic: string, qos: 0 | 1 | 2 = 1) => {
+    if (!clientRef.current || !isConnected) {
+      console.warn('MQTT no conectado, no se puede suscribir');
+      return false;
+    }
+
+    clientRef.current.subscribe(topic, { qos }, (err) => {
+      if (err) {
+        console.error(`❌ Error suscribiéndose a ${topic}:`, err);
+      } else {
+        console.log(`📡 Suscrito a: ${topic}`);
+      }
+    });
+    return true;
+  };
+
+  // Método para desuscribirse
+  const unsubscribe = (topic: string) => {
+    if (!clientRef.current) return false;
+
+    clientRef.current.unsubscribe(topic, (err) => {
+      if (err) {
+        console.error(`❌ Error desuscribiéndose de ${topic}:`, err);
+      } else {
+        console.log(`🔕 Desuscrito de: ${topic}`);
+      }
+    });
+    return true;
+  };
+
+  return {
+    isConnected,
+    messages,
+    error,
+    publish,
+    subscribe,
+    unsubscribe
+  };
+}
