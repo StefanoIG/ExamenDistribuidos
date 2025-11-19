@@ -16,9 +16,18 @@ const SocketContext = createContext<SocketContextType | undefined>(undefined)
 export function SocketProvider({ children }: { children: React.ReactNode }) {
   const [isLoading, setIsLoading] = useState(false)
   const [isConnected, setIsConnected] = useState(false)
+  const [isMounted, setIsMounted] = useState(false)
   const socketRef = useRef<Socket | null>(null)
 
+  // Evitar hidratación mismatch - solo inicializar después del montaje
   useEffect(() => {
+    setIsMounted(true)
+  }, [])
+
+  useEffect(() => {
+    // Solo inicializar WebSocket en el cliente después del montaje
+    if (!isMounted) return
+
     // Inicializar WebSocket
     const newSocket = io("http://localhost:5001", {
       transports: ["websocket", "polling"],
@@ -43,6 +52,11 @@ export function SocketProvider({ children }: { children: React.ReactNode }) {
       window.dispatchEvent(new CustomEvent("balanceUpdate", { detail: data }))
     })
 
+    newSocket.on("transactions_updated", (data: { cedula: string; transactions: unknown[] }) => {
+      console.log("📜 Transacciones actualizadas:", data)
+      window.dispatchEvent(new CustomEvent("transactionsUpdate", { detail: data }))
+    })
+
     newSocket.on("stats_updated", (data: unknown) => {
       console.log("📊 Stats actualizadas:", data)
       window.dispatchEvent(new CustomEvent("statsUpdate", { detail: data }))
@@ -53,7 +67,7 @@ export function SocketProvider({ children }: { children: React.ReactNode }) {
     return () => {
       newSocket.disconnect()
     }
-  }, [])
+  }, [isMounted])
 
   const sendSocketMessage = useCallback(async (type: string, data: unknown) => {
     setIsLoading(true)

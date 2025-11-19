@@ -31,7 +31,7 @@ interface Transaction {
 type ModalType = "deposit" | "withdraw" | "history" | null
 
 export default function Dashboard({ cedula, onLogout }: DashboardProps) {
-  const { sendSocketMessage, isLoading } = useSocket()
+  const { sendSocketMessage, isLoading, isConnected } = useSocket()
   const [userData, setUserData] = useState<UserData | null>(null)
   const [modalType, setModalType] = useState<ModalType>(null)
   const [toasts, setToasts] = useState<{ id: string; message: string; type: "success" | "error" }[]>([])
@@ -61,6 +61,35 @@ export default function Dashboard({ cedula, onLogout }: DashboardProps) {
     }
 
     fetchData()
+
+    // Escuchar eventos de WebSocket para actualizaciones en tiempo real
+    const handleBalanceUpdate = (event: Event) => {
+      const customEvent = event as CustomEvent
+      const data = customEvent.detail as { cedula: string; balance: number }
+      
+      if (data.cedula === cedula) {
+        console.log("🔄 Actualizando balance por WebSocket:", data.balance)
+        setUserData(prev => prev ? { ...prev, balance: data.balance } : null)
+      }
+    }
+
+    const handleTransactionsUpdate = (event: Event) => {
+      const customEvent = event as CustomEvent
+      const data = customEvent.detail as { cedula: string; transactions: Transaction[] }
+      
+      if (data.cedula === cedula) {
+        console.log("🔄 Actualizando transacciones por WebSocket:", data.transactions.length)
+        setTransactions(data.transactions)
+      }
+    }
+
+    window.addEventListener("balanceUpdate", handleBalanceUpdate)
+    window.addEventListener("transactionsUpdate", handleTransactionsUpdate)
+
+    return () => {
+      window.removeEventListener("balanceUpdate", handleBalanceUpdate)
+      window.removeEventListener("transactionsUpdate", handleTransactionsUpdate)
+    }
   }, [cedula, sendSocketMessage])
 
   const addToast = (message: string, type: "success" | "error" = "success") => {
@@ -123,12 +152,25 @@ export default function Dashboard({ cedula, onLogout }: DashboardProps) {
     <div className="w-full max-w-4xl">
       {/* Header */}
       <div className="mb-8 flex items-center justify-between bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 border border-slate-700 shadow-xl">
-        <div>
-          <h1 className="text-3xl font-bold text-white">{userData?.name || "Usuario"}</h1>
+        <div className="flex-1">
+          <div className="flex items-center gap-3">
+            <h1 className="text-3xl font-bold text-white">{userData?.name || "Usuario"}</h1>
+            {isConnected ? (
+              <div className="flex items-center gap-2 px-3 py-1 bg-emerald-500/20 border border-emerald-500/50 rounded-full">
+                <div className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
+                <span className="text-xs text-emerald-300 font-semibold">En Línea</span>
+              </div>
+            ) : (
+              <div className="flex items-center gap-2 px-3 py-1 bg-rose-500/20 border border-rose-500/50 rounded-full">
+                <div className="w-2 h-2 bg-rose-400 rounded-full"></div>
+                <span className="text-xs text-rose-300 font-semibold">Desconectado</span>
+              </div>
+            )}
+          </div>
           <p className="text-sm text-slate-300 mt-1">Cédula: <span className="font-mono">{cedula}</span></p>
           {isAdmin && (
             <div className="mt-2 inline-flex items-center gap-2 px-3 py-1 bg-amber-500/20 border border-amber-500/50 rounded-full">
-              <span className="text-amber-400 text-lg">👑</span>
+              <span className="text-amber-400 text-lg"></span>
               <span className="text-xs text-amber-300 font-bold uppercase tracking-wide">Administrador</span>
             </div>
           )}

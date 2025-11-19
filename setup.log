@@ -63,3 +63,73 @@
 [2025-11-10 23:37:34,939] INFO - ✅ 6 transacciones de ejemplo insertadas
 [2025-11-10 23:37:34,963] INFO - ✅ Conexión exitosa
 [2025-11-10 23:37:34,963] INFO - 📊 Clientes: 6 | Transacciones: 63
+[2025-11-11 18:26:33,995] INFO - ✅ Base de datos 'examen' lista
+[2025-11-11 18:26:34,001] INFO - ✅ Tabla 'clientes' creada
+[2025-11-11 18:26:34,002] INFO - ✅ Tabla 'transacciones' creada
+[2025-11-11 18:26:34,009] INFO - ✅ 0 clientes insertados
+[2025-11-11 18:26:34,010] INFO - ✅ 6 transacciones de ejemplo insertadas
+[2025-11-11 18:26:34,031] INFO - ✅ Conexión exitosa
+[2025-11-11 18:26:34,031] INFO - 📊 Clientes: 6 | Transacciones: 89
+[2025-11-11 18:33:30,532] INFO - ✅ Base de datos 'examen' lista
+[2025-11-11 18:33:30,541] INFO - ✅ Tabla 'clientes' creada
+[2025-11-11 18:33:30,542] INFO - ✅ Tabla 'transacciones' creada
+[2025-11-11 18:33:30,551] INFO - ✅ 0 clientes insertados
+[2025-11-11 18:33:30,552] INFO - ✅ 6 transacciones de ejemplo insertadas
+[2025-11-11 18:33:30,578] INFO - ✅ Conexión exitosa
+[2025-11-11 18:33:30,579] INFO - 📊 Clientes: 6 | Transacciones: 95
+[2025-11-11 18:36:16,001] INFO - ✅ Base de datos 'examen' lista
+[2025-11-11 18:36:16,009] INFO - ✅ Tabla 'clientes' creada
+[2025-11-11 18:36:16,010] INFO - ✅ Tabla 'transacciones' creada
+[2025-11-11 18:36:16,017] INFO - ✅ 0 clientes insertados
+[2025-11-11 18:36:16,018] INFO - ✅ 6 transacciones de ejemplo insertadas
+[2025-11-11 18:36:16,038] INFO - ✅ Conexión exitosa
+[2025-11-11 18:36:16,038] INFO - 📊 Clientes: 6 | Transacciones: 101
+[2025-11-11 18:40:50,934] INFO - ✅ Base de datos 'examen' lista
+[2025-11-11 18:40:50,940] INFO - ✅ Tabla 'clientes' creada
+[2025-11-11 18:40:50,943] INFO - ✅ Tabla 'transacciones' creada
+[2025-11-11 18:40:50,952] INFO - ✅ 0 clientes insertados
+[2025-11-11 18:40:50,953] INFO - ✅ 6 transacciones de ejemplo insertadas
+[2025-11-11 18:40:50,980] INFO - ✅ Conexión exitosa
+[2025-11-11 18:40:50,980] INFO - 📊 Clientes: 6 | Transacciones: 107
+[2025-11-11 18:45:15,876] INFO - ✅ Base de datos 'examen' lista
+[2025-11-11 18:45:15,883] INFO - ✅ Tabla 'clientes' creada
+[2025-11-11 18:45:15,884] INFO - ✅ Tabla 'transacciones' creada
+[2025-11-11 18:45:15,889] INFO - ✅ 0 clientes insertados
+[2025-11-11 18:45:15,890] INFO - ✅ 6 transacciones de ejemplo insertadas
+[2025-11-11 18:45:15,912] INFO - ✅ Conexión exitosa
+[2025-11-11 18:45:15,912] INFO - 📊 Clientes: 6 | Transacciones: 114
+[2025-11-11 18:54:15,402] INFO - ✅ Base de datos 'examen' lista
+[2025-11-11 18:54:15,409] INFO - ✅ Tabla 'clientes' creada
+[2025-11-11 18:54:15,411] INFO - ✅ Tabla 'transacciones' creada
+[2025-11-11 18:54:15,416] INFO - ✅ 0 clientes insertados
+[2025-11-11 18:54:15,417] INFO - ✅ 6 transacciones de ejemplo insertadas
+[2025-11-11 18:54:15,437] INFO - ✅ Conexión exitosa
+[2025-11-11 18:54:15,438] INFO - 📊 Clientes: 6 | Transacciones: 163
+[2025-11-11 18:55:46,297] INFO - ✅ Base de datos 'examen' lista
+[2025-11-11 18:55:46,306] INFO - ✅ Tabla 'clientes' creada
+[2025-11-11 18:55:46,306] INFO - ✅ Tabla 'transacciones' creada
+[2025-11-11 18:55:46,312] INFO - ✅ 0 clientes insertados
+[2025-11-11 18:55:46,313] INFO - ✅ 6 transacciones de ejemplo insertadas
+[2025-11-11 18:55:46,334] INFO - ✅ Conexión exitosa
+[2025-11-11 18:55:46,335] INFO - 📊 Clientes: 6 | Transacciones: 170
+[2025-11-11 19:01:26,272] INFO - ✅ Base de datos 'examen' lista
+[2025-11-11 19:01:26,283] INFO - ✅ Tabla 'clientes' creada
+[2025-11-11 19:01:26,283] INFO - ✅ Tabla 'transacciones' creada
+[2025-11-11 19:01:26,292] INFO - ✅ 0 clientes insertados
+[2025-11-11 19:01:26,294] INFO - ✅ 6 transacciones de ejemplo insertadas
+[2025-11-11 19:01:26,327] INFO - ✅ Conexión exitosa
+[2025-11-11 19:01:26,327] INFO - 📊 Clientes: 6 | Transacciones: 178
+[2025-11-11 19:33:05,240] INFO - ✅ Base de datos 'examen' lista
+[2025-11-11 19:33:05,246] INFO - ✅ Tabla 'clientes' creada
+[2025-11-11 19:33:05,247] INFO - ✅ Tabla 'transacciones' creada
+[2025-11-11 19:33:05,254] INFO - ✅ 0 clientes insertados
+[2025-11-11 19:33:05,255] INFO - ✅ 6 transacciones de ejemplo insertadas
+[2025-11-11 19:33:05,278] INFO - ✅ Conexión exitosa
+[2025-11-11 19:33:05,279] INFO - 📊 Clientes: 6 | Transacciones: 186
+[2025-11-18 20:28:25,554] INFO - ✅ Base de datos 'examen' lista
+[2025-11-18 20:28:25,582] INFO - ✅ Tabla 'clientes' creada
+[2025-11-18 20:28:25,585] INFO - ✅ Tabla 'transacciones' creada
+[2025-11-18 20:28:25,607] INFO - ✅ 0 clientes insertados
+[2025-11-18 20:28:25,621] INFO - ✅ 6 transacciones de ejemplo insertadas
+[2025-11-18 20:28:25,649] INFO - ✅ Conexión exitosa
+[2025-11-18 20:28:25,650] INFO - 📊 Clientes: 6 | Transacciones: 274

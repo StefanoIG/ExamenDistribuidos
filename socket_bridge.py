@@ -111,13 +111,18 @@ class SocketBridge:
                 }
 
             elif 'Clientes conectados' in respuesta:
+                # Formato: OK|Clientes conectados: X|Transacciones: Y|IPs activas: Z
+                clientes_activos = int(partes[1].split(': ')[-1])
+                operaciones_simultaneas = int(partes[2].split(': ')[-1])
+                conexiones_activas = int(partes[3].split(': ')[-1])
+                
                 return {
                     'success': True,
                     'action': 'stats',
-                    'data': {
-                        'clientes_conectados': int(partes[1].split(': ')[-1]),
-                        'total_transacciones': int(partes[2].split(': ')[-1]),
-                        'ips_activas': int(partes[3].split(': ')[-1])
+                    'estadisticas': {
+                        'clientes_activos': clientes_activos,
+                        'operaciones_simultaneas': operaciones_simultaneas,
+                        'conexiones_activas': conexiones_activas
                     }
                 }
 
@@ -199,6 +204,11 @@ def deposito():
         respuesta = SocketBridge.send_command(comando)
         resultado = SocketBridge.parsear_respuesta(respuesta)
 
+        # Emitir actualización de balance por WebSocket
+        if resultado.get('success') and resultado.get('data', {}).get('nuevo_saldo'):
+            nuevo_saldo = resultado['data']['nuevo_saldo']
+            broadcast_balance_update(cedula, nuevo_saldo)
+
         logging.info(f"📤 Respuesta: {respuesta}")
         return jsonify(resultado)
 
@@ -223,6 +233,11 @@ def retiro():
 
         respuesta = SocketBridge.send_command(comando)
         resultado = SocketBridge.parsear_respuesta(respuesta)
+
+        # Emitir actualización de balance por WebSocket
+        if resultado.get('success') and resultado.get('data', {}).get('nuevo_saldo'):
+            nuevo_saldo = resultado['data']['nuevo_saldo']
+            broadcast_balance_update(cedula, nuevo_saldo)
 
         logging.info(f"📤 Respuesta: {respuesta}")
         return jsonify(resultado)
@@ -353,11 +368,26 @@ def handle_subscribe_balance(data):
 
 
 def broadcast_balance_update(cedula, new_balance):
-    """Broadcast actualización de saldo a todos los clientes conectados"""
+    """Broadcast actualización de saldo y historial a todos los clientes conectados"""
+    # Emitir actualización de balance
     socketio.emit('balance_updated', {
         'cedula': cedula,
         'balance': new_balance
-    }, broadcast=True)
+    })
+    
+    # Obtener historial actualizado y emitirlo
+    try:
+        comando = f"HISTORIAL {cedula}"
+        respuesta = SocketBridge.send_command(comando)
+        resultado = SocketBridge.parsear_respuesta(respuesta)
+        
+        if resultado.get('success') and resultado.get('data', {}).get('transacciones'):
+            socketio.emit('transactions_updated', {
+                'cedula': cedula,
+                'transactions': resultado['data']['transacciones']
+            })
+    except Exception as e:
+        logging.error(f"Error obteniendo historial actualizado: {e}")
 
 
 def broadcast_stats():
@@ -370,7 +400,7 @@ def broadcast_stats():
             resultado = SocketBridge.parsear_respuesta(respuesta)
             
             if resultado.get('success'):
-                socketio.emit('stats_updated', resultado, broadcast=True)
+                socketio.emit('stats_updated', resultado)
         except Exception as e:
             logging.error(f"Error broadcasting stats: {e}")
 

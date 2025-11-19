@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+*.log
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Node.js / Frontend
+Frontend/node_modules/
+Frontend/.next/
+Frontend/out/
+Frontend/build/
+Frontend/.pnpm-store/
+Frontend/npm-debug.log*
+Frontend/yarn-debug.log*
+Frontend/yarn-error.log*
+Frontend/.DS_Store
+Frontend/*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
