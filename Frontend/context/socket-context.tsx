@@ -6,6 +6,7 @@ import { io, Socket } from "socket.io-client"
 
 interface SocketContextType {
   sendSocketMessage: (type: string, data: unknown) => Promise<unknown>
+  subscribeToBalance: (cedula: string) => void
   isLoading: boolean
   socket: Socket | null
   isConnected: boolean
@@ -68,6 +69,13 @@ export function SocketProvider({ children }: { children: React.ReactNode }) {
       newSocket.disconnect()
     }
   }, [isMounted])
+
+  const subscribeToBalance = useCallback((cedula: string) => {
+    if (socketRef.current && socketRef.current.connected) {
+      console.log("📡 Suscribiéndose a actualizaciones para:", cedula)
+      socketRef.current.emit('subscribe_balance', { cedula })
+    }
+  }, [])
 
   const sendSocketMessage = useCallback(async (type: string, data: unknown) => {
     setIsLoading(true)
@@ -188,7 +196,8 @@ export function SocketProvider({ children }: { children: React.ReactNode }) {
   return (
     <SocketContext.Provider 
       value={{ 
-        sendSocketMessage, 
+        sendSocketMessage,
+        subscribeToBalance,
         isLoading, 
         socket: socketRef.current, 
         isConnected 

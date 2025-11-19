@@ -360,11 +360,51 @@ def handle_disconnect():
     logging.info(f"🔌 Cliente WebSocket desconectado: {request.sid}")
 
 
+# Mantener registro de clientes suscritos por cédula
+active_subscriptions = {}  # {cedula: [sid1, sid2, ...]}
+subscriptions_lock = threading.Lock()
+
+@socketio.on('connect')
+def handle_connect():
+    """Cliente WebSocket conectado"""
+    logging.info(f"🔌 Cliente WebSocket conectado: {request.sid}")
+
+@socketio.on('disconnect')
+def handle_disconnect():
+    """Cliente WebSocket desconectado"""
+    # Remover de todas las suscripciones
+    with subscriptions_lock:
+        for cedula in list(active_subscriptions.keys()):
+            if request.sid in active_subscriptions[cedula]:
+                active_subscriptions[cedula].remove(request.sid)
+                if not active_subscriptions[cedula]:
+                    del active_subscriptions[cedula]
+    logging.info(f"🔌 Cliente WebSocket desconectado: {request.sid}")
+
 @socketio.on('subscribe_balance')
 def handle_subscribe_balance(data):
-    """Cliente se suscribe a actualizaciones de saldo"""
+    """Cliente se suscribe a actualizaciones de saldo e historial"""
     cedula = data.get('cedula')
+    with subscriptions_lock:
+        if cedula not in active_subscriptions:
+            active_subscriptions[cedula] = []
+        if request.sid not in active_subscriptions[cedula]:
+            active_subscriptions[cedula].append(request.sid)
     logging.info(f"📡 Cliente {request.sid} suscrito a cédula {cedula}")
+    
+    # Enviar historial inicial inmediatamente
+    try:
+        comando = f"HISTORIAL {cedula}"
+        respuesta = SocketBridge.send_command(comando)
+        resultado = SocketBridge.parsear_respuesta(respuesta)
+        
+        if resultado.get('success') and resultado.get('data', {}).get('transacciones'):
+            emit('transactions_updated', {
+                'cedula': cedula,
+                'transactions': resultado['data']['transacciones']
+            })
+    except Exception as e:
+        logging.error(f"Error enviando historial inicial: {e}")
 
 
 def broadcast_balance_update(cedula, new_balance):
@@ -405,9 +445,39 @@ def broadcast_stats():
             logging.error(f"Error broadcasting stats: {e}")
 
 
-# Iniciar thread de broadcast de stats
+def broadcast_transactions():
+    """Broadcast de historial de transacciones para cédulas activas cada 5 segundos"""
+    while True:
+        try:
+            time.sleep(5)
+            # Obtener lista de cédulas activas
+            with subscriptions_lock:
+                cedulas_activas = list(active_subscriptions.keys())
+            
+            # Broadcast historial para cada cédula activa
+            for cedula in cedulas_activas:
+                try:
+                    comando = f"HISTORIAL {cedula}"
+                    respuesta = SocketBridge.send_command(comando)
+                    resultado = SocketBridge.parsear_respuesta(respuesta)
+                    
+                    if resultado.get('success') and resultado.get('data', {}).get('transacciones'):
+                        socketio.emit('transactions_updated', {
+                            'cedula': cedula,
+                            'transactions': resultado['data']['transacciones']
+                        })
+                except Exception as e:
+                    logging.error(f"Error broadcasting transactions para {cedula}: {e}")
+        except Exception as e:
+            logging.error(f"Error en broadcast_transactions: {e}")
+
+
+# Iniciar threads de broadcast
 stats_thread = threading.Thread(target=broadcast_stats, daemon=True)
 stats_thread.start()
+
+transactions_thread = threading.Thread(target=broadcast_transactions, daemon=True)
+transactions_thread.start()
 
 
 @app.errorhandler(404)

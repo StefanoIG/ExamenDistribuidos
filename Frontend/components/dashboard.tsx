@@ -31,13 +31,16 @@ interface Transaction {
 type ModalType = "deposit" | "withdraw" | "history" | null
 
 export default function Dashboard({ cedula, onLogout }: DashboardProps) {
-  const { sendSocketMessage, isLoading, isConnected } = useSocket()
+  const { sendSocketMessage, subscribeToBalance, isLoading, isConnected } = useSocket()
   const [userData, setUserData] = useState<UserData | null>(null)
   const [modalType, setModalType] = useState<ModalType>(null)
   const [toasts, setToasts] = useState<{ id: string; message: string; type: "success" | "error" }[]>([])
   const [transactions, setTransactions] = useState<Transaction[]>([])
 
   useEffect(() => {
+    // Suscribirse a actualizaciones de esta cédula
+    subscribeToBalance(cedula)
+
     // Fetch user data and transactions on mount
     const fetchData = async () => {
       try {
@@ -75,11 +78,18 @@ export default function Dashboard({ cedula, onLogout }: DashboardProps) {
 
     const handleTransactionsUpdate = (event: Event) => {
       const customEvent = event as CustomEvent
-      const data = customEvent.detail as { cedula: string; transactions: Transaction[] }
+      const data = customEvent.detail as { cedula: string; transactions: Array<{tipo: string; monto: number; saldo_final: number; fecha: string}> }
       
       if (data.cedula === cedula) {
         console.log("🔄 Actualizando transacciones por WebSocket:", data.transactions.length)
-        setTransactions(data.transactions)
+        // Mapear formato del backend al frontend
+        const mappedTransactions = data.transactions.map(tx => ({
+          date: tx.fecha,
+          type: tx.tipo === 'DEPOSITO' ? 'Depósito' : 'Retiro',
+          amount: tx.monto,
+          newBalance: tx.saldo_final
+        })) as Transaction[]
+        setTransactions(mappedTransactions)
       }
     }
 
@@ -90,7 +100,7 @@ export default function Dashboard({ cedula, onLogout }: DashboardProps) {
       window.removeEventListener("balanceUpdate", handleBalanceUpdate)
       window.removeEventListener("transactionsUpdate", handleTransactionsUpdate)
     }
-  }, [cedula, sendSocketMessage])
+  }, [cedula, sendSocketMessage, subscribeToBalance])
 
   const addToast = (message: string, type: "success" | "error" = "success") => {
     const id = Math.random().toString()

@@ -33,6 +33,30 @@ export default function TransactionHistory({ cedula, onClose }: TransactionHisto
     }
 
     fetchTransactions()
+
+    // Escuchar actualizaciones de transacciones vía WebSocket
+    const handleTransactionsUpdate = (event: Event) => {
+      const customEvent = event as CustomEvent
+      const data = customEvent.detail as { cedula: string; transactions: Array<{tipo: string; monto: number; saldo_final: number; fecha: string}> }
+      
+      if (data.cedula === cedula) {
+        console.log("🔄 Actualizando historial en modal por WebSocket:", data.transactions.length)
+        // Mapear formato del backend al frontend
+        const mappedTransactions = data.transactions.map(tx => ({
+          date: tx.fecha,
+          type: tx.tipo === 'DEPOSITO' ? 'Depósito' : 'Retiro',
+          amount: tx.monto,
+          newBalance: tx.saldo_final
+        })) as Transaction[]
+        setTransactions(mappedTransactions)
+      }
+    }
+
+    window.addEventListener("transactionsUpdate", handleTransactionsUpdate)
+
+    return () => {
+      window.removeEventListener("transactionsUpdate", handleTransactionsUpdate)
+    }
   }, [cedula, sendSocketMessage])
 
   const isDeposit = (type: string) => {
