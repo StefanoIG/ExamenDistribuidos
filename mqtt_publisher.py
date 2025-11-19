@@ -21,6 +21,8 @@ class MQTTPublisher:
     def __init__(self):
         self.broker_host = os.getenv('MQTT_BROKER_HOST', 'localhost')
         self.broker_port = int(os.getenv('MQTT_BROKER_PORT', 1883))
+        self.username = os.getenv('MQTT_USERNAME')
+        self.password = os.getenv('MQTT_PASSWORD')
         self.client_id = f"banco_publisher_{os.getpid()}"
         self.client = None
         self.connected = False
@@ -43,6 +45,23 @@ class MQTTPublisher:
             )
             self.client.on_connect = self._on_connect
             self.client.on_disconnect = self._on_disconnect
+
+            # Configurar credenciales si están definidas
+            if self.username and self.password:
+                self.client.username_pw_set(self.username, self.password)
+            
+            # Configurar TLS para HiveMQ Cloud (puerto 8883)
+            if self.broker_port == 8883:
+                import ssl
+                self.client.tls_set(
+                    ca_certs=None,
+                    certfile=None,
+                    keyfile=None,
+                    cert_reqs=ssl.CERT_REQUIRED,
+                    tls_version=ssl.PROTOCOL_TLS,
+                    ciphers=None
+                )
+                self.client.tls_insecure_set(False)  # Validar certificado
 
             # Configurar will message (en caso de desconexión inesperada)
             will_payload = json.dumps({
