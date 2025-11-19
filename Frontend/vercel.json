@@ -1,0 +1,31 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "http://135.234.27.161/api/:path*"
+    },
+    {
+      "source": "/socket.io/:path*",
+      "destination": "http://135.234.27.161/socket.io/:path*"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/api/:path*",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, POST, PUT, DELETE, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type"
+        }
+      ]
+    }
+  ]
+}

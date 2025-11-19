@@ -10,10 +10,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Deshabilitar telemetría de Next.js
-  telemetry: {
-    enabled: false,
-  },
 }
 
 export default nextConfig
