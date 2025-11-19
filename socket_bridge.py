@@ -47,6 +47,7 @@ class SocketBridge:
         """Envía un comando al servidor socket y retorna la respuesta"""
         try:
             sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            sock.settimeout(10)  # Timeout de 10 segundos
             sock.connect((SOCKET_HOST, SOCKET_PORT))
 
             # Recibir mensaje de bienvenida
@@ -61,6 +62,9 @@ class SocketBridge:
 
             return respuesta
 
+        except socket.timeout:
+            logging.error(f"❌ Timeout esperando respuesta del socket server")
+            return f"ERROR|Timeout: El servidor no respondió en 10 segundos"
         except Exception as e:
             logging.error(f"❌ Error comunicándose con socket: {e}")
             return f"ERROR|Error de conexión: {str(e)}"

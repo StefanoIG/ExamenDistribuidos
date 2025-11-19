@@ -1,7 +1,20 @@
 # Configuración de Netlify para Next.js
 [build]
-  command = "npm run build"
+  command = "pnpm build"
   publish = ".next"
+
+# Proxy para el backend (evita Mixed Content HTTPS → HTTP)
+[[redirects]]
+  from = "/api/*"
+  to = "http://135.234.27.161:5001/api/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/socket.io/*"
+  to = "http://135.234.27.161:5001/socket.io/:splat"
+  status = 200
+  force = true
 
 # Redirecciones para Next.js
 [[redirects]]
