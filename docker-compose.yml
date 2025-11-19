@@ -1,0 +1,71 @@
+version: '3.8'
+
+services:
+  # Base de datos MySQL (para desarrollo local)
+  mysql:
+    image: mysql:8.0
+    container_name: banco_mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:-rootpassword}
+      MYSQL_DATABASE: ${DB_NAME:-examen}
+      MYSQL_USER: ${DB_USER:-banco_user}
+      MYSQL_PASSWORD: ${DB_PASSWORD:-banco_password}
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - banco_network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Servidor Socket TCP
+  socket_server:
+    build:
+      context: .
+      dockerfile: Dockerfile.socket
+    container_name: banco_socket_server
+    environment:
+      DB_HOST: ${DB_HOST:-mysql}
+      DB_PORT: ${DB_PORT:-3306}
+      DB_USER: ${DB_USER:-banco_user}
+      DB_PASSWORD: ${DB_PASSWORD:-banco_password}
+      DB_NAME: ${DB_NAME:-examen}
+      SERVER_PORT: ${SERVER_PORT:-5000}
+    ports:
+      - "5000:5000"
+    networks:
+      - banco_network
+    depends_on:
+      mysql:
+        condition: service_healthy
+    restart: unless-stopped
+
+  # Bridge Flask con WebSocket
+  bridge:
+    build:
+      context: .
+      dockerfile: Dockerfile.bridge
+    container_name: banco_bridge
+    environment:
+      SOCKET_HOST: socket_server
+      SOCKET_PORT: 5000
+      BRIDGE_PORT: 5001
+      CORS_ORIGINS: ${CORS_ORIGINS:-*}
+    ports:
+      - "5001:5001"
+    networks:
+      - banco_network
+    depends_on:
+      - socket_server
+    restart: unless-stopped
+
+networks:
+  banco_network:
+    driver: bridge
+
+volumes:
+  mysql_data:

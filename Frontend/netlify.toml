@@ -1,0 +1,23 @@
+# Configuración de Netlify para Next.js
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+# Redirecciones para Next.js
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers para CORS y seguridad
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Variables de entorno (configurar en Netlify UI)
+# NEXT_PUBLIC_API_URL = https://tu-vm-ip:5001
+# NEXT_PUBLIC_WS_URL = wss://tu-vm-ip:5001

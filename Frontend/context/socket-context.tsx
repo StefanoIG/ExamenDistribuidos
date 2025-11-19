@@ -29,8 +29,9 @@ export function SocketProvider({ children }: { children: React.ReactNode }) {
     // Solo inicializar WebSocket en el cliente después del montaje
     if (!isMounted) return
 
-    // Inicializar WebSocket
-    const newSocket = io("http://localhost:5001", {
+    // Inicializar WebSocket usando variable de entorno
+    const wsUrl = process.env.NEXT_PUBLIC_WS_URL || "http://localhost:5001"
+    const newSocket = io(wsUrl, {
       transports: ["websocket", "polling"],
       reconnection: true,
       reconnectionDelay: 1000,
@@ -80,7 +81,7 @@ export function SocketProvider({ children }: { children: React.ReactNode }) {
   const sendSocketMessage = useCallback(async (type: string, data: unknown) => {
     setIsLoading(true)
     try {
-      const API_URL = "http://localhost:5001"
+      const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5001"
 
       // Mapear tipos de mensajes a endpoints de API
       let endpoint = ""
