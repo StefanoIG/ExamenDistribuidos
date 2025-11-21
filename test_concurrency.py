@@ -10,6 +10,7 @@ import time
 import random
 from datetime import datetime
 import sys
+from typing import Dict, Any, List
 
 # Colores para terminal
 class Colors:
@@ -29,7 +30,7 @@ class ConcurrencyTester:
     def __init__(self, host='localhost', port=5000):
         self.host = host
         self.port = port
-        self.resultados = []
+        self.resultados: List[Dict[str, Any]] = []
         self.lock = threading.Lock()
         
     def send_command(self, comando):
@@ -259,41 +260,107 @@ class ConcurrencyTester:
         print(f"\n{Colors.OKGREEN}✅ Test completado en {duracion_total:.2f}s")
         print(f"   Total de threads: {len(threads)}{Colors.ENDC}")
     
+    def obtener_estadisticas(self) -> Dict[str, Any]:
+        """Calcula un resumen estadístico de las operaciones registradas."""
+        if not self.resultados:
+            return {
+                'total_operaciones': 0,
+                'depositos': 0,
+                'retiros': 0,
+                'tiempos_ms': {
+                    'promedio': 0.0,
+                    'minimo': 0.0,
+                    'maximo': 0.0,
+                },
+                'errores': 0,
+            }
+
+        total_ops = len(self.resultados)
+        depositos = sum(1 for r in self.resultados if r['operacion'] == 'DEPOSITO')
+        retiros = total_ops - depositos
+
+        tiempos = [r['duracion_ms'] for r in self.resultados]
+        tiempo_promedio = sum(tiempos) / len(tiempos)
+        tiempo_min = min(tiempos)
+        tiempo_max = max(tiempos)
+
+        errores = sum(1 for r in self.resultados if 'ERROR' in r['respuesta'])
+
+        return {
+            'total_operaciones': total_ops,
+            'depositos': depositos,
+            'retiros': retiros,
+            'tiempos_ms': {
+                'promedio': tiempo_promedio,
+                'minimo': tiempo_min,
+                'maximo': tiempo_max,
+            },
+            'errores': errores,
+        }
+
     def mostrar_estadisticas(self):
         """Muestra estadísticas de las pruebas"""
         print(f"\n{Colors.HEADER}{'='*80}")
         print("📈 ESTADÍSTICAS DE CONCURRENCIA")
         print(f"{'='*80}{Colors.ENDC}\n")
-        
-        if not self.resultados:
+
+        stats = self.obtener_estadisticas()
+        if stats['total_operaciones'] == 0:
             print("No hay resultados para mostrar")
             return
-        
-        total_ops = len(self.resultados)
-        depositos = sum(1 for r in self.resultados if r['operacion'] == 'DEPOSITO')
-        retiros = total_ops - depositos
-        
-        tiempos = [r['duracion_ms'] for r in self.resultados]
-        tiempo_promedio = sum(tiempos) / len(tiempos)
-        tiempo_min = min(tiempos)
-        tiempo_max = max(tiempos)
-        
+
         print(f"{Colors.OKBLUE}📊 Resumen de Operaciones:{Colors.ENDC}")
-        print(f"   Total de operaciones: {total_ops}")
-        print(f"   Depósitos: {depositos}")
-        print(f"   Retiros: {retiros}")
-        
+        print(f"   Total de operaciones: {stats['total_operaciones']}")
+        print(f"   Depósitos: {stats['depositos']}")
+        print(f"   Retiros: {stats['retiros']}")
+
+        tiempos = stats['tiempos_ms']
         print(f"\n{Colors.OKBLUE}⏱️  Tiempos de Respuesta:{Colors.ENDC}")
-        print(f"   Promedio: {tiempo_promedio:.2f}ms")
-        print(f"   Mínimo: {tiempo_min:.2f}ms")
-        print(f"   Máximo: {tiempo_max:.2f}ms")
-        
-        # Verificar integridad
-        errores = sum(1 for r in self.resultados if 'ERROR' in r['respuesta'])
-        if errores == 0:
+        print(f"   Promedio: {tiempos['promedio']:.2f}ms")
+        print(f"   Mínimo: {tiempos['minimo']:.2f}ms")
+        print(f"   Máximo: {tiempos['maximo']:.2f}ms")
+
+        if stats['errores'] == 0:
             print(f"\n{Colors.OKGREEN}✅ Todas las operaciones se completaron sin errores{Colors.ENDC}")
         else:
-            print(f"\n{Colors.FAIL}❌ {errores} operaciones fallaron{Colors.ENDC}")
+            print(f"\n{Colors.FAIL}❌ {stats['errores']} operaciones fallaron{Colors.ENDC}")
+
+
+def run_concurrency_demo() -> Dict[str, Any]:
+    """Ejecuta la demostración de concurrencia y retorna los resultados en un diccionario."""
+    tester = ConcurrencyTester()
+
+    try:
+        test_response = tester.send_command("STATS")
+        if not test_response or not test_response.startswith("OK"):
+            return {
+                'success': False,
+                'error': f'No se pudo conectar al servidor de sockets: {test_response}',
+            }
+
+        tester.test_depositos_simultaneos()
+        time.sleep(1)
+
+        tester.test_operaciones_mixtas()
+        time.sleep(1)
+
+        tester.test_multiples_cuentas()
+        time.sleep(1)
+
+        tester.mostrar_estadisticas()
+        summary = tester.obtener_estadisticas()
+
+        return {
+            'success': True,
+            'summary': summary,
+            'operations': tester.resultados,
+        }
+
+    except Exception as exc:  # pylint: disable=broad-except
+        return {
+            'success': False,
+            'error': str(exc),
+        }
 
 
 def main():
